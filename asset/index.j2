@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Welcome to nginx!</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -8,7 +9,9 @@
 <h1>ApacheCN 文档汇总</h1>
 <ul>
 	{% for d in docs %}
-	<li><a href='/{{ d['name'] }}/'>{{ d['nameCn'] }}</a></li>
+	{% set name = d['name'] %}
+	{% set nameCn = d['nameCn'] %}
+	<li><a href='/{{ name }}/'>{{ nameCn }}</a></li>
 	{% endfor %}
 </ul>
 </body>
