@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>ApacheCN 文档汇总</h1>
+<ul>
+	{{ for d in docs }}
+	<li><a href='/{{ d['name'] }}/'>{{ d['nameCn'] }}</a></li>
+	{{ endfor }}
+</ul>
+</body>
+</html>

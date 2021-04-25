@@ -6,15 +6,18 @@
 	"docs": [
 		{
 			"name": "airflow",
-			"repo": "apachecn0/airflow-doc-zh"
+			"repo": "apachecn0/airflow-doc-zh",
+			"nameCn": "Airflow 中文文档"
 		},
 		{
 			"name": "java",
-			"repo": "apachecn0/apachecn-java-zh"
+			"repo": "apachecn0/apachecn-java-zh",
+			"nameCn": "ApacheCN Java 译文集"
 		},
 		{
 			"name": "ccpp",
-			"repo": "apachecn0/apachecn-c-cpp-zh"
+			"repo": "apachecn0/apachecn-c-cpp-zh",
+			"nameCn": "ApacheCN C/C++ 译文集"
 		}
 	]
 }

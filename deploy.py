@@ -87,16 +87,19 @@ def main():
     mkdirs_safe(log_dir)
     
     shutil.copy(
-        d('asset/index.html'),
-        path.join(rsrc_dir, 'index.html'),
+        d('asset/style.css'),
+        path.join(rsrc_dir, 'style.css'),
     )
     shutil.copy(
         d('asset/50x.html'),
         path.join(rsrc_dir, '50x.html'),
     )
-    conf_tmpl = open(d('asset/default.conf.j2'), encoding='utf-8').read()
+    conf_tmpl = open(d('asset/conf.j2'), encoding='utf-8').read()
     conf = jinja2.Template(conf_tmpl).render(docs=config['docs'])
     open(path.join(conf_dir, 'default.conf'), 'w', encoding='utf-8').write(conf)
+    index_tmpl = open(d('asset/index.j2'), encoding='utf-8').read()
+    index = jinja2.Template(index_tmpl).render(docs=config['docs'])
+    open(path.join(rsrc_dir, 'index.html'), 'w', encoding='utf-8').write(index)
     
     # 启动 Nginx
     name, port = config['name'], config['port']
