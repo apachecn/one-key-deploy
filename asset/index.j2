@@ -7,9 +7,9 @@
 <body>
 <h1>ApacheCN 文档汇总</h1>
 <ul>
-	{{ for d in docs }}
+	{% for d in docs %}
 	<li><a href='/{{ d['name'] }}/'>{{ d['nameCn'] }}</a></li>
-	{{ endfor }}
+	{% endfor %}
 </ul>
 </body>
 </html>
