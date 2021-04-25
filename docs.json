@@ -1,0 +1,20 @@
+{
+	"name": "apachecn-doc",
+	"port": 80,
+	"network": "apachecn-doc",
+	"dataDir": "/data/apachecn-doc",
+	"docs": [
+		{
+			"name": "airflow",
+			"repo": "apachecn0/airflow-doc-zh"
+		},
+		{
+			"name": "java",
+			"repo": "apachecn0/apachecn-java-zh"
+		},
+		{
+			"name": "ccpp",
+			"repo": "apachecn0/apachecn-c-cpp-zh"
+		}
+	]
+}
