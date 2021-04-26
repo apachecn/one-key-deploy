@@ -4,7 +4,7 @@
 	"dataDir": "/data/apachecn-doc",
 	"clean": false,
 	"docs": [
-		{"name":"ailearning","nameCn":"网站地址","repo":"https://github.com/apachecn/ailearning"},
+		{"name":"ailearning","nameCn":"AILearning","repo":"https://github.com/apachecn/ailearning"},
 		{"name":"airflow","nameCn":"Airflow 中文文档","repo":"https://github.com/apachecn/airflow-doc-zh"},
 		{"name":"algo","nameCn":"ApacheCN 数据结构与算法译文集","repo":"https://github.com/apachecn/apachecn-algo-zh"},
 		{"name":"ccpp","nameCn":"ApacheCN C/C++ 译文集","repo":"https://github.com/apachecn/apachecn-c-cpp-zh"},
