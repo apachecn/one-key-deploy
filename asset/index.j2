@@ -11,7 +11,7 @@
 	{% for d in docs %}
 	{% set name = d['name'] %}
 	{% set nameCn = d['nameCn'] %}
-	<li><a href='/{{ name }}/'>{{ nameCn }}</a></li>
+	<li><a href='/{{ name }}/' target='_blank'>{{ nameCn }}</a></li>
 	{% endfor %}
 </ul>
 </body>
