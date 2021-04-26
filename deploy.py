@@ -48,33 +48,14 @@ def kill_port(port):
 def mkdirs_safe(dir):
     if not path.exists(dir):
         os.makedirs(dir)
+        
+def rmtree_safe(dir):
+    if path.exists(dir):
+        shutil.rmtree(dir)
 
 def main():
     config = json.loads(
         open(d('docs.json'), encoding='utf-8').read())
-        
-    # 创建网桥
-    network = config["network"]
-    subp.Popen(
-        f'docker network create -d bridge {network}', 
-        shell=True,
-    ).communicate()
-    
-    # 启动文档容器
-    for doc in config['docs']:
-        if 'name' not in doc or \
-           'repo' not in doc:
-           continue
-        
-        name, repo = doc['name'], doc['repo']
-        print(f'name: {name}, repo: {repo}')
-        
-        subp.Popen(f'docker rm -f {name}', shell=True).communicate()
-        subp.Popen(f'docker pull {repo}', shell=True).communicate()
-        subp.Popen(
-            f'docker run -tid --name {name} --network {network} {repo}', 
-            shell=True,
-        ).communicate()
     
     # 释放配置文件
     data_dir = config['dataDir']
@@ -94,12 +75,29 @@ def main():
         d('asset/50x.html'),
         path.join(rsrc_dir, '50x.html'),
     )
-    conf_tmpl = open(d('asset/conf.j2'), encoding='utf-8').read()
-    conf = jinja2.Template(conf_tmpl).render(docs=config['docs'])
-    open(path.join(conf_dir, 'default.conf'), 'w', encoding='utf-8').write(conf)
+    shutil.copy(
+        d('asset/default.conf'),
+        path.join(conf_dir, 'default.conf'),
+    )
     index_tmpl = open(d('asset/index.j2'), encoding='utf-8').read()
     index = jinja2.Template(index_tmpl).render(docs=config['docs'])
     open(path.join(rsrc_dir, 'index.html'), 'w', encoding='utf-8').write(index)
+    
+    # 下载 Github 仓库
+    os.chdir(rsrc_dir)
+    for doc in config['docs']:
+        if 'name' not in doc or \
+           'repo' not in doc:
+           continue
+        
+        name, repo = doc['name'], doc['repo']
+        print(f'name: {name}, repo: {repo}')
+        
+        rmtree_safe(name)
+        subp.Popen(
+            f'git clone {repo} {name} -b master', 
+            shell=True,
+        ).communicate()
     
     # 启动 Nginx
     name, port = config['name'], config['port']
@@ -118,8 +116,6 @@ def main():
         f'-v "{conf_dir}:{DOCKER_NGINX_CONF}"',
         f'-v "{rsrc_dir}:{DOCKER_NGINX_RSRC}"',
         f'-v "{log_dir}:{DOCKER_NGINX_LOG}"',
-        # 设置网桥
-        f'--network {network}',
         # 镜像名称
         'nginx',
     ])
