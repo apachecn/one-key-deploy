@@ -55,7 +55,7 @@ def rmtree_safe(dir):
 
 def main():
     config = json.loads(
-        open(d('docs.json'), encoding='utf-8').read())
+        open(d('config.json'), encoding='utf-8').read())
     
     # 释放配置文件
     data_dir = config['dataDir']
@@ -84,7 +84,6 @@ def main():
     open(path.join(rsrc_dir, 'index.html'), 'w', encoding='utf-8').write(index)
     
     # 下载 Github 仓库
-    os.chdir(rsrc_dir)
     for doc in config['docs']:
         if 'name' not in doc or \
            'repo' not in doc:
@@ -93,11 +92,18 @@ def main():
         name, repo = doc['name'], doc['repo']
         print(f'name: {name}, repo: {repo}')
         
-        rmtree_safe(name)
-        subp.Popen(
-            f'git clone {repo} {name} -b master', 
-            shell=True,
-        ).communicate()
+        doc_dir = path.join(rsrc_dir, name)
+        if config['clean']:
+            rmtree_safe(doc_dir)
+        if not path.exists(doc_dir):
+            os.chdir(rsrc_dir)
+            subp.Popen(
+                f'git clone {repo} {name} -b master', 
+                shell=True,
+            ).communicate()
+            if not path.exists(doc_dir): continue
+        os.chdir(doc_dir)
+        subp.Popen(f'git pull', shell=True).communicate()
     
     # 启动 Nginx
     name, port = config['name'], config['port']

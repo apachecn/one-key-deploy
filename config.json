@@ -2,6 +2,7 @@
 	"name": "apachecn-doc",
 	"port": 80,
 	"dataDir": "/data/apachecn-doc",
+	"clean": false,
 	"docs": [
 		{"name":"ailearning","nameCn":"网站地址","repo":"https://github.com/apachecn/ailearning"},
 		{"name":"airflow","nameCn":"Airflow 中文文档","repo":"https://github.com/apachecn/airflow-doc-zh"},
