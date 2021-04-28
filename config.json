@@ -7,6 +7,12 @@
 		"text": "不知不觉， ApacheCN 团队已经成立了快3年了，经历创建、稳定、重建、稳定、再重建。。。",
 		"link": ""
 	},
+	"members": [
+		{"name": "大鱼", "desc": "iBooker组织创始人和组织运营", "logo": "dayu"},
+		{"name": "飞龙", "desc": "iBooker组织创始人和ApacheCN文档翻译负责人", "logo": "flygon"},
+		{"name": "一极", "desc": "iBooker组织创始人和商业洽谈", "logo": "yiji"},
+		{"name": "片刻", "desc": "iBooker组织创始人和ApacheCN团队发起人", "logo": "pianke"}
+	],
 	"links": [
 		{"name": "ITEbooks", "link": "http://it-ebooks.flygon.net"}
 	],
