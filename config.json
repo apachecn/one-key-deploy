@@ -3,6 +3,7 @@
 	"port": 80,
 	"dataDir": "/data/apachecn-doc",
 	"clean": false,
+	"cates": ["编程", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "其它"],
 	"docs": [
 		{"name":"ailearning","nameCn":"AILearning","repo":"https://github.com/apachecn/ailearning", "cate":"人工智能"},
 		{"name":"airflow","nameCn":"Airflow 中文文档","repo":"https://github.com/apachecn/airflow-doc-zh", "cate":"后端/大数据"},
