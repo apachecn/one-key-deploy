@@ -1,18 +1,462 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Welcome to nginx!</title>
-<link rel="stylesheet" href="style.css">
+<!-- saved from url=(0027)#m -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Access-Control-Allow-Origin" content="docs.apachecn.org">
+    <link href="./asset/favicon.jpg" rel="shortcut icon">
+    <meta name="description" content="ApacheCN,中文文档,中文教程,iBooker">
+<meta name="keywords" content="ApacheCN,中文文档,中文教程,iBooker">
+<link rel="canonical" href="">
+<!--熊掌号-->
+    <title>可以允许不完美，但不能不做 ｜ ApacheCN-文档社区</title>
+<link rel="stylesheet" id="style-css" href="./asset/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="main-css" href="./asset/main.css" type="text/css" media="">
+<link rel="stylesheet" id="wp-block-library-css" href="./asset/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-theme-css" href="./asset/theme.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="mpp_gutenberg-css" href="./asset/blocks.style.build.css" type="text/css" media="all">
+<link rel="stylesheet" id="toc-screen-css" href="./asset/screen.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="fontawesome-css-4-css" href="./asset/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="fontawesome-css-5-css" href="./asset/fontawesome-all.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="tablepress-default-css" href="./asset/default.min.css" type="text/css" media="all">
+<script type="text/javascript" async="" src="./asset/analytics.js"></script><script src="./asset/hm.js"></script><script type="text/javascript" src="./asset/jquery.min.js"></script>
+<script type="text/javascript" src="./asset/slick.min.js"></script>
+<script type="text/javascript" src="./asset/jquery.qrcode.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var salong_tab_loadmore_params = {"ajaxurl":"http:\/\/docs.apachecn.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./asset/tabs-filter-min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var salongLikes = {"ajaxurl":"http:\/\/docs.apachecn.org\/wp-admin\/admin-ajax.php","like":"\u559c\u6b22","unlike":"\u5df2\u559c\u6b22"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./asset/like-min.js"></script>
+<!-- Analytics by WP-Statistics v12.6.13 - https://wp-statistics.com/ -->
 </head>
-<body>
-<h1>ApacheCN 文档汇总</h1>
-<ul>
-	{% for d in docs %}
-	{% set name = d['name'] %}
-	{% set nameCn = d['nameCn'] %}
-	<li><a href='/{{ name }}/' target='_blank'>{{ nameCn }}</a></li>
-	{% endfor %}
-</ul>
-</body>
-</html>
+
+<body class="home blog salong-close-nav salong-setting-language salong-setting-direct supports-webp">
+		<div class="site-welcome transition" id="siteWelcome">
+						<div class="ball-scale-multiple"><div class="mainBg"></div><div class="mainBg"></div><div class="mainBg"></div></div>
+				</div>
+        <header class="header navBg">
+        <!-- LOGO -->
+        <div class="logo-main">
+            <!--<div class="close-nav  tip transition" title="导航菜单开关"></div>-->            <a href="" class="logo" title="文档社区-可以允许不完美，但不能不做 ｜ ApacheCN">
+                <img src="./asset/title.png" alt="文档社区">
+            </a>
+        </div>
+        <!-- 顶部菜单 -->
+        <nav class="top-menu left-menu"><ul class="menu">
+		<!--{% for m in menus %}-->
+			<!--{% set mName=m['name'] %}-->
+			<!--{% set mLink=m['link'] %}-->
+			<li><a href="{{ mLink }}"><span>{{ mName }}</span></a></li>
+		<!--{% endfor %}-->
+		</ul></nav>        <!-- 右侧按钮 -->
+        <div class="right-button">
+            <div class="share-button"><a class="metaColor svg_btn" href="#share" rel="nofollow"><svg t="1546669816583" class="icon" width="14" height="14" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4053" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M197.614035 511.209544m-161.68421 0a161.684211 161.684211 0 1 0 323.368421 0 161.684211 161.684211 0 1 0-323.368421 0Z" p-id="4054"></path><path d="M826.385965 862.315789m-161.684211 0a161.684211 161.684211 0 1 0 323.368421 0 161.684211 161.684211 0 1 0-323.368421 0Z" p-id="4055"></path><path d="M826.385965 161.684211m-161.684211 0a161.684211 161.684211 0 1 0 323.368421 0 161.684211 161.684211 0 1 0-323.368421 0Z" p-id="4056"></path><path d="M341.638737 455.590175a17.731368 17.731368 0 0 0 9.25193-2.586947L690.571228 248.418807a17.964912 17.964912 0 1 0-18.557754-30.773895L332.350877 422.247298a17.964912 17.964912 0 0 0 9.28786 33.342877zM690.607158 775.563228L350.944561 569.37993a17.946947 17.946947 0 1 0-18.647579 30.702035L671.959579 806.265263a17.964912 17.964912 0 0 0 18.647579-30.702035z"></path></svg></a><a id="share" class="overlay navBg" rel="external nofollow" href="#s"></a><div class="share popup transition">
+    <h3>分享到您的社交媒体！</h3>
+    	    <a title="扫描并分享到社交 APP" class="weixin tip"><svg t="1509603359747" class="icon" width="14" height="14" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2786" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M778.748 575.633c-15.732 0-31.641-15.732-31.641-31.817 0-15.82 15.908-31.817 31.641-31.817 23.994 0 39.903 15.997 39.903 31.817 0 15.997-15.908 31.817-39.903 31.817M603.494 575.633c-15.82 0-31.817-15.732-31.817-31.817 0-15.82 15.997-31.817 31.817-31.817 24.17 0 39.903 15.997 39.903 31.817 0 15.997-15.732 31.817-39.903 31.817M962 615.447c0-127.354-127.442-231.153-270.615-231.153-151.612 0-270.879 103.887-270.879 231.153 0 127.705 119.356 231.153 270.879 231.153 31.729 0 63.721-7.911 95.537-15.908l87.364 47.901-23.906-79.628c63.896-48.076 111.621-111.622 111.621-183.516M277.068 360.477c-23.906 0-47.989-15.997-47.989-39.815 0-23.994 24.082-39.727 47.989-39.727 23.906 0 39.727 15.732 39.727 39.727 0 23.818-15.82 39.815-39.727 39.815M499.959 280.847c24.082 0 39.903 15.82 39.903 39.727 0 23.818-15.82 39.815-39.903 39.815-23.818 0-47.724-15.997-47.724-39.815 0-23.994 23.906-39.727 47.724-39.727M671.17 367.156c10.372 0 20.567 0.791 30.762 1.933-27.598-128.32-164.795-223.682-321.416-223.682-175.078 0-318.516 119.268-318.516 270.879 0 87.451 47.724 159.346 127.442 215.068l-31.817 95.8 111.357-55.81c39.815 7.822 71.807 15.908 111.533 15.908 10.020 0 19.951-0.44 29.707-1.143-6.153-21.357-9.844-43.594-9.844-66.797 0.088-139.219 119.531-252.158 270.791-252.158z" p-id="2787"></path></svg>	    <div class="qrpopup transition"><div id="qrcode" class="qr"><canvas width="120" height="120"></canvas></div><span>扫描并分享到社交 APP</span></div>
+	    </a>
+	    <script type="text/javascript">$("#qrcode").qrcode({width:120,height:120,text:"http://docs.apachecn.org"});</script>
+        	<a target="_blank" onclick="window.open(&quot;http://service.weibo.com/share/share.php?url=http://docs.apachecn.org&amp;title=【文档社区可以允许不完美，但不能不做 ｜ ApacheCN】可以允许不完美，但不能不做 ｜ ApacheCN @文档社区&amp;appkey=746468751&amp;pic=https://demo.salongweb.com/slcorp/images/favicon.jpg&amp;searchPic=true&quot;)" title="分享到新浪微博" class="weibo tip"><svg t="1509603370183" class="icon" width="14" height="14" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3458" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M783.055 155.691c-30.146-6.856-70.576-5.449-121.289 4.131-0.703 0-1.406 0.352-2.109 1.055l-1.055 2.109-1.055 1.055c-7.559 2.021-13.711 6.328-18.545 12.832-4.834 6.503-7.207 13.535-7.207 21.006 0 10.283 3.427 18.809 10.283 25.664 6.856 6.856 15.117 10.283 24.698 10.283h3.076c0.703 0 2.198-0.352 4.658-1.055 2.373-0.703 5.010-1.23 7.734-1.582 2.724-0.352 5.625-1.055 8.789-2.109 3.076-1.055 5.888-2.021 8.262-3.076 2.373-1.055 7.031-1.582 13.887-1.582 6.856 0 15.293 0.528 25.224 1.582 9.932 1.055 20.918 3.604 32.871 7.646 12.041 4.131 23.994 9.229 35.947 15.381 11.953 6.153 23.994 14.766 35.947 25.664 12.041 10.898 22.5 23.555 31.377 37.969 17.842 40.342 21.27 79.365 10.283 117.070 0 0.703-0.176 1.406-0.528 2.109-0.352 0.703-0.879 2.373-1.582 5.098-0.703 2.724-1.406 5.273-2.109 7.646-0.703 2.373-1.406 5.45-2.109 9.229-0.703 3.779-1.055 7.031-1.055 9.756 0 6.153 1.67 11.25 5.098 15.381 3.428 4.131 7.734 7.031 12.833 8.701 5.185 1.67 11.162 2.549 18.018 2.549 19.161 0 30.498-11.602 33.926-34.893 8.262-26.719 12.832-52.208 13.887-76.465 1.055-24.258-0.703-45.703-5.098-64.161-4.482-18.457-11.162-35.771-20.039-51.856-8.877-16.084-19.161-29.795-30.849-41.045-11.69-11.338-24.697-21.533-39.112-30.849-14.414-9.229-28.301-16.612-41.661-22.060-13.184-5.362-27.070-9.756-41.396-13.184v0zM800.545 445.115c4.131 0 7.911-1.055 11.338-3.076s6.153-4.658 8.261-7.646c2.021-3.076 3.428-6.328 4.131-9.756 0.703-0.703 1.055-1.67 1.055-3.076 8.262-78.047-19.161-122.52-82.266-133.418-18.545-3.428-35.684-3.779-51.416-1.055-4.834 0-8.877 1.231-12.305 3.604-3.428 2.373-6.328 5.449-8.789 9.229-2.373 3.779-3.604 7.734-3.604 11.778 0 6.856 2.373 12.656 7.208 17.403 4.834 4.747 10.635 7.207 17.49 7.207 53.438-12.305 82.266 4.747 86.308 51.328 1.406 11.602 0.703 22.588-2.109 32.872 0 6.856 2.373 12.656 7.207 17.403 4.746 4.747 10.635 7.119 17.49 7.208v0zM435.623 659.656c-4.834 3.428-9.756 4.922-14.942 4.658-5.098-0.352-8.701-2.549-10.81-6.68l-2.109-4.131c-0.703-1.406-1.055-2.724-1.055-4.131v-4.131c0-2.021 0.352-3.779 1.055-5.098l2.109-4.131c0.703-1.406 1.67-2.373 3.076-3.076l3.076-4.131c5.45-4.131 10.81-5.801 15.908-5.098s8.701 3.428 10.81 8.174c2.021 2.724 2.901 5.801 2.549 9.229-0.352 3.427-1.406 6.68-3.076 9.756-1.67 3.164-3.867 6.065-6.592 8.789v0zM348.172 733.572c-4.131 0.703-8.086 0.879-11.778 0.528-3.779-0.352-7.207-1.055-10.283-2.109-3.076-1.055-6.153-2.285-9.229-3.604-3.076-1.318-5.625-3.252-7.734-5.625-2.109-2.461-3.955-4.834-5.625-7.207-1.67-2.373-3.076-5.098-4.131-8.174-1.055-3.076-1.583-6.328-1.583-9.756 0-7.559 2.021-14.854 6.153-22.060 4.131-7.208 9.756-13.359 16.963-18.458 7.207-5.185 15.205-8.086 24.17-8.701 6.153-0.703 12.129-0.528 18.018 0.527s10.81 2.724 14.942 5.098c4.131 2.373 7.734 5.098 10.81 8.174 3.076 3.076 5.362 6.68 6.68 10.81 1.318 4.131 2.021 8.526 2.109 13.359 0 7.559-2.197 14.678-6.68 21.533-4.482 6.856-10.459 12.656-18.018 17.403-7.558 4.747-15.82 7.471-24.785 8.262v0zM385.174 539.51c-19.864 2.021-37.705 6.68-53.438 13.887s-28.125 15.381-37.002 24.609c-8.877 9.229-16.435 19.16-22.675 29.795-6.153 10.635-10.459 21.006-12.832 31.289-2.373 10.283-3.955 19.688-4.658 28.213-0.703 8.526-1.055 15.205-1.055 20.039l1.055 8.174v4.131c0 2.021 0.703 6.153 2.109 12.305s3.252 11.778 5.625 16.963c2.373 5.185 6.328 10.81 11.777 16.963 5.449 6.152 11.953 11.25 19.511 15.381 45.263 21.885 87.364 28.565 126.474 20.039 39.023-8.526 70.576-28.213 94.57-59.063 9.58-11.602 15.908-26.016 18.984-43.154 3.076-17.138 2.373-34.365-2.109-51.856-4.482-17.402-12.129-33.31-23.115-47.724-10.987-14.414-27.246-25.489-48.779-33.398-21.445-7.823-46.318-10.019-74.443-6.592v0zM415.057 823.924c-74.004 3.428-136.934-10.987-188.614-43.154-51.768-32.168-77.607-72.862-77.607-122.168 0-48.604 25.664-90.527 77.080-125.771 51.416-35.244 114.434-54.58 189.141-58.008 74.708-3.427 137.724 8.877 189.141 36.914 51.416 28.037 77.080 66.357 77.080 114.961 0 49.307-26.192 93.604-78.662 132.891-52.383 39.463-114.961 60.82-187.559 64.336v0zM728.563 504.705c-10.283-2.021-16.963-5.098-20.039-9.229s-3.604-7.823-1.582-11.338l3.076-5.097c0.703-0.703 1.406-1.67 2.109-3.076s2.109-4.307 4.131-8.701c2.021-4.482 3.604-8.877 4.658-13.359 1.055-4.482 1.933-9.932 2.549-16.435 0.703-6.504 0.44-12.656-0.528-18.458-0.967-5.8-3.076-12.129-6.153-18.984-3.076-6.856-7.383-13.008-12.832-18.457-9.58-9.58-22.148-15.732-37.529-18.457-15.381-2.724-30.849-2.901-46.231-0.528-15.381 2.373-29.971 5.45-43.682 9.229-13.711 3.779-25.049 7.383-33.925 10.81l-13.359 6.153c-6.856 2.021-12.481 3.427-16.963 4.131-4.482 0.703-7.911 0.528-10.283-0.528-2.373-1.055-4.307-2.021-5.625-3.076-1.318-1.055-1.846-3.428-1.582-7.207 0.352-3.779 0.703-7.031 1.055-9.756 0.352-2.724 1.23-7.031 2.549-12.832 1.406-5.801 2.373-10.459 3.076-13.887 0-8.174-0.527-15.908-1.582-23.115-1.055-7.207-3.252-15.205-6.68-24.083-3.427-8.877-8.349-16.084-14.942-21.533-6.504-5.45-14.766-9.932-24.698-13.359-9.932-3.428-22.763-4.482-38.584-3.076-15.732 1.318-33.575 5.45-53.438 12.305-23.994 8.174-48.34 20.391-73.037 36.387-24.697 16.084-46.055 32.872-64.248 50.273-18.193 17.49-34.805 34.365-49.834 50.801-15.117 16.435-26.719 29.795-34.981 40.078l-11.338 16.435c-22.588 29.443-39.375 58.887-50.362 88.242-10.898 29.356-16.084 51.592-15.381 66.622v21.533c4.131 32.872 14.238 62.315 30.322 88.33 16.084 26.016 35.244 47.021 57.568 63.106 22.324 16.084 48.516 29.795 78.662 41.045 30.146 11.338 59.151 19.512 86.924 24.609 27.773 5.098 57.041 8.701 87.891 10.81 50.713 4.131 103.359 0.176 157.763-11.778 54.492-11.953 105.205-32.695 152.138-62.138 46.933-29.443 80.068-64.688 99.229-105.732 11.69-23.994 17.666-46.582 18.018-67.763 0.352-21.182-3.252-38.497-10.81-51.856-7.559-13.359-17.315-25.137-29.356-35.42-11.953-10.283-23.291-17.842-33.926-22.588-10.635-4.834-20.039-7.911-28.301-9.229v0.175z" p-id="3459"></path></svg></a>
+        	<a target="_blank" onclick="window.open(&quot;http://connect.qq.com/widget/shareqq/index.html?url=http://docs.apachecn.org&amp;title=文档社区可以允许不完美，但不能不做 ｜ ApacheCN&amp;desc=&amp;summary=可以允许不完美，但不能不做 ｜ ApacheCN&amp;site=文档社区&quot;)" title="分享到 QQ好友" class="qq tip"><svg t="1509678537116" class="icon" width="14" height="14" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4499" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M138.899 578.78c-31.677 78.904-36.919 154.139-11.406 168.117 17.65 9.7 45.132-12.493 71-52.863 10.263 44.214 35.56 83.884 71.736 115.954-37.88 14.765-62.697 38.883-62.697 66.146 0 44.914 67.022 81.176 149.682 81.176 74.578 0 136.357-29.447 147.757-68.244h17.74c11.622 38.797 73.267 68.244 147.933 68.244 82.751 0 149.682-36.263 149.682-81.176 0-27.263-24.772-51.205-62.741-66.146 36.046-32.07 61.517-71.74 71.696-115.954 25.862 40.37 53.215 62.564 70.954 52.863 25.643-13.978 20.531-89.213-11.45-168.117-24.987-61.778-58.848-107.39-84.67-117.613 0.35-3.756 0.655-7.909 0.655-11.884 0-23.943-6.378-46.05-17.254-64.05 0.218-1.441 0.218-2.796 0.218-4.237 0-11.053-2.491-21.321-6.772-30.191C774.453 189.984 674.97 62.106 513.887 62.106c-161.042 0-260.655 127.879-267.164 288.7-4.193 9-6.772 19.313-6.772 30.322 0 1.443 0 2.796 0.175 4.239-10.658 17.869-17.039 39.974-17.039 64.005 0 4.02 0.217 8.04 0.481 11.971-25.732 10.135-59.723 55.659-84.669 117.437z"></path></svg></a>
+    	    <a target="_blank" onclick="window.open(&quot;https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://docs.apachecn.org&amp;title=文档社区可以允许不完美，但不能不做 ｜ ApacheCN&amp;desc=可以允许不完美，但不能不做 ｜ ApacheCN&amp;summary=&amp;site=http://docs.apachecn.org&quot;)" title="分享到 QQ空间" class="qqzone tip"><svg t="1511159606267" class="icon" width="14" height="14" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2568" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M969.36 423.824c0-10.208 0-7.408-10.208-7.408l-102.048 0L683.648 416.416l-40.848-72.72L530.56 128c-10.224 0-10.224 0-20.432 0l-102.016 215.68-40.832 72.72L193.776 416.4 48 416.4l0 4.64 57.584 40.848 161.472 142.944-36.64 326.72c0 10.208 2.096 10.208 22.496 10.208l266.384-163.36 265.824 163.36c10.24 0 10.48 0 20.688-10.208l-50.896-326.72 153.12-131.36L969.36 423.824zM295.856 736.88 591.776 495.68l-275.52-47.232 418.368 0L479.536 679.456l265.312 57.424L295.856 736.88z" p-id="2569"></path></svg></a>
+	    <a class="close" rel="external nofollow" href="#m"></a>
+</div></div><!--<div class="setting-button"><a class="metaColor svg_btn" rel="nofollow" href="#setting"><svg t="1575773888973" class="icon" width="18" height="18" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4487" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"></style></defs><path d="M504.849 342.634c-94.713 0-171.758 77.044-171.758 171.758 0 94.713 77.045 171.757 171.758 171.757 94.709 0 171.754-77.044 171.754-171.757C676.603 419.678 599.558 342.634 504.849 342.634L504.849 342.634 504.849 342.634zM504.849 640.35c-69.453 0-125.958-56.505-125.958-125.957 0-69.453 56.505-125.954 125.958-125.954s125.954 56.501 125.954 125.954C630.803 583.845 574.302 640.35 504.849 640.35L504.849 640.35 504.849 640.35zM883.352 433.512c-16.255-1.474-65.617-12.043-78.561-40.259-11.287-24.564 7.378-59.205 25.008-83.944l10.949-15.37L733.543 181.044l-16.315 12.218c-14.717 11.03-62.789 39.567-90.181 26.567-21.992-10.458-28.002-48.124-29.19-77.864l-0.859-22L512 119.965l-84.99 0-0.867 21.996c-1.183 29.741-7.198 67.407-29.181 77.869-27.34 13-75.482-15.537-90.19-26.567l-16.335-12.243-107.183 112.92 10.948 15.374c17.609 24.7 36.265 59.308 25.06 83.867-12.863 28.165-61.145 38.669-78.612 40.336l-20.83 1.901 0 68.885-0.009 0 0 84.281 20.83 1.902c17.468 1.666 65.754 12.171 78.613 40.336 11.205 24.555-7.446 59.166-25.055 83.862l-10.945 15.38 107.179 112.916 16.335-12.244c14.704-11.026 62.845-39.566 90.185-26.572 21.984 10.467 28.002 48.128 29.19 77.874l0.86 22 84.994 0 84.995 0 0.863-22c1.188-29.746 7.203-67.407 29.187-77.874 27.395-12.994 75.467 15.546 90.188 26.572l16.315 12.222 107.201-112.894-10.945-15.38c-17.639-24.734-36.303-59.38-25.016-83.944 12.948-28.212 62.307-38.781 78.565-40.254l20.835-1.902 0-83.597 0.008 0 0-69.568L883.352 433.512 883.352 433.512 883.352 433.512zM858.383 504.301l-0.004 0 0 43.848c-28.216 5.972-76.174 21.983-95.226 63.481-14.653 31.924-8.322 70.153 18.792 113.847l-54.296 57.202c-26.448-16.032-77.494-40.139-120.17-19.925-30.045 14.221-48.068 46.295-53.728 95.474l-41.754 0-41.753 0c-5.661-49.179-23.684-81.253-53.733-95.474-42.655-20.185-93.714 3.879-120.174 19.925l-54.291-57.202c27.117-43.693 33.445-81.923 18.796-113.847-19.053-41.498-67.014-57.509-95.226-63.481l0-43.16 0.004 0L165.62 475.85c28.216-5.971 76.177-21.983 95.234-63.48 14.644-31.925 8.317-70.159-18.801-113.848l54.293-57.209c26.456 16.049 77.51 40.113 120.174 19.928 30.044-14.226 48.072-46.291 53.728-95.474L512 165.767l41.759 0c5.656 49.179 23.683 81.252 53.728 95.474 42.672 20.219 93.718-3.891 120.166-19.928l54.3 57.209c-27.118 43.689-33.445 81.918-18.8 113.848 19.052 41.497 67.018 57.509 95.226 63.48l0 28.452L858.383 504.301 858.383 504.301 858.383 504.301z" p-id="4488"></path></svg></a><a id="setting" class="overlay navBg" rel="external nofollow" href="#s"></a><div class="settings popup transition"><h3>开关选项</h3><div class="button border meta" data-id="meta"><span class="metaColor title">数据</span><span class="transition switch switchBG"></span></div><div class="button border language" data-id="language"><span class="metaColor title">语言</span><span class="transition switch switchBG"></span></div><div class="button border hot" data-id="hot"><span class="metaColor title">热门</span><span class="transition switch switchBG"></span></div><div class="button border direct" data-id="direct"><span class="metaColor title">直达</span><span class="transition switch switchBG"></span></div><a class="close" rel="external nofollow" href="#m"></a></div></div>-->        </div>
+    </header>
+    <div class="container transition">
+        <aside class="left-nav transition">
+            <div class="nav-button transition main-nav navBg"><ul id="nav"><li class=""><a href="#home_search" rel="nofollow" class="nav-main metaColor">文章搜索</a></li><li class=""><a href="#home_bcat" rel="nofollow" class="nav-main metaColor">书籍分类</a></li><li class="current"><a href="#home_bkcat" rel="nofollow" class="nav-main metaColor">书签分类</a></li><li><a href="#home_tcat" rel="nofollow" class="nav-main metaColor">工具分类</a></li><li><a href="#home_fcat" rel="nofollow" class="nav-main metaColor">人物分类</a></li><li><a href="#home_link" rel="nofollow" class="nav-main metaColor">友情链接</a></li></ul></div>        </aside>
+        <div class="main"><div class="content">
+    <div class="item-box border" id="home_search"><section class="bulletin-slick border slick-initialized slick-slider slick-vertical">
+    <span class="btn metaColor"><svg t="1546935455791" class="icon" width="14" height="14" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2669" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M0 388.247488l0 138.92098c0 58.767452 33.495241 106.408495 74.81501 106.408495l66.161569 0 0 282.58396c0 38.927591 31.557018 70.483284 70.486243 70.483284s70.488289-31.555693 70.488289-70.483284l0-75.461669-31.393282 0c-13.992253 0-25.335055-11.341303-25.335055-25.333992 0-13.989619 11.341779-25.333992 25.335055-25.333992l31.393282 0 0-60.58075-31.393282 0c-13.992253 0-25.335055-11.341303-25.335055-25.333992 0-13.989619 11.341779-25.333992 25.335055-25.333992l31.393282 0 0-45.205575L281.951111 484.915132l0-203.075115L74.81501 281.840016C33.495241 281.840016 0 329.480037 0 388.247488zM950.755831 0l71.452284 0 0 915.415956-71.452284 0 0-915.415956ZM317.750934 281.840016l0 352.402095c0 0 88.470581 0 130.724667 0 114.029749 0 468.89244 281.907555 468.89244 281.907555l0.565912-916.149667c0 0-352.641 281.838993-470.993376 281.838993C394.080501 281.840016 317.750934 281.840016 317.750934 281.840016z"></path></svg></span>
+        <div class="slick-list draggable" tabindex="0" style="height: 25.68px;">
+        <article class="post-main metaColor">
+			<!--{% set anText=announce['text'] %}-->
+			<!--{% set anLink=announce['link'] %}-->
+            <a href="{{ anLink }}" title="" target="_blank">{{ anText }}</a>
+        </article>
+    </div>
+        
+       </section>
+<script type="text/javascript">
+    $(function() {
+        $('.bulletin-slick').slick({
+                        autoplay: true,
+                                    vertical:true
+        });
+    });
+
+</script>
+<div id="search">
+    <div id="search-list" class="hide-type-list">
+        <!-- 类型 -->
+        <div class="s-type">
+            <span class="type-text"></span>
+            <div class="s-type-list transition">
+                                    <label for="type-abc">常用</label>
+                                    <label for="type-pexels">图片</label>
+                                    <label for="type-csswinner">设计</label>
+                                    <label for="type-163">音乐</label>
+                                    <label for="type-piaohua">视频</label>
+                                    <label for="type-jd">购物</label>
+                            </div>
+        </div>
+        <!-- 搜索 -->
+                    <div class="search-group s-current">
+                <span class="type-text metaColor">常用</span>
+                <ul class="search-type">
+				 <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-abc" value="?type=bookmark&amp;s=" data-placeholder="站内搜索">
+                            <label for="type-abc" class="metaColor transition">本站</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下">
+                            <label for="type-baidu" class="metaColor transition">百度</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-google" value="http://www.google.com.hk/search?q=" data-placeholder="Google 搜索">
+                            <label for="type-google" class="metaColor transition">Google</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-dribbble" value="https://dribbble.com/search?q=" data-placeholder="Dribbble 搜索">
+                            <label for="type-dribbble" class="metaColor transition">Dribbble</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-behance" value="https://www.behance.net/search?search=" data-placeholder="Behance 搜索">
+                            <label for="type-behance" class="metaColor transition">Behance</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-wallhaven" value="https://alpha.wallhaven.cc/search?q=" data-placeholder="Wallhaven 免费高品质图库">
+                            <label for="type-wallhaven" class="metaColor transition">Wallhaven</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q=" data-placeholder="豆瓣搜索">
+                            <label for="type-douban" class="metaColor transition">豆瓣</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-freepik" value="https://www.freepik.com/index.php?goto=2&amp;searchform=1&amp;k=" data-placeholder="Freepik 矢量素材搜索">
+                            <label for="type-freepik" class="metaColor transition">Freepik</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-iconfont" value="https://www.iconfont.cn/search/index?searchType=icon&amp;q=" data-placeholder="Iconfont SVG 图标搜索">
+                            <label for="type-iconfont" class="metaColor transition">Iconfont</label>
+                        </li>
+                                    </ul>
+            </div>
+                    <div class="search-group">
+                <span class="type-text metaColor">图片</span>
+                <ul class="search-type">
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-pexels" value="https://www.pexels.com/search/" data-placeholder="Pexels免费图库搜索">
+                            <label for="type-pexels" class="metaColor transition">Pexels</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-hellorf" value="http://www.hellorf.com/photo/search/all/" data-placeholder="海洛正版图库">
+                            <label for="type-hellorf" class="metaColor transition">海洛</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-baidu-images" value="http://image.baidu.com/search/index?tn=baiduimage&amp;ps=1&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;nc=1&amp;ie=utf-8&amp;word=" data-placeholder="百度图片搜索">
+                            <label for="type-baidu-images" class="metaColor transition">百度</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-google-images" value="https://www.google.com.hk/search?newwindow=1&amp;safe=strict&amp;biw=1542&amp;bih=956&amp;tbm=isch&amp;sa=1&amp;q=" data-placeholder="Google图片搜索">
+                            <label for="type-google-images" class="metaColor transition">Google</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-bing-images" value="http://cn.bing.com/images/search?q=" data-placeholder="Bing图片搜索">
+                            <label for="type-bing-images" class="metaColor transition">Bing</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-500px" value="https://500px.com/search?q=" data-placeholder="500PX 高品质摄影图片搜索">
+                            <label for="type-500px" class="metaColor transition">500PX</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-unsplash" value="https://unsplash.com/search/" data-placeholder="优美免费无版权高清图片搜索">
+                            <label for="type-unsplash" class="metaColor transition">Unsplash</label>
+                        </li>
+                                    </ul>
+            </div>
+                    <div class="search-group">
+                <span class="type-text metaColor">设计</span>
+                <ul class="search-type">
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-csswinner" value="https://www.csswinner.com/search/" data-placeholder="最佳的CSS网页设计灵感画廊">
+                            <label for="type-csswinner" class="metaColor transition">CSS Winner</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-zcool" value="http://www.zcool.com.cn/tosearch.do?page=0&amp;f=hb&amp;world=" data-placeholder="站酷素材搜索">
+                            <label for="type-zcool" class="metaColor transition">站酷</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-uicn" value="http://s.ui.cn/index.html?keywords=" data-placeholder="UI 中国素材搜索">
+                            <label for="type-uicn" class="metaColor transition">UI 中国</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-shejidaren" value="http://so.shejidaren.com/cse/search?s=1461928278188833482&amp;q=" data-placeholder="设计达人素材搜索">
+                            <label for="type-shejidaren" class="metaColor transition">设计达人</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-68design" value="http://www.68design.net/work/?k=" data-placeholder="68Design素材搜索">
+                            <label for="type-68design" class="metaColor transition">68Design</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-uisdc" value="http://so.uisdc.com/cse/search?s=16162430669563244173&amp;q=" data-placeholder="优设素材搜索">
+                            <label for="type-uisdc" class="metaColor transition">优设</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-abduzeedo" value="http://abduzeedo.com/search/node?keys=" data-placeholder="一个关于创意灵感的站点">
+                            <label for="type-abduzeedo" class="metaColor transition">Abduzeedo</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-niice" value="https://niice.co/search/" data-placeholder="设计师视觉搜索引擎">
+                            <label for="type-niice" class="metaColor transition">Niice</label>
+                        </li>
+                                    </ul>
+            </div>
+                    <div class="search-group">
+                <span class="type-text metaColor">音乐</span>
+                <ul class="search-type">
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-163" value="https://music.163.com/#/search/m/?s=" data-placeholder="网易云音乐搜索">
+                            <label for="type-163" class="metaColor transition">网易云音乐</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-xiami" value="https://www.xiami.com/search?key=" data-placeholder="虾米音乐">
+                            <label for="type-xiami" class="metaColor transition">虾米</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-baidu-music" value="https://music.baidu.com/search?key=" data-placeholder="百度音乐">
+                            <label for="type-baidu-music" class="metaColor transition">百度音乐</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-qq-music" value="https://y.qq.com/portal/search.html#searchid=1&amp;remoteplace=txt.yqq.top&amp;t=song&amp;w=" data-placeholder="QQ音乐">
+                            <label for="type-qq-music" class="metaColor transition">QQ音乐</label>
+                        </li>
+                                    </ul>
+            </div>
+                    <div class="search-group">
+                <span class="type-text metaColor">视频</span>
+                <ul class="search-type">
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-piaohua" value="https://www.piaohua.com/plus/search.php?kwtype=0&amp;keyword=" data-placeholder="飘花电影高清电影下载">
+                            <label for="type-piaohua" class="metaColor transition">飘花电影</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-gaoqing" value="http://gaoqing.la/?s=" data-placeholder="中国高清网">
+                            <label for="type-gaoqing" class="metaColor transition">中国高清网</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-youku" value="https://www.soku.com/search_video/q_" data-placeholder="优酷视频搜索">
+                            <label for="type-youku" class="metaColor transition">优酷</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-youtube" value="https://www.youtube.com/results?search_query=" data-placeholder="Youtube 视频搜索">
+                            <label for="type-youtube" class="metaColor transition">Youtube</label>
+                        </li>
+                                    </ul>
+            </div>
+                    <div class="search-group">
+                <span class="type-text metaColor">购物</span>
+                <ul class="search-type">
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-jd" value="https://search.jd.com/Search?keyword=" data-placeholder="京东商品搜索">
+                            <label for="type-jd" class="metaColor transition">京东</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-taobao" value="https://s.taobao.com/search?q=" data-placeholder="淘宝商品搜索">
+                            <label for="type-taobao" class="metaColor transition">淘宝</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-tmall" value="https://list.tmall.com/search_product.htm?q=" data-placeholder="天猫商品搜索">
+                            <label for="type-tmall" class="metaColor transition">天猫</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-amazon" value="https://www.amazon.cn/s/ref=nb_sb_noss_1?__mk_zh_CN=亚马逊网站&amp;url=search-alias%3Daps&amp;field-keywords=" data-placeholder="亚马逊商品搜索">
+                            <label for="type-amazon" class="metaColor transition">亚马逊</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-dangdang" value="https://search.dangdang.com/?key=" data-placeholder="当当商品搜索">
+                            <label for="type-dangdang" class="metaColor transition">当当</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-meituan" value="https://cd.meituan.com/s/?w=" data-placeholder="美团商品搜索">
+                            <label for="type-meituan" class="metaColor transition">美团</label>
+                        </li>
+                                            <li>
+                            <input checked="" hidden="" type="radio" name="type" id="type-ebay" value="http://www.ebay.com/sch/" data-placeholder="eBay商品搜索">
+                            <label for="type-ebay" class="metaColor transition">eBay</label>
+                        </li>
+                                    </ul>
+            </div>
+            </div>
+    <form action="?type=bookmark&amp;s=" method="get" target="_blank" id="super-search-fm">
+        <input type="text" id="search-text" autocomplete="off" placeholder="站内搜索">
+        <button type="submit" class="slBtn mainBg">搜索</button>
+    </form>
+    <div class="set-check transition switchBG tip" title="新窗口将打开搜索结果">
+        <input type="checkbox" id="set-search-blank" checked="checked" required="required" hidden="hidden">
+        <label for="set-search-blank"></label>
+    </div>
+</div>
+</div>
+	<!--{% for c in cates %}-->
+	<!--{% set cName=c['name'] %}-->
+	<div class="tabs item-box border" id="home_bkcat">
+		<div class="module-title border">
+			<span class="title titleColor">{{ cName }}</span>
+        </div>
+        
+        <div class="tab_content">
+			<div class="type ajax_tabs_list bookmark">
+			<ul class="layout_ul" id="salong_tabs_wrap">
+			<!--{% for d in c['docs'] %}-->
+				<!--{% set docName=d['name'] %}-->
+				<!--{% set docNameCn=d['nameCn'] %}-->
+				<!--{% set docDesc=d['desc'] %}-->
+				<!--{% set docLogo = 'asset/icon/' + d['logo'] + '.png' %}-->
+				<li class="layout_li col col4">
+				<article class="type-main box_shadow transition moduleRadius moduleBg bookmark" data-url="/{{ docName }}/" data-hot="热门">
+				<div class="post">
+				<a href="/{{ docName }}/" class="title titleColor tip" title="查看更多：Gensim" data-title="直接访问：/{{ docName }}/" data-external="/{{ docName }}/" target="_blank">
+						<img class="thumb" src="{{ docLogo }}" alt="{{ docName }}" data-original="{{ docLogo }}" style="">                    
+						<div class="title-icon"><h4>{{ docNameCn }}</h4></div>
+						<div class="desc textColor">{{ docDesc }}</div>
+				</a>
+				</div>
+				</article>
+				</li>
+			<!--{% endfor %}-->
+			</ul>
+			</div>
+		</div>
+    </div>
+	<!--{% endfor %}-->
+        
+	<div class="item-box border" id="home_fcat104">
+		
+		<div class="module-title border">
+			<span class="title titleColor">组织成员</span>
+		</div>
+		<div class="type figure">
+		<ul class="layout_ul">
+		<!--{% for m in members %}-->
+			<!--{% set memName=m['name'] %}-->
+			<!--{% set memDesc=m['desc'] %}-->
+			<!--{% set memLink=m['link'] %}-->
+			<!--{% set memlogo= 'asset/avatar/' + m['logo'] + '.png' %}-->
+			<li class="layout_li col col4">
+			<article class="type-main box_shadow transition moduleRadius moduleBg figure" data-url="{{ memLink }}">
+				<a href="{{ memLink }}" class="imgeffect title titleColor tip" title="查看更多：{{ memName }}" data-title="直接访问：{{ memLink }}" data-external="{{ memLink }}" target="_blank">
+					<img class="thumb" src="{{ memlogo }}" alt="{{ memName }}" data-original="{{ memlogo }}" style="">            
+				</a>
+				<div class="post">
+				<a href="{{ memLink }}" class="title titleColor tip" title="查看更多：{{ memName }}" data-title="直接访问：{{ memLink }}" data-external="{{ memLink }}" target="_blank">
+					<div class="title-icon"><h4>{{ memName }}</h4></div>
+					<div class="textColor">{{ memDesc }}</div>
+				</a>
+				</div>	
+			</article>
+			</li>
+		<!--{% endfor %}-->
+		</ul>
+		</div>
+	</div>
+        
+    <div class="item-box border" id="home_link">
+        
+        <section class="module-title border">
+            <span class="title titleColor">友情链接</span>
+		</section>
+        <ul class="links">
+		<!--{% for l in links %}-->
+			<!--{% set lName=l['name'] %}-->
+			<!--{% set lLink=l['link'] %}-->
+            <li><a href="{{ lLink }}" target="_blank">{{ lName }}</a></li>
+		<!--{% endfor %}-->
+        </ul>
+    </div>
+</div>
+<footer class="footer">
+    <section class="copyright metaColor">
+        <div align="center">
+    <div style="margin:0 0 10.5px">
+        <script>
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_{{ cnzz }}'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D{{ cnzz }}%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+    </div>
+
+    备案信息: {{ icp }} &nbsp;<a title="$s" href="">文档社区</a>&nbsp;| 网站支持：<a class="tip" title="ApacheCN" href="https://apachecn.org/">ApacheCN</a>
+</div>
+            </section>
+            <script>
+                       window.onload=function(){
+                var siteWelcome = document.getElementById('siteWelcome');
+                siteWelcome.classList.add('close');
+                setTimeout(function () {
+                    siteWelcome.remove();
+                }, 1000);
+            }
+        </script>
+    <a class="top hintBg bgmainHover metaColor active" id="back-to-top" href="#top" title="回到顶部" rel="external nofollow"></a>&nbsp;<div class="tracking"><div>
+    <!-- baidu stats -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?{{ bdStat }}";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
+    <script async="" src="./asset/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-127082511-1');
+    </script>
+ 
+    <!-- bing webmaster -->
+    
+    <!-- baidu union -->
+    
+    <!-- baidu webmaster -->
+    
+    <!-- google webmaster -->
+    
+     
+</div>
+</div><script type="text/javascript" src="./asset/jquery.lazyload-min.js"></script>
+<script type="text/javascript" src="./asset/jquery.nav-min.js"></script>
+<script type="text/javascript" src="./asset/jquery.cookie-min.js"></script>
+<script type="text/javascript" src="./asset/custom-min.js"></script>
+<script type="text/javascript" src="./asset/mpp-frontend.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./asset/front.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajaxcomment = {"ajax_url":"http:\/\/docs.apachecn.org\/wp-admin\/admin-ajax.php","order":"asc","formpostion":"bottom"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./asset/ajax-comment-min.js"></script>
+<!-- 123 次查询在 0.148 秒, 使用 13.41MB 内存 --></footer>
+</div><div class="overlay transition navBg"></div>
+
+
+<!-- Dynamic page generated in 0.147 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2021-04-22 10:36:17 -->
+</div></body></html>

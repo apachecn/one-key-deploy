@@ -1,0 +1,37 @@
+/*
+Theme Name: Slhao
+Theme URI: https://hao.salongweb.com
+Description: 萨龙网络原创集书签、工具和书箱类的 WordPress 网址导航主题，更多主题请访问：<a href="https://salongweb.com" target="_blank">萨龙网络主题商城</a>，获得技术支持：<a href="https://salongweb.com/contact" target="_blank">联系我们</a>
+Author: 萨龙龙
+Author URI: https://salongweb.com
+Version: 2.3
+Tags: Slhao,萨龙网络,书签主题,导航主题,网址导航,工具主题,书籍主题,简约主题,HTML5,CSS3,响应式
+Time: 2020.05.05
+*/
+body{background-color:#F5F6FA;}.tab_header .title,.module-title .title{font-size:15px;}.tab_header,.module-title{background-color:#fbfbfb;}.moduleRadius{border-radius:4px;}.popup{border-radius:4px;}.logo img{height:20px;}.content-post{font-size:13px;line-height:32px;letter-spacing:0px;font-weight:normal;text-align:justify;color:#778B9E;}.single .content-post a{font-size:12px;color:#05A9D1;}h1,h2,h3,h4,h5,h1 a,h2 a,h3 a,h4 a,h5 a,.atextColor a,#link-page a,table thead th,table tbody th,.titleColor{color:#1F2F3E;}.tabs ul.tab_li li.active .title{border-top-color:#1F2F3E;}.atextColor,.textColor a,table thead td,table tbody td,.textColor{color:#5B6B82;}.textColor svg{fill:#5B6B82;}.top-menu a,.nav-menu a{color:#778B9E;}.content-post .catalogue-list li > a,ul.links a,table tfoot,.metaColor a,.metaColor{color:#778B9E;}ul.links li:before,.metaBg:before{background-color:#778B9E;}input::-webkit-input-placeholder{color: #778B9E;}input::-moz-placeholder{color: #778B9E;}input:-ms-input-placeholder{color: #778B9E;}.content-post .catalogue-list li.current > a,.main-nav ul li.current .nav-main,.search-group ul.search-type li label:hover,.search-group ul.search-type li input:checked + label,ul.menu li.current-menu-ancestor > a,ul.menu li.current-menu-item > a,.mainColor{color:#05A9D1;}.box_shadow:hover{border-color:#05A9D1;}.content-post .catalogue-list li > a:hover,#link-page a:hover,.type-main:hover h4,ul.menu li:hover > a,.atextColor a:hover,a.mainColor:hover,a.metaColor:hover,.metaColor a:hover,a.titleColor:hover,.titleColor a:hover{color:#0299BD;}.book-read-btn a.collected,.pagination a:hover,.ias-spinner>div,.bulletin-slick > button:hover,.bgmainHover:hover{background-color:#0299BD !important;}.border{border-color:#EFF0F2;}.mainBg{background-color:#05A9D1;}.mainBg:hover{background-color:#0299BD;}.mainBg{color:#FFFFFF;}.btnBorder{border-color:rgba(255, 255, 255, 0.1);border-style:solid;border-top-width:1px;border-left-width:1px;border-right-width:1px;border-bottom-width:1px;}.btnRadius{border-radius:4px;line-height:36px;}.sub-menu,.navBg{background-color:#1F2F3E;}.sub-menu,ul.menu li.current-menu-item > a,ul.menu li:hover > a{background-color:#17242D;}.moduleBg{background-color:#FAFBFD;}.hintBg,#titleTip{background-color:#17242D;}.moreBg{background-color:#F4F9FF;}input,select,textarea{border-color:#EFF0F2;background-color:#F4F9FF;}#search-text,ul.search-type li input:checked + label{background-color:#F4F9FF;}.salong-setting-meta div.meta .switch,.salong-setting-language div.language .switch,.salong-setting-hot div.hot .switch,.salong-setting-direct div.direct .switch{background-color:#ed6f6f;}.switchBG,.salong-set-check .set-check{background-color:#4fb845;}.folding-cube>div:before,.nav-button ul li.current .nav-main:before,.nav-main:hover:before{background-color:#05A9D1;}.side-nav .title:before{border-left-color:#05A9D1;}.side-nav ul li.current .nav-main,.nav-main:hover{border-color:#05A9D1;}.info,.message{background-color:#effaff;color:#6dcff6;}.success{background-color:#e7f6f0;color:#2fba87;}.empty,.warning{background-color:#fffbf0;color:#ffc11b;}.error{background-color:#fff0ec;color:#eb5020;}.langBG{background-color:#38BEEB;}.hotBG{background-color:#FB6600;}.s-type-list{background-color:#1F2F3E;}.s-type .s-type-list:before,.bookBuy .s-type-list:before{border-bottom-color:#1F2F3E;}.s-type,span.type-text,.s-type .s-type-list{width:72px;}.search-group{padding-left:72px;}.search-group .metaColor:before{border-top-color:#778B9E;}
+.tab_new_header {
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    height: 56px;
+	border-color: #EFF0F2;
+	background-color: #fbfbfb;
+	color: #1F2F3E;
+	margin: -20px -20px 20px;
+	height: 45px;
+    border-bottom: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.tab_new_header label {
+	padding-bottom: 18px;
+    background-color: #fff;
+	border-top-color: #1F2F3E;
+	padding: 12px 20px 16px;
+    display: block;
+    border-top: 3px #fbfbfb solid;
+    cursor: pointer;
+	transition: ease-in-out 0.5s;
+	font-size: 15px;
+}
