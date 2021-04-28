@@ -56,6 +56,13 @@ def rmtree_safe(dir):
 def main():
     config = json.loads(
         open(d('config.json'), encoding='utf-8').read())
+    # 按照类别分组文档
+    config['cates'] = [    
+        {
+            'name': c,
+            'docs': [d for d in config['docs'] if d['cate'] == c],
+        } for c in config['cates']
+    ]
     
     # 释放配置文件
     data_dir = config['dataDir']
@@ -67,10 +74,9 @@ def main():
     log_dir = path.join(data_dir, 'log')
     mkdirs_safe(log_dir)
     
-    shutil.copy(
-        d('asset/style.css'),
-        path.join(rsrc_dir, 'style.css'),
-    )
+    asset_dir = path.join(rsrc_dir, 'asset')
+    rmtree_safe(asset_dir)
+    shutil.copytree(d('asset/site_asset'), asset_dir)
     shutil.copy(
         d('asset/50x.html'),
         path.join(rsrc_dir, '50x.html'),
@@ -80,7 +86,7 @@ def main():
         path.join(conf_dir, 'default.conf'),
     )
     index_tmpl = open(d('asset/index.j2'), encoding='utf-8').read()
-    index = jinja2.Template(index_tmpl).render(docs=config['docs'])
+    index = jinja2.Template(index_tmpl).render(**config)
     open(path.join(rsrc_dir, 'index.html'), 'w', encoding='utf-8').write(index)
     
     # 下载 Github 仓库
