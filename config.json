@@ -3,6 +3,13 @@
 	"port": 80,
 	"dataDir": "/data/apachecn-doc",
 	"clean": false,
+	"announce": {
+		"text": "不知不觉， ApacheCN 团队已经成立了快3年了，经历创建、稳定、重建、稳定、再重建。。。",
+		"link": ""
+	},
+	"links": [
+		{"name": "ITEbooks", "link": "http://it-ebooks.flygon.net"}
+	],
 	"cates": ["编程", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "其它"],
 	"docs": [
 		{"name":"ailearning","nameCn":"AILearning","repo":"https://github.com/apachecn/ailearning", "cate":"人工智能"},
