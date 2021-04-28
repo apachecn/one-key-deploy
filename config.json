@@ -3,6 +3,8 @@
 	"port": 80,
 	"dataDir": "/data/apachecn-doc",
 	"clean": false,
+	"cnzz": "1275211409",
+	"icp": "京ICP备15026725号-2",
 	"announce": {
 		"text": "不知不觉， ApacheCN 团队已经成立了快3年了，经历创建、稳定、重建、稳定、再重建。。。",
 		"link": ""
