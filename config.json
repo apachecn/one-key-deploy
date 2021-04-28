@@ -5,6 +5,14 @@
 	"clean": false,
 	"cnzz": "1275211409",
 	"icp": "京ICP备15026725号-2",
+	"menus": [
+		{"name": "公告", "link": "home/#/README"},
+		{"name": "知识树", "link": "https://github.com/apachecn/ai-roadmap/tree/master/v1.0"},
+		{"name": "文档", "link": "home/#/docs/docs/README"},
+		{"name": "新知", "link": "https://it-ebooks.flygon.net/"},
+		{"name": "关于", "link": "home/#/docs/about"},
+		{"name": "捐赠", "link": "home/#/docs/donate/README"}
+	],
 	"announce": {
 		"text": "不知不觉， ApacheCN 团队已经成立了快3年了，经历创建、稳定、重建、稳定、再重建。。。",
 		"link": ""
