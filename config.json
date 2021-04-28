@@ -4,6 +4,7 @@
 	"dataDir": "/data/apachecn-doc",
 	"clean": false,
 	"cnzz": "1275211409",
+	"bdStat": "84fca651656bc67b4b2d56605b6d0852",
 	"icp": "京ICP备15026725号-2",
 	"menus": [
 		{"name": "公告", "link": "home/#/README"},
