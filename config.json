@@ -26,7 +26,12 @@
 		{"name": "片刻", "desc": "iBooker组织创始人和ApacheCN团队发起人", "link": "http://github.com/jiangzhonglian", "logo": "pianke"}
 	],
 	"links": [
-		{"name": "ITEbooks", "link": "http://it-ebooks.flygon.net"}
+		{"name": "龙哥盟", "link": "https://flygon.net"},
+		{"name": "ITEbooks", "link": "http://it-ebooks.flygon.net"},
+		{"name": "Datawhale", "link": "http://home.apachecn.org/img/qr/datawhale_qr.jpg"},
+		{"name": "Data Science Challenge / Competition", "link": "https://iphysresearch.github.io/DataSciComp/"},
+		{"name": "lzhpo", "link": "http://www.liuzhaopo.top/"},
+		{"name": "Jaybo", "link": "https://strivebo.com/"}
 	],
 	"cates": ["编程", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "其它"],
 	"docs": [
