@@ -78,10 +78,6 @@ def main():
     rmtree_safe(asset_dir)
     shutil.copytree(d('asset/site_asset'), asset_dir)
     shutil.copy(
-        d('asset/50x.html'),
-        path.join(rsrc_dir, '50x.html'),
-    )
-    shutil.copy(
         d('asset/default.conf'),
         path.join(conf_dir, 'default.conf'),
     )
