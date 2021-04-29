@@ -56,7 +56,7 @@
 		{"name":"biz5min","nameCn":"5 分钟商学院精细笔记","repo":"https://github.com.cnpmjs.org/apachecn/business-5min-notes", "cate":"其它", "logo": "biz"},
 		{"name":"calc4b","nameCn":"MIT 18.03 面向初学者的微积分","repo":"https://github.com.cnpmjs.org/apachecn/calc4b-zh", "cate":"数据科学", "logo": "mit"},
 		{"name":"cython","nameCn":"Cython 3.0 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/cython-doc-zh", "cate":"工具", "logo": "python"},
-		{"name":"data8","nameCn":"UCB Data8 计算与推断思维","repo":"https://github.com/it-ebooks-0/data8-textbook-zh", "cate":"数据科学", "logo": "ucb"},
+		{"name":"data8","nameCn":"UCB Data8 计算与推断思维","repo":"https://github.com.cnpmjs.org/it-ebooks-0/data8-textbook-zh", "cate":"数据科学", "logo": "ucb"},
 		{"name":"dataviz","nameCn":"数据可视化的基础知识","repo":"https://github.com.cnpmjs.org/apachecn/dataviz-zh", "cate":"数据科学", "logo": "dataviz"},
 		{"name":"dsai-notes","nameCn":"数据科学和人工智能技术笔记","repo":"https://github.com.cnpmjs.org/apachecn/ds-ai-tech-notes", "cate":"数据科学", "logo": "ds"},
 		{"name":"ds-ipynb","nameCn":"数据科学 IPython 笔记本","repo":"https://github.com.cnpmjs.org/apachecn/ds-ipynb-zh", "cate":"数据科学", "logo": "jupyter"},
