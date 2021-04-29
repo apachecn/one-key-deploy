@@ -2,6 +2,7 @@
 	"name": "apachecn-doc",
 	"port": 80,
 	"dataDir": "/data/apachecn-doc",
+	"conf": "default",
 	"clean": false,
 	"cnzz": "1275211409",
 	"bdStat": "84fca651656bc67b4b2d56605b6d0852",

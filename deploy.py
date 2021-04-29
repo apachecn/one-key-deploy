@@ -78,7 +78,7 @@ def main():
     rmtree_safe(asset_dir)
     shutil.copytree(d('asset/site_asset'), asset_dir)
     shutil.copy(
-        d('asset/default.conf'),
+        d('asset/conf/' + config['conf'] + '.conf'),
         path.join(conf_dir, 'default.conf'),
     )
     index_tmpl = open(d('asset/index.j2'), encoding='utf-8').read()
