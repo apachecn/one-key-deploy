@@ -55,7 +55,7 @@
 		{"name":"sec","nameCn":"ApacheCN 网络安全译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-sec-zh", "cate":"安全", "logo": "sec"},
 		{"name":"beginnersbook","nameCn":"BeginnersBook 中文系列教程","repo":"https://github.com.cnpmjs.org/apachecn/beginnersbook-zh", "cate":"编程", "logo": "code"},
 		{"name":"bcem","nameCn":"生化环材劝退文集","repo":"https://github.com.cnpmjs.org/apachecn/bio-chem-env-mat-discourage", "cate":"其它", "logo": "discourage"},
-		{"name":"biz5min","nameCn":"5 分钟商学院精细笔记","repo":"https://github.com.cnpmjs.org/apachecn/business-5min-notes", "cate":"其它", "logo": "biz"},
+		{"name":"biz5min","nameCn":"5 分钟商学院精细笔记","repo":"https://github.com.cnpmjs.org/apachecn/business-5min-notes", "cate":"其它", "logo": "biz5min"},
 		{"name":"calc4b","nameCn":"MIT 18.03 面向初学者的微积分","repo":"https://github.com.cnpmjs.org/apachecn/calc4b-zh", "cate":"数据科学", "logo": "mit"},
 		{"name":"cython","nameCn":"Cython 3.0 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/cython-doc-zh", "cate":"工具", "logo": "python"},
 		{"name":"data8","nameCn":"UCB Data8 计算与推断思维","repo":"https://github.com.cnpmjs.org/it-ebooks-0/data8-textbook-zh", "cate":"数据科学", "logo": "ucb"},
