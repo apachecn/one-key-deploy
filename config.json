@@ -12,7 +12,7 @@
 	"title": "ApacheCN 文档汇总 | 让开源界提前感受入关",
 	"menus": [
 		{"name": "公告", "link": "home/#/README"},
-		{"name": "知识树", "link": "https://github.com/apachecn/ai-roadmap/tree/master/v1.0"},
+		{"name": "知识树", "link": "home/#/docs/tree/README"},
 		{"name": "新知", "link": "https://it-ebooks.flygon.net/"},
 		{"name": "关于", "link": "home/#/docs/about"},
 		{"name": "捐赠", "link": "home/#/docs/donate/README"}
