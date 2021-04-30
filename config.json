@@ -110,7 +110,7 @@
 		{"name":"pytorch","nameCn":"PyTorch 中文教程","repo":"https://github.com.cnpmjs.org/apachecn/pytorch-doc-zh", "cate":"人工智能", "logo": "pt"},
 		{"name":"quant","nameCn":"QuantLearning","repo":"https://github.com.cnpmjs.org/apachecn/quant-learning", "cate":"数据科学", "logo": "quant"},
 		{"name":"scrapy","nameCn":"Scrapy 1.6 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/scrapy-doc-zh", "cate":"工具", "logo": "scrapy"},
-		{"name":"seaborn","nameCn":"seaborn 0.9 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/seaborn-doc-zh", "cate":"数据科学", "logo": "dataviz"},
+		{"name":"seaborn","nameCn":"seaborn 0.9 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/seaborn-doc-zh", "cate":"数据科学", "logo": "seaborn"},
 		{"name":"sec-wiki","nameCn":"ApacheCN 安全知识库","repo":"https://github.com.cnpmjs.org/apachecn/sec-wiki", "cate":"安全", "logo": "sec"},
 		{"name":"sicp-js","nameCn":"NUS CS1101s SICP JavaScript 描述","repo":"https://github.com.cnpmjs.org/apachecn/sicp-js-zh", "cate":"计算机科学", "logo": "sicp"},
 		{"name":"sicp-py","nameCn":"UCB CS61a SICP Python 描述","repo":"https://github.com.cnpmjs.org/apachecn/sicp-py-zh", "cate":"计算机科学", "logo": "sicp"},
@@ -131,7 +131,7 @@
 		{"name":"cs241","nameCn":"UIUC CS241 系统编程中文讲义","repo":"https://github.com.cnpmjs.org/apachecn/uiuc-cs241-notes-zh", "cate":"计算机科学", "logo": "uiuc"},
 		{"name":"webhack101","nameCn":"Web Hacking 101 中文版","repo":"https://github.com.cnpmjs.org/apachecn/web-hacking-101-zh", "cate":"安全", "logo": "sec"},
 		{"name":"xgboost","nameCn":"XGBoost 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/xgboost-doc-zh", "cate":"人工智能", "logo": "xgb"},
-		{"name":"zeppelin","nameCn":"Zeppelin 0.7.2 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/zeppelin-doc-zh", "cate":"后端/大数据", "logo": "bigdata"},
+		{"name":"zeppelin","nameCn":"Zeppelin 0.7.2 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/zeppelin-doc-zh", "cate":"后端/大数据", "logo": "zeppelin"},
 		{"name":"zetcode","nameCn":"ZetCode 中文系列教程","repo":"https://github.com.cnpmjs.org/apachecn/zetcode-zh", "cate":"编程", "logo": "code"}
 	]
 }
