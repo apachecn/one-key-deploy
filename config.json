@@ -49,7 +49,7 @@
 		{"name":"java","nameCn":"ApacheCN Java 译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-java-zh", "cate":"编程", "logo": "java"},
 		{"name":"js","nameCn":"ApacheCN JavaScript 译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-js-zh", "cate":"编程", "logo": "js"},
 		{"name":"linux","nameCn":"ApacheCN Linux 译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-linux-zh", "cate":"工具", "logo": "linux"},
-		{"name":"ml","nameCn":"ApacheCN 机器学习译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-ml-zh", "cate":"人工智能", "logo": "ai"},
+		{"name":"ml","nameCn":"ApacheCN 机器学习译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-ml-zh", "cate":"人工智能", "logo": "ml"},
 		{"name":"py","nameCn":"ApacheCN Python 译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-python-zh", "cate":"编程", "logo": "python"},
 		{"name":"ruby","nameCn":"ApacheCN Ruby 译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-ruby-zh", "cate":"编程", "logo": "ruby"},
 		{"name":"sec","nameCn":"ApacheCN 网络安全译文集","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-sec-zh", "cate":"安全", "logo": "sec"},
