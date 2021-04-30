@@ -1,7 +1,9 @@
 {
 	"name": "apachecn-doc",
 	"port": 80,
+	"secPort": 443,
 	"dataDir": "/data/apachecn-doc",
+	"sslDir": "/data/ssl",
 	"conf": "default",
 	"clean": false,
 	"cnzz": "1275211409",

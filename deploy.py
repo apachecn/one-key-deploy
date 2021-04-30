@@ -6,9 +6,10 @@ import os
 from os import path
 import jinja2
 
-DOCKER_NGINX_LOG = '/var/log/nginx'
+DOCKER_NGINX_LOG  = '/var/log/nginx'
 DOCKER_NGINX_CONF = '/etc/nginx/conf.d'
 DOCKER_NGINX_RSRC = '/usr/share/nginx/html'
+DOCKER_NGINX_SSL  = '/etc/nginx/ssl'
 
 def d(name):
     return path.join(path.dirname(__file__), name)
@@ -73,6 +74,8 @@ def main():
     mkdirs_safe(rsrc_dir)
     log_dir = path.join(data_dir, 'log')
     mkdirs_safe(log_dir)
+    ssl_dir = config['sslDir']
+    mkdirs_safe(ssl_dir)
     
     asset_dir = path.join(rsrc_dir, 'asset')
     rmtree_safe(asset_dir)
@@ -108,9 +111,10 @@ def main():
         subp.Popen(f'git pull', shell=True).communicate()
     
     # 启动 Nginx
-    name, port = config['name'], config['port']
-    print(f'name: {name}, repo: nginx, port: {port}')
+    name, port, sec_port = config['name'], config['port'], config['secPort']
+    print(f'name: {name}, repo: nginx, port: {port}, secPort: {sec_port}')
     kill_port(port)
+    kill_port(sec_port)
     subp.Popen(f'docker rm -f {name}', shell=True).communicate()
     subp.Popen(f'docker pull nginx', shell=True).communicate()
     args = '\x20'.join([
@@ -120,10 +124,12 @@ def main():
         f'--name {name}',
         # 绑定端口
         f'-p {port}:80',
+        f'-p {sec_port}:443',
         # 绑定配置、资源和日志目录
         f'-v "{conf_dir}:{DOCKER_NGINX_CONF}"',
         f'-v "{rsrc_dir}:{DOCKER_NGINX_RSRC}"',
         f'-v "{log_dir}:{DOCKER_NGINX_LOG}"',
+        f'-v "{ssl_dir}:{DOCKER_NGINX_SSL}"',
         # 镜像名称
         'nginx',
     ])
