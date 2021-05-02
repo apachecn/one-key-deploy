@@ -11,6 +11,7 @@
 	"icp": "京ICP备15026725号-2",
 	"title": "ApacheCN 文档汇总 | 让开源界提前感受入关",
 	"menus": [
+		{"name": "主页", "link": "http://apachecn.org"},
 		{"name": "公告", "link": "home/#/README"},
 		{"name": "知识树", "link": "home/#/docs/tree/README"},
 		{"name": "新知", "link": "https://it-ebooks.flygon.net/"},
@@ -76,7 +77,7 @@
 		{"name":"hands1ml","nameCn":"Sklearn 与 TensorFlow 机器学习实用指南第二版","repo":"https://github.com.cnpmjs.org/apachecn/hands-on-ml-2e-zh", "cate":"人工智能", "logo": "skl"},
 		{"name":"hbase","nameCn":"HBase™ 中文参考指南 3.0🚧","repo":"https://github.com.cnpmjs.org/apachecn/hbase-doc-zh", "cate":"后端/大数据", "logo": "hbase"},
 		{"name":"hseg","nameCn":"HighScalability 中文示例📚🚧","repo":"https://github.com.cnpmjs.org/apachecn/highscalability-examples-zh", "cate":"后端/大数据", "logo": "backend"},
-		{"name":"home","nameCn":"iBooker 布客","repo":"https://github.com.cnpmjs.org/apachecn/home", "cate":"其它", "logo": "apachecn"},
+		{"name":"home","nameCn":"iBooker 布客","repo":"https://github.com.cnpmjs.org/apachecn/home", "cate":"其它", "logo": "apachecn", "hidden":true},
 		{"name":"htdij","nameCn":"HowToDoInJava 中文系列教程📚","repo":"https://github.com.cnpmjs.org/apachecn/howtodoinjava-zh", "cate":"编程", "logo": "code"},
 		{"name":"ipd","nameCn":"iBooker 布客老实人报","repo":"https://github.com.cnpmjs.org/apachecn/ibooker-plain-dealer", "cate":"其它", "logo": "greenhat"},
 		{"name":"impatient-js","nameCn":"写给不耐烦程序员的 JavaScript🚧","repo":"https://github.com.cnpmjs.org/apachecn/impatient-js-zh", "cate":"编程", "logo": "js"},
