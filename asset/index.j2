@@ -320,6 +320,7 @@ var salongLikes = {"ajaxurl":"http:\/\/docs.apachecn.org\/wp-admin\/admin-ajax.p
 			<div class="type ajax_tabs_list bookmark">
 			<ul class="layout_ul" id="salong_tabs_wrap">
 			<!--{% for d in c['docs'] %}-->
+			<!--{% if not d['hidden'] %}-->
 				<!--{% set docName=d['name'] %}-->
 				<!--{% set docNameCn=d['nameCn'] %}-->
 				<!--{% set docDesc=d['desc'] %}-->
@@ -335,6 +336,7 @@ var salongLikes = {"ajaxurl":"http:\/\/docs.apachecn.org\/wp-admin\/admin-ajax.p
 				</div>
 				</article>
 				</li>
+			<!--{% endif %}-->
 			<!--{% endfor %}-->
 			</ul>
 			</div>
