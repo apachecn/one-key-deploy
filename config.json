@@ -36,7 +36,7 @@
 		{"name": "lzhpo", "link": "http://www.liuzhaopo.top/"},
 		{"name": "Jaybo", "link": "https://strivebo.com/"}
 	],
-	"cates": ["编程", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "其它"],
+	"cates": ["编程", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "安全", "其它"],
 	"docs": [
 		{"name":"ailearning","nameCn":"AILearning📚","desc":"机器学习实战","repo":"https://github.com.cnpmjs.org/apachecn/ailearning", "cate":"人工智能", "logo": "apachecn"},
 		{"name":"airflow","nameCn":"Airflow 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/airflow-doc-zh", "cate":"后端/大数据", "logo": "airflow"},

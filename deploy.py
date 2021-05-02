@@ -57,6 +57,8 @@ def rmtree_safe(dir):
 def main():
     config = json.loads(
         open(d('config.json'), encoding='utf-8').read())
+    # 按照首字母排序文档
+    config['docs'].sort(key=lambda x: x.get('name', ''))
     # 按照类别分组文档
     config['cates'] = [    
         {
