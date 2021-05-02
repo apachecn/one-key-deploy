@@ -146,7 +146,7 @@
 		{"name":"leedrl","nameCn":"李宏毅深度强化学习笔记↗","link":"https://github.com/datawhalechina/leedeeprl-notes", "cate":"人工智能", "logo": "ai"},
 		{"name":"cs229","nameCn":"斯坦福 CS229 机器学习中文笔记↗","link":"http://ai-start.com/ml2014", "cate":"人工智能", "logo": "ai"},
 		{"name":"dlai","nameCn":"DeepLearning.ai 深度学习中文笔记↗","link":"http://ai-start.com/dl2017", "cate":"人工智能", "logo": "ai"},
-		{"name":"gia","nameCn":"Girls In AI","desc":"面向编程零基础女孩子的AI算法工程师养成计划↗","link":"https://github.com/YZHANG1270/Girls-In-AI", "cate":"人工智能", "logo": "ai"},
+		{"name":"gia","nameCn":"Girls In AI↗","desc":"面向编程零基础女孩子的AI算法工程师养成计划","link":"https://github.com/YZHANG1270/Girls-In-AI", "cate":"人工智能", "logo": "ai"},
 		{"name":"jse12d7195a9ff","nameCn":"推荐系统遇上深度学习↗","link":"https://www.jianshu.com/c/e12d7195a9ff", "cate":"人工智能", "logo": "ai"},
 		{"name":"DataSciComp","nameCn":"数据科学比赛收集平台↗","link":"https://github.com/iphysresearch/DataSciComp", "cate":"数据科学", "logo": "ds"},
 		{"name":"hacker-playbook3","nameCn":"渗透测试实战第三版（红队版）↗","link":"https://github.com/Snowming04/The-Hacker-Playbook-3-Translation", "cate":"安全", "logo": "sec"},
