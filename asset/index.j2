@@ -321,15 +321,18 @@ var salongLikes = {"ajaxurl":"http:\/\/docs.apachecn.org\/wp-admin\/admin-ajax.p
 			<ul class="layout_ul" id="salong_tabs_wrap">
 			<!--{% for d in c['docs'] %}-->
 			<!--{% if not d['hidden'] %}-->
-				<!--{% set docName=d['name'] %}-->
+				<!--{% set docLink = d['link'] or '/' + d['name'] + '/' %}-->
 				<!--{% set docNameCn=d['nameCn'] %}-->
 				<!--{% set docDesc=d['desc'] %}-->
 				<!--{% set docLogo = 'asset/icon/' + d['logo'] + '.png' %}-->
 				<li class="layout_li col col4">
-				<article class="type-main box_shadow transition moduleRadius moduleBg bookmark" data-url="/{{ docName }}/" data-hot="热门">
+				<article class="type-main box_shadow transition moduleRadius moduleBg bookmark" data-url="{{ docLink }}" data-hot="热门">
 				<div class="post">
-				<a href="/{{ docName }}/" class="title titleColor tip" title="查看更多：Gensim" data-title="直接访问：/{{ docName }}/" data-external="/{{ docName }}/" target="_blank">
-						<img class="thumb" src="{{ docLogo }}" alt="{{ docName }}" data-original="{{ docLogo }}" style="">                    
+				<a href="{{ docLink }}" class="title titleColor tip" 
+				   title="查看更多：{{ docNameCn }}" 
+				   data-title="直接访问：{{ docLink }}" 
+				   data-external="{{ docLink }}" target="_blank">
+						<img class="thumb" src="{{ docLogo }}" alt="{{ docNameCn }}" data-original="{{ docLogo }}" style="">                    
 						<div class="title-icon"><h4>{{ docNameCn }}</h4></div>
 						<div class="desc textColor">{{ docDesc }}</div>
 				</a>
