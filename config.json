@@ -151,10 +151,16 @@
 		{"name":"DataSciComp","nameCn":"数据科学比赛收集平台↗","link":"https://github.com/iphysresearch/DataSciComp", "cate":"数据科学", "logo": "ds"},
 		{"name":"hacker-playbook3","nameCn":"渗透测试实战第三版（红队版）↗","link":"https://github.com/Snowming04/The-Hacker-Playbook-3-Translation", "cate":"安全", "logo": "sec"},
 		{"name":"cs4","nameCn":"CobaltStrike 4.0 中文用户手册↗","link":"https://github.com/Snowming04/CobaltStrike4.0_related", "cate":"安全", "logo": "sec"},
-		{"name":"ShameCom","nameCn":"校招污点公司记录↗","link":"https://github.com/ShameCom/ShameCom", "cate":"其它", "logo": "biz"},
+		{"name":"ShameCom","nameCn":"校招污点公司记录📝↗","link":"https://github.com/ShameCom/ShameCom", "cate":"其它", "logo": "biz"},
 		{"name":"ShameCom","nameCn":"程序媛计划：儿童性教育项目↗","link":"https://github.com/ShameCom/ShameCom", "cate":"其它", "logo": "biz"},
 		{"name":"zhangyi","nameCn":"ZhangYi 的博客文章↗","link":"http://codewithzhangyi.com/blog", "cate":"其它", "logo": "biz"},
-		{"name":"interview","nameCn":"Interview📚","desc":"简历指南 + LeetCode + Kaggle","link":"https://github.com/apachecn/Interview", "cate":"ai", "logo": "ai"},
+		{"name":"interview","nameCn":"Interview📚","desc":"简历指南 + LeetCode + Kaggle","link":"https://github.com/apachecn/Interview", "cate":"人工智能", "logo": "ai"},
+		{"name":"cs-courses","nameCn":"计算机公开课推荐📝","link":"https://github.com/apachecn/awesome-cs-courses-zh", "cate":"计算机科学", "logo": "cs"},
+		{"name":"ai-roadmap","nameCn":"AI 路线图（知识树）📝","link":"https://github.com/apachecn/ai-roadmap", "cate":"人工智能", "logo": "ai"},
+		{"name":"ds-solution","nameCn":"数据科学/人工智能比赛解决方案汇总📝","link":"https://github.com/apachecn/awesome-data-comp-solution", "cate":"人工智能", "logo": "ai"},
+		{"name":"indie","nameCn":"独立开发/自由职业/远程工作资源列表📝","link":"https://github.com/apachecn/awesome-data-comp-solution", "cate":"其它", "logo": "biz"},
+		{"name":"resume","nameCn":"简历分享系列视频🎥","link":"https://www.bilibili.com/video/av53122083", "cate":"其它", "logo": "biz"},
+		{"name":"kaggle","nameCn":"Kaggle 学习系列视频🎥","link":"https://www.bilibili.com/video/av53119200", "cate":"人工智能", "logo": "ai"},
 		{"name":"data","nameCn":"data","repo":"https://github.com.cnpmjs.org/apachecn/data", "cate":"其它", "logo": "data", "hidden": true}
 	]
 }
