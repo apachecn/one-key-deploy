@@ -38,6 +38,11 @@
 	],
 	"cates": ["编程", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "安全", "其它"],
 	"docs": [
+		{"name":"nodejs","nameCn":"ApacheCN NodeJS 译文集📚","repo":"https://github.com/apachecn/apachecn-nodejs-zh", "cate":"后端/大数据", "logo": "js"},
+		{"name":"php","nameCn":"ApacheCN PHP 译文集📚","repo":"https://github.com/apachecn/apachecn-php-zh", "cate":"后端/大数据", "logo": "php"},
+		{"name":"bigdata2","nameCn":"ApacheCN 大数据译文集（二）📚","repo":"https://github.com/apachecn/apachecn-bigdata-zh-pt2", "cate":"后端/大数据", "logo": "ds"},
+		{"name":"bigdata","nameCn":"ApacheCN 大数据译文集📚","repo":"https://github.com/apachecn/apachecn-bigdata-zh", "cate":"后端/大数据", "logo": "ds"},
+		{"name":"javaweb","nameCn":"ApacheCN Java Web 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-javaweb-zh", "cate":"后端/大数据", "logo": "java"},
 		{"name":"ailearning","nameCn":"AILearning📚","desc":"机器学习实战","repo":"https://github.com.cnpmjs.org/apachecn/ailearning", "cate":"人工智能", "logo": "apachecn"},
 		{"name":"airflow","nameCn":"Airflow 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/airflow-doc-zh", "cate":"后端/大数据", "logo": "airflow"},
 		{"name":"algo","nameCn":"ApacheCN 数据结构与算法译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-algo-zh", "cate":"计算机科学", "logo": "algo"},
