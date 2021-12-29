@@ -134,7 +134,6 @@
 		{"name":"ntuml","nameCn":"台湾大学林轩田机器学习笔记","repo":"https://github.com.cnpmjs.org/apachecn/ntu-hsuantienlin-ml", "cate":"人工智能", "logo": "ml"},
 		{"name":"numba","nameCn":"Numba 0.44 中文文档🚧","repo":"https://github.com.cnpmjs.org/apachecn/numba-doc-zh", "cate":"工具", "logo": "python"},
 		{"name":"opencv","nameCn":"OpenCV 中文文档 4.0.0","repo":"https://github.com.cnpmjs.org/apachecn/opencv-doc-zh", "cate":"人工智能", "logo": "opencv"},
-		{"name":"pdcb","nameCn":"Pandas Cookbook 带注释源码","repo":"https://github.com.cnpmjs.org/apachecn/pandas-cookbook-code-notes", "cate":"数据科学", "logo": "pandas"},
 		{"name":"principles","nameCn":"原则 · 中文版","repo":"https://github.com.cnpmjs.org/apachecn/principles-zh", "cate":"其它", "logo": "principle"},
 		{"name":"miz","nameCn":"Programiz 中文系列教程📚","repo":"https://github.com.cnpmjs.org/apachecn/programiz-zh", "cate":"编程", "logo": "code"},
 		{"name":"pyda","nameCn":"利用 Python 进行数据分析 · 第 2 版","repo":"https://github.com.cnpmjs.org/apachecn/pyda-2e-zh", "cate":"数据科学", "logo": "pandas"},
