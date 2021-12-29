@@ -63,7 +63,7 @@
 		{"name":"vue","nameCn":"ApacheCN Vue 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-vue-zh", "cate":"前端", "logo": "js"},
 		{"name":"ng","nameCn":"ApacheCN Angular 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-angular-zh", "cate":"前端", "logo": "js"},
 		{"name":"react","nameCn":"ApacheCN React 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-react-zh", "cate":"前端", "logo": "js"},
-		{"name":"go","nameCn":"ApacheCN Golang 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-golang-zh", "cate":"编程", "logo": "golang"},
+		{"name":"go","nameCn":"ApacheCN Golang 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-golang-zh", "cate":"编程", "logo": "go"},
 		{"name":"jq","nameCn":"ApacheCN jQuery 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-jquery-zh", "cate":"前端", "logo": "js"},
 		{"name":"kali","nameCn":"ApacheCN Kali Linux 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-kali-zh", "cate":"安全", "logo": "sec"},
 		{"name":"nodejs","nameCn":"ApacheCN NodeJS 译文集📚","repo":"https://github.com.cnpmjs.org/apachecn/apachecn-nodejs-zh", "cate":"后端/大数据", "logo": "js"},
