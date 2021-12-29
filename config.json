@@ -193,6 +193,7 @@
 		{"name":"resume","nameCn":"简历分享系列视频🎥","link":"https://www.bilibili.com/video/av53122083", "cate":"其它", "logo": "biz"},
 		{"name":"kaggle","nameCn":"Kaggle 学习系列视频🎥","link":"https://www.bilibili.com/video/av53119200", "cate":"人工智能", "logo": "ai"},
 		{"name":"data","nameCn":"data","repo":"https://github.com.cnpmjs.org/apachecn/data", "cate":"其它", "logo": "data", "hidden": true},
+		{"name":"rms","nameCn":"导师评价信息","repo":"https://github.com/kgco/RateMySupervisor", "cate":"其它", "logo": "data", "link":"/rms/html"},
 		{"name":"ao3","nameCn":"AO3 镜像↗","link":"https://xiaozhan.icu/", "cate":"其它", "logo": "ao3"},
 		{"name":"lptsw","nameCn":"聪明办法学Python↗","link":"https://github.com/datawhalechina/learn-python-the-smart-way", "cate":"datawhale", "logo": "python"},
 		{"name":"lptsw-v","nameCn":"聪明办法学Python📹↗","link":"https://www.bilibili.com/video/BV1hv411n7Yg", "cate":"datawhale", "logo": "python"},
