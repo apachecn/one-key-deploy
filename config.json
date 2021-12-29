@@ -128,7 +128,7 @@
 		{"name":"pythonguru","nameCn":"PythonGuru 中文系列教程📚","repo":"https://github.com.cnpmjs.org/apachecn/pythonguru-zh", "cate":"编程", "logo": "python"},
 		{"name":"pythonspot","nameCn":"PythonSpot 中文系列教程📚","repo":"https://github.com.cnpmjs.org/apachecn/pythonspot-zh", "cate":"编程", "logo": "python"},
 		{"name":"pytorch","nameCn":"PyTorch 中文教程","repo":"https://github.com.cnpmjs.org/apachecn/pytorch-doc-zh", "cate":"人工智能", "logo": "pt"},
-		{"name":"quant","nameCn":"QuantLearning","repo":"https://github.com.cnpmjs.org/apachecn/quant-learning", "cate":"数据科学", "logo": "quant"},
+		{"name":"qlearn","nameCn":"QuantLearning","repo":"https://github.com.cnpmjs.org/apachecn/quant-learning", "cate":"数据科学", "logo": "quant"},
 		{"name":"scrapy","nameCn":"Scrapy 1.6 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/scrapy-doc-zh", "cate":"工具", "logo": "scrapy"},
 		{"name":"seaborn","nameCn":"seaborn 0.9 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/seaborn-doc-zh", "cate":"数据科学", "logo": "seaborn"},
 		{"name":"sec-wiki","nameCn":"ApacheCN 安全知识库📚","repo":"https://github.com.cnpmjs.org/apachecn/sec-wiki", "cate":"安全", "logo": "sec"},
