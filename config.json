@@ -38,6 +38,7 @@
 	],
 	"cates": ["编程", "前端", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "安全", "其它"],
 	"docs": [
+		{"name":"devops","nameCn":"ApacheCN DevOps 译文集📚","repo":"https://github.com/apachecn/apachecn-devops-zh", "cate":"工具", "logo": "devops"},
 		{"name":"db","nameCn":"ApacheCN 数据库译文集📚","repo":"https://github.com/apachecn/apachecn-db-zh", "cate":"后端/大数据", "logo": "db"},
 		{"name":"pyweb","nameCn":"ApacheCN Python Web 译文集📚","repo":"https://github.com/apachecn/apachecn-pythonweb-zh", "cate":"后端/大数据", "logo": "python"},
 		{"name":"csharp","nameCn":"ApacheCN C# 译文集📚","repo":"https://github.com/apachecn/apachecn-asp-dotnet-zh", "cate":"编程", "logo": "csharp"},
