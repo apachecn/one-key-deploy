@@ -39,7 +39,7 @@
 	"cates": ["编程", "前端", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "安全", "其它"],
 	"docs": [
 		{"name":"g4g-asp","nameCn":"GeeksForGeeks ASP 中文教程📚","repo":"https://github.com.cnpmjs.org/apachecn/geeksforgeeks-asp-zh", "cate":"后端/大数据", "logo": "csharp"},
-		{"name":"g4g-langmisc","nameCn":"GeeksForGeeks 编程语言杂项中文教程📚","repo":"https://github.com.cnpmjs.org/apachecn/geeksforgeeks-lang-misc-zh", "cate":"编程", "logo": "prog"},
+		{"name":"g4g-langmisc","nameCn":"GeeksForGeeks 编程语言杂项中文教程📚","repo":"https://github.com.cnpmjs.org/apachecn/geeksforgeeks-lang-misc-zh", "cate":"编程", "logo": "code"},
 		{"name":"g4g-ai","nameCn":"GeeksForGeeks 人工智能中文教程📚","repo":"https://github.com.cnpmjs.org/apachecn/geeksforgeeks-ai-zh", "cate":"人工智能", "logo": "ai"},
 		{"name":"g4g-csharp","nameCn":"GeeksForGeeks C# 中文教程📚","repo":"https://github.com.cnpmjs.org/apachecn/geeksforgeeks-csharp-zh", "cate":"编程", "logo": "csharp"},
 		{"name":"g4g-sql","nameCn":"GeeksForGeeks SQL 中文教程📚","repo":"https://github.com.cnpmjs.org/apachecn/geeksforgeeks-sql-zh", "cate":"后端/大数据", "logo": "sql"},
