@@ -182,6 +182,16 @@ tcp6       0      0 :::80                   :::*                    LISTEN      
 0 0 * * * python3 /usr/local/bin/one-key-deploy/deploy.py >> /usr/local/bin/one-key-deploy/okd.log
 ```
 
+### 附录 A：故障排除
+
+第九步中，如果容器的状态不是`Up`，执行命令来查看错误信息：
+
+```
+docker logs apachecn-doc
+```
+
+【将看到的错误放到搜索引擎中搜索，然后将解决方案写在这里。】
+
 ## `config.json`配置项说明
 
 +	`name`：Docker Nginx 容器名称
