@@ -66,7 +66,7 @@ yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/d
 yum install docker-ce docker-ce-cli containerd.io
 ```
 
-### 第四步：启动 Docker
+### 第五步：启动 Docker
 
 启动 Docker 服务：
 
