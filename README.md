@@ -163,6 +163,25 @@ tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      
 tcp6       0      0 :::80                   :::*                    LISTEN      15367/docker-proxy
 ```
 
+### 第十步：添加定时任务（可选）
+
+添加定时任务的目的是定期重新拉取文档内容，保持最新。
+
+执行`crontab -e`打开编辑器，插入一行：
+
+```
+0 0 * * * python3 {path}/one-key-deploy/deploy.py >> {path}/one-key-deploy/okd.log
+```
+
+其中`{path}`是该项目的绝对路径。
+
+查看是否添加成功：
+
+```
+# crontab -l
+0 0 * * * python3 /usr/local/bin/one-key-deploy/deploy.py >> /usr/local/bin/one-key-deploy/okd.log
+```
+
 ## `config.json`配置项说明
 
 +	`name`：Docker Nginx 容器名称
