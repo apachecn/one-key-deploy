@@ -123,6 +123,46 @@ cd one-key-deploy
 pip3 install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
 ```
 
+### 第八步：一键部署
+
+```
+nohup python3 deploy.py &
+```
+
+会在目录中生成一个`nohup.out`，读取它来查看进度：
+
+```
+# cat nohup.out
+...
+name: wiki, repo: https://github.com.cnpmjs.org/apachecn/team-wiki
+name: xgboost, repo: https://github.com.cnpmjs.org/apachecn/xgboost-doc-zh
+name: zeppelin, repo: https://github.com.cnpmjs.org/apachecn/zeppelin-doc-zh
+name: zetcode, repo: https://github.com.cnpmjs.org/apachecn/zetcode-zh
+name: apachecn-doc, repo: nginx, port: 80, secPort: 443
+KILL PID: 20416
+KILL PID: 20420
+KILL CONTAINER: 8b6205e903cb
+KILL PID: 20404
+KILL PID: 20400
+KILL CONTAINER: 8b6205e903cb
+```
+
+### 第九步：检查服务
+
+除了直接访问`https://{ip}:{port}`之外，可以通过命令行：
+
+```
+# docker ps -a | grep apachecn-doc
+3e7dbe4c8b29   nginx     "/docker-entrypoint.…"   22 hours ago   Up 16 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp   apachecn-doc
+```
+
+```
+# netstat -tnlp | grep 80
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      15363/docker-proxy
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      9569/node
+tcp6       0      0 :::80                   :::*                    LISTEN      15367/docker-proxy
+```
+
 ## `config.json`配置项说明
 
 +	`name`：Docker Nginx 容器名称
