@@ -135,6 +135,18 @@ pip3 install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple --trus
 
 ### 第九步：一键部署
 
+如果希望启用 HTTPS 请确保在第六步中添加了证书。
+
+执行命令打开编辑器：
+
+```
+vi config.json
+```
+
+将`"conf": "default"`改为`"conf": "apachecn-sec"`并保存。
+
+执行以下命令来部署文档服务：
+
 ```
 nohup python3 deploy.py &
 ```
