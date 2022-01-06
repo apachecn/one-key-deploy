@@ -103,7 +103,17 @@ This message shows that your installation appears to be working correctly.
 ...
 ```
 
-### 第六步：克隆本仓库
+### 第六步：添加证书（可选）
+
+创建目录：
+
+```
+mkdir -p /data/ssl
+```
+
+将证书文件放在`/data/ssl`中，一般存在于上一个服务器的相同目录中。
+
+### 第七步：克隆本仓库
 
 ```
 git clone https://github.com/apachecn/one-key-deploy
@@ -114,7 +124,7 @@ git clone https://github.com/apachecn/one-key-deploy
 +   CNPMJS：`https://github.com.cnpmjs.org/apachecn/one-key-deploy`
 +   GitClone：`https://gitclone.com/github.com/apachecn/one-key-deploy`
 
-### 第七步：安装 Python3 依赖
+### 第八步：安装 Python3 依赖
 
 （注意是`pip3`）
 
@@ -123,7 +133,7 @@ cd one-key-deploy
 pip3 install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
 ```
 
-### 第八步：一键部署
+### 第九步：一键部署
 
 ```
 nohup python3 deploy.py &
@@ -147,7 +157,7 @@ KILL PID: 20400
 KILL CONTAINER: 8b6205e903cb
 ```
 
-### 第九步：检查服务
+### 第十步：检查服务
 
 除了直接访问`https://{ip}:{port}`之外，可以通过命令行：
 
@@ -171,7 +181,7 @@ docker logs apachecn-doc
 
 【将看到的错误放到搜索引擎中搜索，然后将解决方案写在附录 A 中。】
 
-### 第十步：添加定时任务（可选）
+### 第十一步：添加定时任务（可选）
 
 添加定时任务的目的是定期重新拉取文档内容，保持最新。
 
