@@ -214,7 +214,9 @@ docker logs apachecn-doc
 
 ### 附录 A：故障排除
 
-【待填充】
+（1）`unix:///var/run/docker.sock. Is the docker daemon running?.`
+
+没有启动 Docker 系统服务，参考第五步。
 
 ## `config.json`配置项说明
 
