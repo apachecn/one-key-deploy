@@ -34,6 +34,35 @@ git version 1.8.3.1
 
 ### 第三步：安装 Docker
 
+先检查是否安装了 Docker，如果有就跳过这一步：
+
+```
+# docker --version
+Docker version 20.10.6, build 370c289
+```
+
+### 第四步：启动 Docker
+
+查看 Docker 服务情况：
+
+```
+# systemctl  status docker.service
+● docker.service - Docker Application Container Engine
+   Loaded: loaded (/usr/lib/systemd/system/docker.service; enabled; vendor preset: disabled)
+   Active: active (running) since Thu 2021-04-29 13:15:32 CST; 8 months 8 days ago
+     Docs: https://docs.docker.com
+ Main PID: 29885 (dockerd)
+    Tasks: 30
+   Memory: 182.8M'
+...
+```
+
+启动 Docker 服务：
+
+```
+# systemctl  start docker.service
+```
+
 
 
 ## `config.json`配置项说明
