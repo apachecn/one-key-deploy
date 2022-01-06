@@ -114,6 +114,15 @@ git clone https://github.com/apachecn/one-key-deploy
 +   CNPMJS：`https://github.com.cnpmjs.org/apachecn/one-key-deploy`
 +   GitClone：`https://gitclone.com/github.com/apachecn/one-key-deploy`
 
+### 第七步：安装 Python3 依赖
+
+（注意是`pip3`）
+
+```
+cd one-key-deploy
+pip3 install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
+```
+
 ## `config.json`配置项说明
 
 +	`name`：Docker Nginx 容器名称
