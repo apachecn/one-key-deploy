@@ -1,5 +1,41 @@
 # ApacheCN 文档一键部署
 
+## 部署手册
+
+### 第一步：检查系统版本
+
+一键部署工具可能不止支持一个系统，但目前只在 CentOS7 上有过部署。
+
+因此这个手册的所有命令都假定是 CentOS7。
+
+执行以下命令来查看是否是 CentOS7：
+
+```
+# cat /etc/centos-release
+CentOS Linux release 7.7.1908 (Core)
+```
+
+【如果运维人员在其它系统部署成功，更新这个手册。】
+
+### 第二步：检查 Python3 和 Git
+
+CentOS7 应该带这两个东西，无需安装。
+
+（自带的 Python3 应该是 3.6，不过没关系，3.6 以及更新版本都可以。）
+
+执行以下命令来查看是否安装：
+
+```
+# python3 --version
+Python 3.6.8
+# git --version
+git version 1.8.3.1
+```
+
+### 第三步：安装 Docker
+
+
+
 ## `config.json`配置项说明
 
 +	`name`：Docker Nginx 容器名称
