@@ -32,16 +32,47 @@ Python 3.6.8
 git version 1.8.3.1
 ```
 
-### 第三步：安装 Docker
+### 第三步：检查 Docker
 
-先检查是否安装了 Docker，如果有就跳过这一步：
+先检查是否安装了 Docker，如果有就跳过安装步骤：
 
 ```
 # docker --version
 Docker version 20.10.6, build 370c289
 ```
 
+或者：
+
+```
+# rpm -q docker-ce
+docker-ce-20.10.6-3.el7.x86_64
+```
+
+### 第四步：安装 Docker
+
+如果已安装，可以跳过。
+
+（1）通过脚本
+
+```
+curl -sSL https://get.daocloud.io/docker | sh
+```
+
+（2）通过包管理器
+
+```
+yum install -y yum-utils device-mapper-persistent-data lvm2
+yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+yum install docker-ce docker-ce-cli containerd.io
+```
+
 ### 第四步：启动 Docker
+
+启动 Docker 服务：
+
+```
+# systemctl  start docker.service
+```
 
 查看 Docker 服务情况：
 
@@ -57,12 +88,20 @@ Docker version 20.10.6, build 370c289
 ...
 ```
 
-启动 Docker 服务：
+运行 HelloWorld 容器来校验：
 
 ```
-# systemctl  start docker.service
-```
+# docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+2db29710123e: Pull complete
+Digest: sha256:2498fce14358aa50ead0cc6c19990fc6ff866ce72aeb5546e1d59caac3d0d60f
+Status: Downloaded newer image for hello-world:latest
 
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+...
+```
 
 
 ## `config.json`配置项说明
