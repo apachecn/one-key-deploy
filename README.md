@@ -103,6 +103,16 @@ This message shows that your installation appears to be working correctly.
 ...
 ```
 
+### 第六步：克隆本仓库
+
+```
+git clone https://github.com/apachecn/one-key-deploy
+```
+
+如果感觉到明显卡顿，可以使用以下镜像：
+
++   CNPMJS：`https://github.com.cnpmjs.org/apachecn/one-key-deploy`
++   GitClone：`https://gitclone.com/github.com/apachecn/one-key-deploy`
 
 ## `config.json`配置项说明
 
