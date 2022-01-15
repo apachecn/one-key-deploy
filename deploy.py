@@ -12,7 +12,7 @@ DOCKER_NGINX_RSRC = '/usr/share/nginx/html'
 DOCKER_NGINX_SSL  = '/etc/nginx/ssl'
 
 # 通过缓存解决获取不到脚本目录的问题
-PROJ_DIR = path.dirname(path.abspath(__file__)
+PROJ_DIR = path.dirname(path.abspath(__file__))
 
 def d(name):
     return path.join(PROJ_DIR, name)
