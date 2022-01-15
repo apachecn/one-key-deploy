@@ -198,7 +198,7 @@ docker logs apachecn-home
 执行`crontab -e`打开编辑器，插入一行：
 
 ```
-0 0 * * * python3 {path}/one-key-deploy/deploy.py >> {path}/one-key-deploy/okd.log
+0 0 * * * python3 {path}/one-key-deploy/deploy.py doc >> {path}/one-key-deploy/okd.log
 ```
 
 其中`{path}`是该项目的绝对路径。
@@ -207,7 +207,7 @@ docker logs apachecn-home
 
 ```
 # crontab -l
-0 0 * * * python3 /usr/local/bin/one-key-deploy/deploy.py >> /usr/local/bin/one-key-deploy/okd.log
+0 0 * * * python3 /usr/local/bin/one-key-deploy/deploy.py doc >> /usr/local/bin/one-key-deploy/okd.log
 ```
 
 ### 附录 A：故障排除
