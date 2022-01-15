@@ -68,7 +68,7 @@ def deploy_doc():
     ]
     
     # 释放配置文件
-    data_dir = config['dataDir']
+    data_dir = config['docDataDir']
     mkdirs_safe(data_dir)
     conf_dir = path.join(data_dir, 'conf')
     mkdirs_safe(conf_dir)
@@ -76,14 +76,12 @@ def deploy_doc():
     mkdirs_safe(rsrc_dir)
     log_dir = path.join(data_dir, 'log')
     mkdirs_safe(log_dir)
-    ssl_dir = config['sslDir']
-    mkdirs_safe(ssl_dir)
     
     asset_dir = path.join(rsrc_dir, 'asset')
     rmtree_safe(asset_dir)
     shutil.copytree(d('asset/site_asset'), asset_dir)
     shutil.copy(
-        d('asset/conf/' + config['conf'] + '.conf'),
+        d('asset/conf/' + config['docConf'] + '.conf'),
         path.join(conf_dir, 'default.conf'),
     )
     index_tmpl = open(d('asset/index.j2'), encoding='utf-8').read()
@@ -113,7 +111,7 @@ def deploy_doc():
         subp.Popen(f'git pull', shell=True).communicate()
     
     # 启动 Nginx
-    name, port, sec_port = config['name'], config['port'], config['secPort']
+    name, port, sec_port = config['docName'], config['docPort'], config['docSecPort']
     print(f'name: {name}, repo: nginx, port: {port}, secPort: {sec_port}')
     kill_port(port)
     kill_port(sec_port)
