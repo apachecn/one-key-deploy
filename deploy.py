@@ -11,8 +11,11 @@ DOCKER_NGINX_CONF = '/etc/nginx/conf.d'
 DOCKER_NGINX_RSRC = '/usr/share/nginx/html'
 DOCKER_NGINX_SSL  = '/etc/nginx/ssl'
 
+# 通过缓存解决获取不到脚本目录的问题
+PROJ_DIR = path.dirname(path.abspath(__file__)
+
 def d(name):
-    return path.join(path.dirname(path.abspath(__file__)), name)
+    return path.join(PROJ_DIR, name)
 
 def get_docker_containers():
     r = subp.Popen(
@@ -99,8 +102,6 @@ def deploy_home():
     subp.Popen(args, shell=True).communicate()
 
 def deploy_doc():
-    # 通过缓存解决获取不到脚本目录的问题
-    proj_dir = path.dirname(path.abspath(__file__)
     config = json.loads(
         open(d('config.json'), encoding='utf-8').read())
     # 按照首字母排序文档
@@ -177,7 +178,6 @@ def deploy_doc():
         'nginx',
     ])
     subp.Popen(args, shell=True).communicate()
-    os.chdir(proj_dir)
     
 def main():
     deploy_doc()
