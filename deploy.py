@@ -180,5 +180,6 @@ def deploy_doc():
     
 def main():
     deploy_doc()
+    deploy_home()
     
 if __name__ == '__main__': main()
