@@ -4,6 +4,7 @@ import psutil
 import shutil
 import os
 from os import path
+import sys
 import jinja2
 
 DOCKER_NGINX_LOG  = '/var/log/nginx'
@@ -180,7 +181,10 @@ def deploy_doc():
     subp.Popen(args, shell=True).communicate()
     
 def main():
-    deploy_doc()
-    deploy_home()
+    cmd = sys.argv[1] if len(sys.argv) > 1 else ''
+    if sys in ['', 'doc']:
+        deploy_doc()
+    if sys in ['', 'home']:
+        deploy_home()
     
 if __name__ == '__main__': main()
