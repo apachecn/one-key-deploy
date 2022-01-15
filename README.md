@@ -172,8 +172,8 @@ KILL CONTAINER: 8b6205e903cb
 除了直接访问`https://{ip}:{port}`之外，可以通过命令行：
 
 ```
-# docker ps -a | grep apachecn-doc
-3e7dbe4c8b29   nginx     "/docker-entrypoint.…"   22 hours ago   Up 16 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp   apachecn-doc
+# docker ps -a | grep apachecn-home
+3e7dbe4c8b29   nginx     "/docker-entrypoint.…"   22 hours ago   Up 16 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp   apachecn-home
 ```
 
 ```
@@ -186,7 +186,7 @@ tcp6       0      0 :::80                   :::*                    LISTEN      
 如果容器的状态不是`Up`，执行命令来查看错误信息：
 
 ```
-docker logs apachecn-doc
+docker logs apachecn-home
 ```
 
 【将看到的错误放到搜索引擎中搜索，然后将解决方案写在附录 A 中。】
