@@ -155,10 +155,9 @@ def deploy_doc():
         subp.Popen(f'git pull', shell=True).communicate()
     
     # 启动 Nginx
-    name, port, sec_port = config['docName'], config['docPort'], config['docSecPort']
-    print(f'name: {name}, repo: nginx, port: {port}, secPort: {sec_port}')
+    name, port = config['docName'], config['docPort']
+    print(f'name: {name}, repo: nginx, port: {port}')
     kill_port(port)
-    kill_port(sec_port)
     subp.Popen(f'docker rm -f {name}', shell=True).communicate()
     subp.Popen(f'docker pull nginx', shell=True).communicate()
     args = '\x20'.join([
@@ -168,7 +167,6 @@ def deploy_doc():
         f'--name {name}',
         # 绑定端口
         f'-p {port}:80',
-        f'-p {sec_port}:443',
         # 绑定配置、资源和日志目录
         f'-v "{conf_dir}:{DOCKER_NGINX_CONF}"',
         f'-v "{rsrc_dir}:{DOCKER_NGINX_RSRC}"',
