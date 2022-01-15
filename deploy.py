@@ -182,9 +182,9 @@ def deploy_doc():
     
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else ''
-    if sys in ['', 'doc']:
+    if cmd in ['', 'doc']:
         deploy_doc()
-    if sys in ['', 'home']:
+    if cmd in ['', 'home']:
         deploy_home()
     
 if __name__ == '__main__': main()
