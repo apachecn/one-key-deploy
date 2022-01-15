@@ -218,12 +218,16 @@ docker logs apachecn-home
 
 ## `config.json`配置项说明
 
-+	`name`：Docker Nginx 容器名称
-+	`port`：HTTP 端口号
-+	`secPort`：HTTPS 端口号
-+	`dataDir`：站点数据目录
++	`name`：主页 Nginx 容器名称
++	`docName`：文档 Nginx 容器名称
++	`port`：主页 HTTP 端口号
++	`secPort`：主页 HTTPS 端口号
++	`docPort`：文档 HTTP 端口号（用于转发）
++	`dataDir`：主页数据目录
++	`docDataDir`：文档数据目录
 +	`sslDir`：证书目录
-+	`conf`：Nginx 配置文件名称，在`asset/conf/${conf}.conf`
++	`conf`：主页 Nginx 配置文件名称，在`asset/conf/${conf}.conf`
++	`docConf`：文档 Nginx 配置文件名称，在`asset/conf/${conf}.conf`
 +	`clean`：如果为真，每次重新克隆文档仓库
 +	`cnzz`：CNZZ 统计后台 ID
 +	`bdStat`：百度统计后台 ID
