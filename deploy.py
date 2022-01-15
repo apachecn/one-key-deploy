@@ -99,6 +99,8 @@ def deploy_home():
     subp.Popen(args, shell=True).communicate()
 
 def deploy_doc():
+    # 通过缓存解决获取不到脚本目录的问题
+    proj_dir = path.dirname(path.abspath(__file__)
     config = json.loads(
         open(d('config.json'), encoding='utf-8').read())
     # 按照首字母排序文档
@@ -175,6 +177,7 @@ def deploy_doc():
         'nginx',
     ])
     subp.Popen(args, shell=True).communicate()
+    os.chdir(proj_dir)
     
 def main():
     deploy_doc()
