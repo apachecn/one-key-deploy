@@ -2,6 +2,8 @@
 	"name": "apachecn-doc",
 	"port": 80,
 	"secPort": 443,
+	"docPort": 10080,
+	"docSecPort": 10443,
 	"dataDir": "/data/apachecn-doc",
 	"sslDir": "/data/ssl",
 	"conf": "default",
