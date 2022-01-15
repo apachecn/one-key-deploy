@@ -54,7 +54,7 @@ def rmtree_safe(dir):
     if path.exists(dir):
         shutil.rmtree(dir)
 
-def main():
+def deploy_doc():
     config = json.loads(
         open(d('config.json'), encoding='utf-8').read())
     # 按照首字母排序文档
@@ -136,5 +136,8 @@ def main():
         'nginx',
     ])
     subp.Popen(args, shell=True).communicate()
+    
+def main():
+    deploy_doc()
     
 if __name__ == '__main__': main()
