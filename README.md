@@ -135,15 +135,13 @@ pip3 install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple --trus
 
 ### 第九步：一键部署
 
-如果希望启用 HTTPS 请确保在第六步中添加了证书。
-
-执行命令打开编辑器：
+首先设置是否启用 HTTPS，执行命令打开编辑器：
 
 ```
 vi config.json
 ```
 
-将`"conf": "default"`改为`"conf": "apachecn-sec"`并保存。
+如果需要启用 HTTPS，确保完成了第六步，并将`"conf"`的值改为`"apachecn-sec"`，否则改为`"default"`，并保存。
 
 执行以下命令来部署文档服务：
 
