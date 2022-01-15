@@ -12,7 +12,7 @@ DOCKER_NGINX_RSRC = '/usr/share/nginx/html'
 DOCKER_NGINX_SSL  = '/etc/nginx/ssl'
 
 def d(name):
-    return path.join(path.dirname(__file__), name)
+    return path.join(path.dirname(path.abspath(__file__)), name)
 
 def get_docker_containers():
     r = subp.Popen(
