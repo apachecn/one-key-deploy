@@ -38,7 +38,11 @@
 		{"name": "Datawhale", "link": "http://home.apachecn.org/img/qr/datawhale_qr.jpg"},
 		{"name": "Data Science Challenge / Competition", "link": "https://iphysresearch.github.io/DataSciComp/"},
 		{"name": "lzhpo", "link": "http://www.liuzhaopo.top/"},
-		{"name": "Jaybo", "link": "https://strivebo.com/"}
+		{"name": "Jaybo", "link": "https://strivebo.com/"},
+		{"name": "阿中哥", "link": "http://codefun007.xyz"},
+		{"name": "AIHub", "link": "https://www.kuxai.com/"},
+		{"name": "PyMiner", "link": "http://www.py2cn.com"},
+		{"name": "跑跑后花园", "link": "https://bbs.popkart.org/"}
 	],
 	"cates": ["编程", "前端", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "安全", "datawhale", "其它"],
 	"docs": [
