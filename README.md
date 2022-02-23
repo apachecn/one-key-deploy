@@ -216,6 +216,13 @@ docker logs apachecn-home
 
 没有启动 Docker 系统服务，参考第五步。
 
+## 已占用端口
+
++   80：主页 HTTP
++   443：主页 HTTPS
++   10080：文档导航站
++   8080：财务
+
 ## `config.json`配置项说明
 
 +	`name`：主页 Nginx 容器名称
