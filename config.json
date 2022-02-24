@@ -169,6 +169,7 @@
 		{"name":"sklearn","nameCn":"scikit-learn (sklearn) 官方文档中文版","repo":"https://github.com.cnpmjs.org/apachecn/sklearn-doc-zh", "cate":"人工智能", "logo": "skl"},
 		{"name":"smm","nameCn":"社交媒体挖掘 - 翻译版","repo":"https://github.com.cnpmjs.org/apachecn/socialmediamining-zh", "cate":"数据科学", "logo": "sns"},
 		{"name":"spark","nameCn":"Apache Spark 官方文档中文版","repo":"https://github.com.cnpmjs.org/apachecn/spark-doc-zh", "cate":"后端/大数据", "logo": "spark"},
+		{"name":"kafka","nameCn":"Apache Kafka 官方文档中文版","repo":"https://github.com.cnpmjs.org/apachecn/kafka-site-zh", "cate":"后端/大数据", "logo": "kafka"},
 		{"name":"spring-boot","nameCn":"Spring Boot 1.5.2 中文文档","repo":"https://github.com.cnpmjs.org/apachecn/spring-boot-doc-zh", "cate":"后端/大数据", "logo": "springboot"},
 		{"name":"cs183","nameCn":"斯坦福 CS183 & YC 创业课系列中文笔记📚","repo":"https://github.com.cnpmjs.org/apachecn/stanford-cs183-notes", "cate":"其它", "logo": "yc"},
 		{"name":"stats21","nameCn":"斯坦福 Stats60 21 世纪的统计思维🚧","repo":"https://github.com.cnpmjs.org/apachecn/stats-thinking-21-zh", "cate":"数据科学", "logo": "stanford"},
