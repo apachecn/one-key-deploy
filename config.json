@@ -142,7 +142,7 @@
 		{"name":"lmpythw","nameCn":"笨办法学 Python · 续 中文版","repo":"https://gitcode.net/apachecn/lmpythw-zh.git", "cate":"编程", "logo": "python"},
 		{"name":"lqcuq","nameCn":"使用 Qiskit 学习量子计算 - 翻译版","repo":"https://gitcode.net/apachecn/lqcuq-zh.git", "cate":"其它", "logo": "qiskit"},
 		{"name":"mpl","nameCn":"Matplotlib 用户指南","repo":"https://gitcode.net/apachecn/matplotlib-doc-zh.git", "cate":"数据科学", "logo": "mpl"},
-		{"name":"linalg","nameCn":"MIT 18.06 线性代数笔记","repo":"https://gitcode.net/apachecn/mit-18.git.06-linalg-notes", "cate":"数据科学", "logo": "mit"},
+		{"name":"linalg","nameCn":"MIT 18.06 线性代数笔记","repo":"https://gitcode.net/apachecn/mit-18.06-linalg-notes.git", "cate":"数据科学", "logo": "mit"},
 		{"name":"mlm","nameCn":"Machine Learning Mastery 博客文章翻译📚🚧","repo":"https://gitcode.net/apachecn/ml-mastery-zh.git", "cate":"人工智能", "logo": "ml"},
 		{"name":"mlm2","nameCn":"Machine Learning Mastery 博客文章翻译（二）📚🚧","repo":"https://gitcode.net/apachecn/ml-mastery-zh-pt2.git", "cate":"人工智能", "logo": "ml"},
 		{"name":"nltk","nameCn":"Python 自然语言处理 第二版","repo":"https://gitcode.net/apachecn/nlp-py-2e-zh.git", "cate":"人工智能", "logo": "nlp"},
