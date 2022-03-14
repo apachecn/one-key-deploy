@@ -78,6 +78,7 @@
 		{"name":"ng","nameCn":"ApacheCN Angular 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-angular-zh.git", "cate":"前端", "logo": "js"},
 		{"name":"react","nameCn":"ApacheCN React 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-react-zh.git", "cate":"前端", "logo": "js"},
 		{"name":"go","nameCn":"ApacheCN Golang 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-golang-zh.git", "cate":"编程", "logo": "go"},
+		{"name":"go2","nameCn":"ApacheCN Golang 译文集（二）📚","repo":"https://gitcode.net/apachecn/apachecn-golang-zh-pt2.git", "cate":"编程", "logo": "go"},
 		{"name":"jq","nameCn":"ApacheCN jQuery 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-jquery-zh.git", "cate":"前端", "logo": "js"},
 		{"name":"kali","nameCn":"ApacheCN Kali Linux 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-kali-zh.git", "cate":"安全", "logo": "sec"},
 		{"name":"nodejs","nameCn":"ApacheCN NodeJS 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-node-zh.git", "cate":"后端/大数据", "logo": "js"},
