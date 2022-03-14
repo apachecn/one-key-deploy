@@ -46,6 +46,12 @@
 	],
 	"cates": ["编程", "前端", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "安全", "datawhale", "其它"],
 	"docs": [
+		{"name":"jtp-dsai","nameCn":"JavaTPoint 数据科学与人工智能中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-dsai-zh.git", "cate":"人工智能", "logo": "ai"},
+		{"name":"jtp-lang","nameCn":"JavaTPoint 编程语言中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-prog-zh.git", "cate":"编程", "logo": "code"},
+		{"name":"jtp-cs","nameCn":"JavaTPoint 计算机科学中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-cs-zh.git", "cate":"编程", "logo": "code"},
+		{"name":"jtp-mobi","nameCn":"JavaTPoint 移动开发中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-mobi-zh.git", "cate":"前端", "logo": "code"},
+		{"name":"jtp-bigdata","nameCn":"JavaTPoint 大数据中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-bigdata-zh.git", "cate":"后端/大数据", "logo": "bigdata"},
+		{"name":"jtp-util","nameCn":"JavaTPoint 实用工具中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-util-zh.git", "cate":"工具", "logo": "code"},
 		{"name":"g4g-asp","nameCn":"GeeksForGeeks ASP 中文教程📚","repo":"https://gitcode.net/apachecn/geeksforgeeks-asp-zh.git", "cate":"后端/大数据", "logo": "csharp"},
 		{"name":"g4g-langmisc","nameCn":"GeeksForGeeks 编程语言杂项中文教程📚","repo":"https://gitcode.net/apachecn/geeksforgeeks-lang-misc-zh.git", "cate":"编程", "logo": "code"},
 		{"name":"g4g-ai","nameCn":"GeeksForGeeks 人工智能中文教程📚","repo":"https://gitcode.net/apachecn/geeksforgeeks-ai-zh.git", "cate":"人工智能", "logo": "ai"},
