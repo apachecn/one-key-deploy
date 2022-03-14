@@ -101,6 +101,7 @@
 		{"name":"jq2","nameCn":"ApacheCN jQuery 译文集（二）📚","repo":"https://gitcode.net/apachecn/apachecn-jquery-zh-pt2.git", "cate":"前端", "logo": "js"},
 		{"name":"kali","nameCn":"ApacheCN Kali Linux 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-kali-zh.git", "cate":"安全", "logo": "sec"},
 		{"name":"nodejs","nameCn":"ApacheCN NodeJS 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-node-zh.git", "cate":"后端/大数据", "logo": "js"},
+		{"name":"nodejs2","nameCn":"ApacheCN NodeJS 译文集（二）📚","repo":"https://gitcode.net/apachecn/apachecn-node-zh-pt2.git", "cate":"后端/大数据", "logo": "js"},
 		{"name":"php","nameCn":"ApacheCN PHP 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-php-zh.git", "cate":"后端/大数据", "logo": "php"},
 		{"name":"php2","nameCn":"ApacheCN PHP 译文集（二）📚","repo":"https://gitcode.net/apachecn/apachecn-php-zh-pt2.git", "cate":"后端/大数据", "logo": "php"},
 		{"name":"bigdata2","nameCn":"ApacheCN 大数据译文集（二）📚","repo":"https://gitcode.net/apachecn/apachecn-bigdata-zh-pt2.git", "cate":"后端/大数据", "logo": "ds"},
