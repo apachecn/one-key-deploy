@@ -56,6 +56,7 @@
 		{"name":"jtp-dnet","nameCn":"JavaTPoint Java 中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-java-zh.git", "cate":"编程", "logo": "java"},
 		{"name":"jtp-db","nameCn":"JavaTPoint 数据库中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-db-zh.git", "cate":"后端/大数据", "logo": "db"},
 		{"name":"jtp-php","nameCn":"JavaTPoint PHP 中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-php-zh.git", "cate":"后端/大数据", "logo": "php"},
+		{"name":"jtp-py","nameCn":"JavaTPoint Python 中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-python-zh.git", "cate":"编程", "logo": "python"},
 		{"name":"jtp-util","nameCn":"JavaTPoint 实用工具中文教程📚","repo":"https://gitcode.net/apachecn/javatpoint-util-zh.git", "cate":"工具", "logo": "code"},
 		{"name":"g4g-asp","nameCn":"GeeksForGeeks ASP 中文教程📚","repo":"https://gitcode.net/apachecn/geeksforgeeks-asp-zh.git", "cate":"后端/大数据", "logo": "csharp"},
 		{"name":"g4g-langmisc","nameCn":"GeeksForGeeks 编程语言杂项中文教程📚","repo":"https://gitcode.net/apachecn/geeksforgeeks-lang-misc-zh.git", "cate":"编程", "logo": "code"},
