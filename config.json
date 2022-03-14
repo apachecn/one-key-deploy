@@ -117,6 +117,8 @@
 		{"name":"linux2","nameCn":"ApacheCN Linux 译文集（二）📚","repo":"https://gitcode.net/apachecn/apachecn-linux-zh-pt2.git", "cate":"工具", "logo": "linux"},
 		{"name":"linux3","nameCn":"ApacheCN Linux 译文集（三）📚","repo":"https://gitcode.net/apachecn/apachecn-linux-zh-pt3.git", "cate":"工具", "logo": "linux"},
 		{"name":"ml","nameCn":"ApacheCN 机器学习译文集📚","repo":"https://gitcode.net/apachecn/apachecn-ml-zh.git", "cate":"人工智能", "logo": "ml"},
+		{"name":"ml2","nameCn":"ApacheCN 机器学习译文集（二）📚","repo":"https://gitcode.net/apachecn/apachecn-ml-zh-pt2.git", "cate":"人工智能", "logo": "ml"},
+		{"name":"ml3","nameCn":"ApacheCN 机器学习译文集（三）📚","repo":"https://gitcode.net/apachecn/apachecn-ml-zh-pt3.git", "cate":"人工智能", "logo": "ml"},
 		{"name":"py","nameCn":"ApacheCN Python 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-python-zh.git", "cate":"编程", "logo": "python"},
 		{"name":"py2","nameCn":"ApacheCN Python 译文集（二）📚","repo":"https://gitcode.net/apachecn/apachecn-python-zh-pt2.git", "cate":"编程", "logo": "python"},
 		{"name":"ruby","nameCn":"ApacheCN Ruby 译文集📚","repo":"https://gitcode.net/apachecn/apachecn-ruby-zh.git", "cate":"编程", "logo": "ruby"},
