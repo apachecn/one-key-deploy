@@ -259,6 +259,7 @@
 		{"name":"mww","nameCn":"男性觉醒 WIKI","repo":"https://gitcode.net/apachecn/male-wakeup-wiki.git", "cate":"其它", "logo": "biz"},
 		{"name":"rms","nameCn":"导师评价网备份","repo":"https://gitcode.net/apachecn/rate-my-supervisor.git", "cate":"其它", "logo": "biz"},
 		{"name":"ao3","nameCn":"AO3 镜像↗","link":"https://xiaozhan.icu/", "cate":"其它", "logo": "ao3"},
+		{"name":"yyets","nameCn":"人人影视分享站↗","link":"https://yyets.dmesg.app/", "cate":"其它", "logo": "yyets"},
 		{"name":"lptsw","nameCn":"聪明办法学Python↗","link":"https://github.com/datawhalechina/learn-python-the-smart-way", "cate":"datawhale", "logo": "python"},
 		{"name":"lptsw-v","nameCn":"聪明办法学Python📹↗","link":"https://www.bilibili.com/video/BV1hv411n7Yg", "cate":"datawhale", "logo": "python"},
 		{"name":"wdrsql","nameCn":"奇妙的SQL↗","link":"https://github.com/datawhalechina/wonderful-sql", "cate":"datawhale", "logo": "sql"},
