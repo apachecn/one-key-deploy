@@ -46,6 +46,7 @@
 	],
 	"cates": ["编程", "前端", "后端/大数据", "工具", "数据科学", "人工智能", "计算机科学", "安全", "datawhale", "其它"],
 	"docs": [
+		{"name":"it-ebooks","nameCn":"计算机电子书归档📚","repo":"https://gitcode.net/apachecn/it-ebooks-archive.git", "cate":"其它", "logo": "code"},
 		{"name":"pyauto-wiki","nameCn":"ApacheCN Python 自动化知识库📚","repo":"https://gitcode.net/apachecn/python-auto-wiki.git", "cate":"工具", "logo": "code"},
 		{"name":"web3-wiki","nameCn":"ApacheCN Web3 知识库📚","repo":"https://gitcode.net/apachecn/web3-wiki.git", "cate":"其它", "logo": "sns"},
 		{"name":"indie-wiki","nameCn":"ApacheCN 独立开发/自由职业/远程工作/数字游民知识库📚","repo":"https://gitcode.net/apachecn/apachecn-indie-wiki.git", "cate":"其它", "logo": "sns"},
