@@ -1444,3 +1444,78 @@ docs:
     link: '/it-ebooks/#/docs/cfan-2001-2005'
     cate: 其它
     logo: code
+  - name: atguigu-cdndrive
+    nameCn: 尚硅谷全套课件（CDNDrive）
+    link: '/it-ebooks/#/docs/atguigu-cdndrive'
+    cate: 编程
+    logo: code
+  - name: atguigu-dockerhub
+    nameCn: 尚硅谷全套课件（DockerHub）
+    link: '/it-ebooks/#/docs/atguigu-dockerhub'
+    cate: 编程
+    logo: code
+  - name: atguigu
+    nameCn: 尚硅谷全套课件（Git 仓库）
+    link: '/it-ebooks/#/docs/atguigu'
+    cate: 编程
+    logo: code
+  - name: c-biancheng-net-cdndrive
+    nameCn: C 语言编程网教程（CDNDrive）
+    link: '/it-ebooks/#/docs/c-biancheng-net-cdndrive'
+    cate: 编程
+    logo: code
+  - name: c-biancheng-net-dockerhub
+    nameCn: C 语言编程网教程（DockerHub）
+    link: '/it-ebooks/#/docs/c-biancheng-net-dockerhub'
+    cate: 编程
+    logo: code
+  - name: c-biancheng-net
+    nameCn: C 语言编程网教程（Git 仓库）
+    link: '/it-ebooks/#/docs/c-biancheng-net'
+    cate: 编程
+    logo: code
+  - name: ceh-cdndrive
+    nameCn: CEH 讲义（CDNDrive）
+    link: '/it-ebooks/#/docs/ceh-cdndrive'
+    cate: 安全
+    logo: sec
+  - name: ceh-dockerhub
+    nameCn: CEH 讲义（DockerHub）
+    link: '/it-ebooks/#/docs/ceh-dockerhub'
+    cate: 安全
+    logo: sec
+  - name: ceh
+    nameCn: CEH 讲义（Git 仓库）
+    link: '/it-ebooks/#/docs/ceh'
+    cate: 安全
+    logo: sec
+  - name: hackcto-secbook-cdndrive
+    nameCn: 安全参考和书安（CDNDrive）
+    link: '/it-ebooks/#/docs/hackcto-secbook-cdndrive'
+    cate: 安全
+    logo: sec
+  - name: hackcto-secbook-dockerhub
+    nameCn: 安全参考和书安（DockerHub）
+    link: '/it-ebooks/#/docs/hackcto-secbook-dockerhub'
+    cate: 安全
+    logo: sec
+  - name: hackcto-secbook
+    nameCn: 安全参考和书安（Git 仓库）
+    link: '/it-ebooks/#/docs/hackcto-secbook'
+    cate: 安全
+    logo: sec
+  - name: how2j-cdndrive
+    nameCn: HOW2J 全套教程（CDNDrive）
+    link: '/it-ebooks/#/docs/how2j-cdndrive'
+    cate: 编程
+    logo: code
+  - name: how2j-dockerhub
+    nameCn: HOW2J 全套教程（DockerHub）
+    link: '/it-ebooks/#/docs/how2j-dockerhub'
+    cate: 编程
+    logo: code
+  - name: how2j
+    nameCn: HOW2J 全套教程（Git 仓库）
+    link: '/it-ebooks/#/docs/how2j'
+    cate: 编程
+    logo: code
