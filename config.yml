@@ -1404,3 +1404,43 @@ docs:
     link: '/it-ebooks/#/docs/heifang-2000-2006'
     cate: 安全
     logo: sec
+  - name: cfan-2016-2020-dockerhub
+    nameCn: 电脑爱好者 2016~2020（DockerHub）
+    link: '/it-ebooks/#/docs/cfan-2016-2020-dockerhub'
+    cate: 其它
+    logo: code
+  - name: cfan-2016-2020-git
+    nameCn: 电脑爱好者 2016~2020（Git 仓库）
+    link: '/it-ebooks/#/docs/cfan-2016-2020'
+    cate: 其它
+    logo: code
+  - name: cfan-2011-2015-dockerhub
+    nameCn: 电脑爱好者 2011~2015（DockerHub）
+    link: '/it-ebooks/#/docs/cfan-2011-2015-dockerhub'
+    cate: 其它
+    logo: code
+  - name: cfan-2011-2015-git
+    nameCn: 电脑爱好者 2011~2015（Git 仓库）
+    link: '/it-ebooks/#/docs/cfan-2011-2015'
+    cate: 其它
+    logo: code
+  - name: cfan-2006-2010-dockerhub
+    nameCn: 电脑爱好者 2006~2010（DockerHub）
+    link: '/it-ebooks/#/docs/cfan-2006-2010-dockerhub'
+    cate: 其它
+    logo: code
+  - name: cfan-2006-2010-git
+    nameCn: 电脑爱好者 2006~2010（Git 仓库）
+    link: '/it-ebooks/#/docs/cfan-2006-2010'
+    cate: 其它
+    logo: code
+  - name: cfan-2001-2005-dockerhub
+    nameCn: 电脑爱好者 2001~2005（DockerHub）
+    link: '/it-ebooks/#/docs/cfan-22001-2005-dockerhub'
+    cate: 其它
+    logo: code
+  - name: cfan-2001-2005-git
+    nameCn: 电脑爱好者 2001~2005（Git 仓库）
+    link: '/it-ebooks/#/docs/cfan-2001-2005'
+    cate: 其它
+    logo: code
