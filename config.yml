@@ -1519,3 +1519,73 @@ docs:
     link: '/it-ebooks/#/docs/how2j'
     cate: 编程
     logo: code
+  - name: kssd-dockerhub
+    nameCn: 看雪软件安全文档库（DockerHub）
+    link: '/it-ebooks/#/docs/kssd-dockerhub'
+    cate: 安全
+    logo: sec
+  - name: kssd
+    nameCn: 看雪软件安全文档库（Git 仓库）
+    link: '/it-ebooks/#/docs/kssd'
+    cate: 安全
+    logo: sec
+  - name: nowcoder-cdndrive
+    nameCn: 牛客网面试笔试攻略（CDNDrive）
+    link: '/it-ebooks/#/docs/nowcoder-cdndrive'
+    cate: 编程
+    logo: code
+  - name: nowcoder-dockerhub
+    nameCn: 牛客网面试笔试攻略（DockerHub）
+    link: '/it-ebooks/#/docs/nowcoder-dockerhub'
+    cate: 编程
+    logo: code
+  - name: nowcoder
+    nameCn: 牛客网面试笔试攻略（Git 仓库）
+    link: '/it-ebooks/#/docs/nowcoder'
+    cate: 编程
+    logo: code
+  - name: sjtu-se-cdndrive
+    nameCn: 上海交大软件学院课件（CDNDrive）
+    link: '/it-ebooks/#/docs/sjtu-se-cdndrive'
+    cate: 计算机科学
+    logo: cs
+  - name: sjtu-se-dockerhub
+    nameCn: 上海交大软件学院课件（DockerHub）
+    link: '/it-ebooks/#/docs/sjtu-se-dockerhub'
+    cate: 计算机科学
+    logo: cs
+  - name: sjtu-se
+    nameCn: 上海交大软件学院课件（Git 仓库）
+    link: '/it-ebooks/#/docs/sjtu-se'
+    cate: 计算机科学
+    logo: cs
+  - name: tarena-cdndrive
+    nameCn: 达内 Java 全套教程（CDNDrive）
+    link: '/it-ebooks/#/docs/tarena-cdndrive'
+    cate: 编程
+    logo: java
+  - name: tarena-dockerhub
+    nameCn: 达内 Java 全套教程（DockerHub）
+    link: '/it-ebooks/#/docs/tarena-dockerhub'
+    cate: 编程
+    logo: java
+  - name: tarena
+    nameCn: 达内 Java 全套教程（Git 仓库）
+    link: '/it-ebooks/#/docs/tarena'
+    cate: 编程
+    logo: java
+  - name: tutorialspoint-cdndrive
+    nameCn: TutorialsPoint 电子书（CDNDrive）
+    link: '/it-ebooks/#/docs/tutorialspoint-cdndrive'
+    cate: 编程
+    logo: code
+  - name: tutorialspoint-dockerhub
+    nameCn: TutorialsPoint 电子书（DockerHub）
+    link: '/it-ebooks/#/docs/tutorialspoint-dockerhub'
+    cate: 编程
+    logo: code
+  - name: tutorialspoint
+    nameCn: TutorialsPoint 电子书（Git 仓库）
+    link: '/it-ebooks/#/docs/tutorialspoint'
+    cate: 编程
+    logo: code
