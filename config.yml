@@ -1,0 +1,1346 @@
+# 如果觉得好用，请收藏或则分享本站
+name: apachecn-home
+docName: apachecn-doc
+port: 80
+secPort: 443
+docPort: 10080
+dataDir: /data/apachecn-home
+docDataDir: /data/apachecn-doc
+sslDir: /data/ssl
+conf: apachecn-sec
+docConf: default
+clean: false
+cnzz: '1275211409'
+bdStat: 84fca651656bc67b4b2d56605b6d0852
+icp: 京ICP备15026725号-2
+title: ApacheCN 文档汇总 | 让开源界提前感受入关
+menus:
+  - name: 主页
+    link: 'http://apachecn.org'
+  - name: 公告
+    link: 'home/#/README'
+  - name: 知识树
+    link: 'home/#/docs/tree/README'
+  - name: 新知
+    link: 'https://it-ebooks.flygon.net/'
+  - name: 关于
+    link: 'home/#/docs/about'
+  - name: 捐赠
+    link: 'home/#/docs/donate/README'
+announce:
+  text: 遵循【先完成后完善】的原则，文档库中的大部分教程正处于并长期处于机翻状态，请大家做好足够的心理准备。
+  link: ''
+members:
+  - name: 大鱼
+    desc: iBooker组织创始人和组织运营
+    link: 'https://github.com/sorrowyn'
+    logo: dayu
+  - name: 飞龙
+    desc: iBooker组织创始人和ApacheCN文档翻译负责人
+    link: 'https://github.com/wizardforcel'
+    logo: flygon
+  - name: 一极
+    desc: iBooker组织创始人和商业洽谈
+    link: 'https://github.com/AllenZYJ'
+    logo: yiji
+  - name: 片刻
+    desc: iBooker组织创始人和ApacheCN团队发起人
+    link: 'http://github.com/jiangzhonglian'
+    logo: pianke
+links:
+  - name: 龙哥盟
+    link: 'https://flygon.net'
+  - name: ITEbooks
+    link: 'http://it-ebooks.flygon.net'
+  - name: Datawhale
+    link: 'http://home.apachecn.org/img/qr/datawhale_qr.jpg'
+  - name: Data Science Challenge / Competition
+    link: 'https://iphysresearch.github.io/DataSciComp/'
+  - name: lzhpo
+    link: 'http://www.liuzhaopo.top/'
+  - name: Jaybo
+    link: 'https://strivebo.com/'
+  - name: 阿中哥
+    link: 'http://codefun007.xyz'
+  - name: AIHub
+    link: 'https://www.kuxai.com/'
+  - name: PyMiner
+    link: 'http://www.py2cn.com'
+  - name: 跑跑后花园
+    link: 'https://bbs.popkart.org/'
+cates:
+  - 编程
+  - 前端
+  - 后端/大数据
+  - 工具
+  - 数据科学
+  - 人工智能
+  - 计算机科学
+  - 安全
+  - datawhale
+  - 其它
+docs:
+  - name: it-ebooks
+    nameCn: "计算机电子书归档\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/it-ebooks-archive.git'
+    cate: 其它
+    logo: code
+  - name: pyauto-wiki
+    nameCn: "ApacheCN Python 自动化知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/python-auto-wiki.git'
+    cate: 工具
+    logo: code
+  - name: web3-wiki
+    nameCn: "ApacheCN Web3 知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/web3-wiki.git'
+    cate: 其它
+    logo: sns
+  - name: indie-wiki
+    nameCn: "ApacheCN 独立开发/自由职业/远程工作/数字游民知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-indie-wiki.git'
+    cate: 其它
+    logo: sns
+  - name: baguwen-wiki
+    nameCn: "ApacheCN 八股文知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/baguwen-wiki.git'
+    cate: 计算机科学
+    logo: cs
+  - name: vuln-wiki
+    nameCn: "ApacheCN 漏洞知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-vuln-wiki.git'
+    cate: 安全
+    logo: sec
+  - name: re-wiki
+    nameCn: "ApacheCN 逆向工程知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-re-wiki.git'
+    cate: 安全
+    logo: sec
+  - name: oj-wiki
+    nameCn: "ApacheCN OJ 知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-oj-wiki.git'
+    cate: 编程
+    logo: code
+  - name: ctf-wiki
+    nameCn: "ApacheCN CTF 知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ctf-wiki.git'
+    cate: 安全
+    logo: sec
+  - name: jtp-dsai
+    nameCn: "JavaTPoint 数据科学与人工智能中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-dsai-zh.git'
+    cate: 人工智能
+    logo: ai
+  - name: jtp-lang
+    nameCn: "JavaTPoint 编程语言中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-prog-zh.git'
+    cate: 编程
+    logo: code
+  - name: jtp-cs
+    nameCn: "JavaTPoint 计算机科学中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-cs-zh.git'
+    cate: 计算机科学
+    logo: cs
+  - name: jtp-mobi
+    nameCn: "JavaTPoint 移动开发中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-mobi-zh.git'
+    cate: 前端
+    logo: code
+  - name: jtp-bigdata
+    nameCn: "JavaTPoint 大数据中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-bigdata-zh.git'
+    cate: 后端/大数据
+    logo: bigdata
+  - name: jtp-web
+    nameCn: "JavaTPoint Web 开发中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-web-zh.git'
+    cate: 后端/大数据
+    logo: code
+  - name: jtp-dnet
+    nameCn: "JavaTPoint .NET 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-dotnet-zh.git'
+    cate: 编程
+    logo: cs
+  - name: jtp-java
+    nameCn: "JavaTPoint Java 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-java-zh.git'
+    cate: 编程
+    logo: java
+  - name: jtp-db
+    nameCn: "JavaTPoint 数据库中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-db-zh.git'
+    cate: 后端/大数据
+    logo: db
+  - name: jtp-php
+    nameCn: "JavaTPoint PHP 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-php-zh.git'
+    cate: 后端/大数据
+    logo: php
+  - name: jtp-py
+    nameCn: "JavaTPoint Python 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-python-zh.git'
+    cate: 编程
+    logo: python
+  - name: jtp-util
+    nameCn: "JavaTPoint 实用工具中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/javatpoint-util-zh.git'
+    cate: 工具
+    logo: code
+  - name: g4g-asp
+    nameCn: "GeeksForGeeks ASP 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-asp-zh.git'
+    cate: 后端/大数据
+    logo: csharp
+  - name: g4g-langmisc
+    nameCn: "GeeksForGeeks 编程语言杂项中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-lang-misc-zh.git'
+    cate: 编程
+    logo: code
+  - name: g4g-ai
+    nameCn: "GeeksForGeeks 人工智能中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-ai-zh.git'
+    cate: 人工智能
+    logo: ai
+  - name: g4g-csharp
+    nameCn: "GeeksForGeeks C# 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-csharp-zh.git'
+    cate: 编程
+    logo: csharp
+  - name: g4g-sql
+    nameCn: "GeeksForGeeks SQL 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-sql-zh.git'
+    cate: 后端/大数据
+    logo: sql
+  - name: g4g-scala
+    nameCn: "GeeksForGeeks Scala 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-scala-zh.git'
+    cate: 编程
+    logo: scala
+  - name: g4g-py
+    nameCn: "GeeksForGeeks Python 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-python-zh.git'
+    cate: 编程
+    logo: python
+  - name: g4g-ccpp
+    nameCn: "GeeksForGeeks C/C++ 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-c-cpp-zh.git'
+    cate: 编程
+    logo: cpp
+  - name: g4g-java
+    nameCn: "GeeksForGeeks Java 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-java-zh.git'
+    cate: 编程
+    logo: java
+  - name: g4g-webmisc
+    nameCn: "GeeksForGeeks Web 杂项中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-web-misc-zh.git'
+    cate: 前端
+    logo: html
+  - name: g4g-avr
+    nameCn: "GeeksForGeeks Angular/Vue/React 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-ng-vue-react-zh.git'
+    cate: 前端
+    logo: js
+  - name: g4g-jq
+    nameCn: "GeeksForGeeks jQuery 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-jquery-zh.git'
+    cate: 前端
+    logo: js
+  - name: g4g-node
+    nameCn: "GeeksForGeeks NodeJS 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-nodejs-zh.git'
+    cate: 后端/大数据
+    logo: js
+  - name: g4g-js
+    nameCn: "GeeksForGeeks JavaScript 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-js-zh.git'
+    cate: 编程
+    logo: js
+  - name: g4g-css
+    nameCn: "GeeksForGeeks CSS 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-css-zh.git'
+    cate: 前端
+    logo: css
+  - name: g4g-html
+    nameCn: "GeeksForGeeks HTML 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-html-zh.git'
+    cate: 前端
+    logo: html
+  - name: g4g-php
+    nameCn: "GeeksForGeeks PHP 中文教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/geeksforgeeks-php-zh.git'
+    cate: 后端/大数据
+    logo: php
+  - name: devops
+    nameCn: "ApacheCN DevOps 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-devops-zh.git'
+    cate: 工具
+    logo: devops
+  - name: devops2
+    nameCn: "ApacheCN DevOps 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-devops-zh-pt2.git'
+    cate: 工具
+    logo: devops
+  - name: devops3
+    nameCn: "ApacheCN DevOps 译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-devops-zh-pt3.git'
+    cate: 工具
+    logo: devops
+  - name: devops4
+    nameCn: "ApacheCN DevOps 译文集（四）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-devops-zh-pt4.git'
+    cate: 工具
+    logo: devops
+  - name: devops5
+    nameCn: "ApacheCN DevOps 译文集（五）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-devops-zh-pt5.git'
+    cate: 工具
+    logo: devops
+  - name: db
+    nameCn: "ApacheCN 数据库译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-db-zh.git'
+    cate: 后端/大数据
+    logo: db
+  - name: db2
+    nameCn: "ApacheCN 数据库译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-db-zh-pt2.git'
+    cate: 后端/大数据
+    logo: db
+  - name: pyweb
+    nameCn: "ApacheCN Python Web 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-pythonweb-zh.git'
+    cate: 后端/大数据
+    logo: python
+  - name: pyweb2
+    nameCn: "ApacheCN Python Web 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-pythonweb-zh-pt2.git'
+    cate: 后端/大数据
+    logo: python
+  - name: csharp
+    nameCn: "ApacheCN C# 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-csharp-zh.git'
+    cate: 编程
+    logo: csharp
+  - name: csharp2
+    nameCn: "ApacheCN C# 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-csharp-zh-pt2.git'
+    cate: 编程
+    logo: csharp
+  - name: csharp3
+    nameCn: "ApacheCN C# 译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-csharp-zh-pt3.git'
+    cate: 编程
+    logo: csharp
+  - name: csharp4
+    nameCn: "ApacheCN C# 译文集（四）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-csharp-zh-pt4.git'
+    cate: 编程
+    logo: csharp
+  - name: aspx
+    nameCn: "ApacheCN Asp.NET 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-asp-dotnet-zh.git'
+    cate: 后端/大数据
+    logo: csharp
+  - name: aspx2
+    nameCn: "ApacheCN Asp.NET 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-asp-dotnet-zh-pt2.git'
+    cate: 后端/大数据
+    logo: csharp
+  - name: aspx3
+    nameCn: "ApacheCN Asp.NET 译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-asp-dotnet-zh-pt3.git'
+    cate: 后端/大数据
+    logo: csharp
+  - name: aspx4
+    nameCn: "ApacheCN Asp.NET 译文集（四）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-asp-dotnet-zh-pt4.git'
+    cate: 后端/大数据
+    logo: csharp
+  - name: vue
+    nameCn: "ApacheCN Vue 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-vue-zh.git'
+    cate: 前端
+    logo: js
+  - name: ng
+    nameCn: "ApacheCN Angular 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-angular-zh.git'
+    cate: 前端
+    logo: js
+  - name: react
+    nameCn: "ApacheCN React 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-react-zh.git'
+    cate: 前端
+    logo: js
+  - name: go
+    nameCn: "ApacheCN Golang 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-golang-zh.git'
+    cate: 编程
+    logo: go
+  - name: go2
+    nameCn: "ApacheCN Golang 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-golang-zh-pt2.git'
+    cate: 编程
+    logo: go
+  - name: jq
+    nameCn: "ApacheCN jQuery 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-jquery-zh.git'
+    cate: 前端
+    logo: js
+  - name: jq2
+    nameCn: "ApacheCN jQuery 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-jquery-zh-pt2.git'
+    cate: 前端
+    logo: js
+  - name: kali
+    nameCn: "ApacheCN Kali Linux 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-kali-zh.git'
+    cate: 安全
+    logo: sec
+  - name: nodejs
+    nameCn: "ApacheCN NodeJS 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-node-zh.git'
+    cate: 后端/大数据
+    logo: js
+  - name: nodejs2
+    nameCn: "ApacheCN NodeJS 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-node-zh-pt2.git'
+    cate: 后端/大数据
+    logo: js
+  - name: php
+    nameCn: "ApacheCN PHP 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-php-zh.git'
+    cate: 后端/大数据
+    logo: php
+  - name: php2
+    nameCn: "ApacheCN PHP 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-php-zh-pt2.git'
+    cate: 后端/大数据
+    logo: php
+  - name: bigdata2
+    nameCn: "ApacheCN 大数据译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-bigdata-zh-pt2.git'
+    cate: 后端/大数据
+    logo: ds
+  - name: bigdata3
+    nameCn: "ApacheCN 大数据译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-bigdata-zh-pt3.git'
+    cate: 后端/大数据
+    logo: ds
+  - name: bigdata
+    nameCn: "ApacheCN 大数据译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-bigdata-zh.git'
+    cate: 后端/大数据
+    logo: ds
+  - name: javaweb
+    nameCn: "ApacheCN Java Web 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-javaweb-zh.git'
+    cate: 后端/大数据
+    logo: java
+  - name: javaweb2
+    nameCn: "ApacheCN Java Web 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-javaweb-zh-pt2.git'
+    cate: 后端/大数据
+    logo: java
+  - name: ailearning
+    nameCn: "AILearning\U0001F4DA"
+    desc: 机器学习实战
+    repo: 'https://gitcode.net/apachecn/ailearning.git'
+    cate: 人工智能
+    logo: apachecn
+  - name: airflow
+    nameCn: Airflow 中文文档
+    repo: 'https://gitcode.net/apachecn/airflow-doc-zh.git'
+    cate: 后端/大数据
+    logo: airflow
+  - name: algo
+    nameCn: "ApacheCN 数据结构与算法译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-algo-zh.git'
+    cate: 计算机科学
+    logo: algo
+  - name: ccpp
+    nameCn: "ApacheCN C/C++ 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-c-cpp-zh.git'
+    cate: 编程
+    logo: cpp
+  - name: ccpp2
+    nameCn: "ApacheCN C/C++ 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-c-cpp-zh-pt2.git'
+    cate: 编程
+    logo: cpp
+  - name: ccpp3
+    nameCn: "ApacheCN C/C++ 译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-c-cpp-zh-pt3.git'
+    cate: 编程
+    logo: cpp
+  - name: cs
+    nameCn: "ApacheCN 计算机系统译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-sys-zh.git'
+    cate: 计算机科学
+    logo: cs
+  - name: cv
+    nameCn: "ApacheCN 计算机视觉译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-cv-zh.git'
+    cate: 人工智能
+    logo: ai
+  - name: cv2
+    nameCn: "ApacheCN 计算机视觉译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-cv-zh-pt2.git'
+    cate: 人工智能
+    logo: ai
+  - name: dl
+    nameCn: "ApacheCN 深度学习译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-dl-zh.git'
+    cate: 人工智能
+    logo: ai
+  - name: dl2
+    nameCn: "ApacheCN 深度学习译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-dl-zh-pt2.git'
+    cate: 人工智能
+    logo: ai
+  - name: dl3
+    nameCn: "ApacheCN 深度学习译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-dl-zh-pt3.git'
+    cate: 人工智能
+    logo: ai
+  - name: ds
+    nameCn: "ApacheCN 数据科学译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ds-zh.git'
+    cate: 数据科学
+    logo: ds
+  - name: ds2
+    nameCn: "ApacheCN 数据科学译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ds-zh-pt2.git'
+    cate: 数据科学
+    logo: ds
+  - name: ds3
+    nameCn: "ApacheCN 数据科学译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ds-zh-pt3.git'
+    cate: 数据科学
+    logo: ds
+  - name: ds
+    nameCn: "ApacheCN 数据科学译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ds-zh.git'
+    cate: 数据科学
+    logo: ds
+  - name: java
+    nameCn: "ApacheCN Java 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-java-zh.git'
+    cate: 编程
+    logo: java
+  - name: java2
+    nameCn: "ApacheCN Java 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-java-zh-pt2.git'
+    cate: 编程
+    logo: java
+  - name: java3
+    nameCn: "ApacheCN Java 译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-java-zh-pt3.git'
+    cate: 编程
+    logo: java
+  - name: js
+    nameCn: "ApacheCN JavaScript 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-js-zh.git'
+    cate: 编程
+    logo: js
+  - name: js2
+    nameCn: "ApacheCN JavaScript 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-js-zh-pt2.git'
+    cate: 编程
+    logo: js
+  - name: js3
+    nameCn: "ApacheCN JavaScript 译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-js-zh-pt3.git'
+    cate: 编程
+    logo: js
+  - name: js4
+    nameCn: "ApacheCN JavaScript 译文集（四）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-js-zh-pt4.git'
+    cate: 编程
+    logo: js
+  - name: linux
+    nameCn: "ApacheCN Linux 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-linux-zh.git'
+    cate: 工具
+    logo: linux
+  - name: linux2
+    nameCn: "ApacheCN Linux 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-linux-zh-pt2.git'
+    cate: 工具
+    logo: linux
+  - name: linux3
+    nameCn: "ApacheCN Linux 译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-linux-zh-pt3.git'
+    cate: 工具
+    logo: linux
+  - name: ml
+    nameCn: "ApacheCN 机器学习译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ml-zh.git'
+    cate: 人工智能
+    logo: ml
+  - name: ml2
+    nameCn: "ApacheCN 机器学习译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ml-zh-pt2.git'
+    cate: 人工智能
+    logo: ml
+  - name: ml3
+    nameCn: "ApacheCN 机器学习译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ml-zh-pt3.git'
+    cate: 人工智能
+    logo: ml
+  - name: py
+    nameCn: "ApacheCN Python 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-python-zh.git'
+    cate: 编程
+    logo: python
+  - name: py2
+    nameCn: "ApacheCN Python 译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-python-zh-pt2.git'
+    cate: 编程
+    logo: python
+  - name: py3
+    nameCn: "ApacheCN Python 译文集（三）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-python-zh-pt3.git'
+    cate: 编程
+    logo: python
+  - name: py4
+    nameCn: "ApacheCN Python 译文集（四）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-python-zh-pt4.git'
+    cate: 编程
+    logo: python
+  - name: ruby
+    nameCn: "ApacheCN Ruby 译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-ruby-zh.git'
+    cate: 编程
+    logo: ruby
+  - name: sec
+    nameCn: "ApacheCN 网络安全译文集\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-sec-zh.git'
+    cate: 安全
+    logo: sec
+  - name: sec2
+    nameCn: "ApacheCN 网络安全译文集（二）\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/apachecn-sec-zh-pt2.git'
+    cate: 安全
+    logo: sec
+  - name: beginnersbook
+    nameCn: "BeginnersBook 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/beginnersbook-zh.git'
+    cate: 编程
+    logo: code
+  - name: bcem
+    nameCn: 生化环材劝退文集
+    repo: 'https://gitcode.net/apachecn/bio-chem-env-mat-discourage.git'
+    cate: 其它
+    logo: discourage
+  - name: biz5min
+    nameCn: 5 分钟商学院精细笔记
+    repo: 'https://gitcode.net/apachecn/business-5min-notes.git'
+    cate: 其它
+    logo: biz5min
+  - name: calc4b
+    nameCn: "MIT 18.03 面向初学者的微积分\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/calc4b-zh.git'
+    cate: 数据科学
+    logo: mit
+  - name: cython
+    nameCn: "Cython 3.0 中文文档\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/cython-doc-zh.git'
+    cate: 工具
+    logo: python
+  - name: data8
+    nameCn: UCB Data8 计算与推断思维
+    repo: 'https://gitcode.net/apachecn/data8-textbook-zh.git'
+    cate: 数据科学
+    logo: ucb
+  - name: dataviz
+    nameCn: 数据可视化的基础知识
+    repo: 'https://gitcode.net/apachecn/dataviz-zh.git'
+    cate: 数据科学
+    logo: dataviz
+  - name: dsai-notes
+    nameCn: 数据科学和人工智能技术笔记
+    repo: 'https://gitcode.net/apachecn/ds-ai-tech-notes.git'
+    cate: 数据科学
+    logo: ds
+  - name: ds-ipynb
+    nameCn: "数据科学 IPython 笔记本\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/ds-ipynb-zh.git'
+    cate: 数据科学
+    logo: jupyter
+  - name: ds100
+    nameCn: "UCB DS100 数据科学的原理与技巧\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/ds100-textbook-zh.git'
+    cate: 数据科学
+    logo: ucb
+  - name: dsai-wiki
+    nameCn: ApacheCN 数据科学和人工智能知识库
+    repo: 'https://gitcode.net/apachecn/dsai-wiki.git'
+    cate: 数据科学
+    logo: ai
+  - name: elasticsearch
+    nameCn: Elasticsearch 5.4 中文文档
+    repo: 'https://gitcode.net/apachecn/elasticsearch-doc-zh.git'
+    cate: 后端/大数据
+    logo: els
+  - name: eloquent-js
+    nameCn: JavaScript 编程精解 中文第三版
+    repo: 'https://gitcode.net/apachecn/eloquent-js-3e-zh.git'
+    cate: 编程
+    logo: js
+  - name: fasttext
+    nameCn: FastText 中文文档
+    repo: 'https://gitcode.net/apachecn/fasttext-doc-zh.git'
+    cate: 人工智能
+    logo: fasttext
+  - name: fe4ml
+    nameCn: 面向机器学习的特征工程
+    repo: 'https://gitcode.net/apachecn/fe4ml-zh.git'
+    cate: 人工智能
+    logo: ai
+  - name: flink
+    nameCn: Flink 中文文档
+    repo: 'https://gitcode.net/apachecn/flink-doc-zh.git'
+    cate: 后端/大数据
+    logo: flink
+  - name: gensim
+    nameCn: Gensim 中文文档
+    repo: 'https://gitcode.net/apachecn/gensim-doc-zh.git'
+    cate: 人工智能
+    logo: gensim
+  - name: git
+    nameCn: "Git 中文参考\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/git-doc-zh.git'
+    cate: 工具
+    logo: git
+  - name: gitlab
+    nameCn: "Gitlab 中文文档\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/gitlab-doc-zh.git'
+    cate: 工具
+    logo: gitlab
+  - name: guru99
+    nameCn: "Guru99 中文系列教程\U0001F4DA\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/guru99-zh.git'
+    cate: 编程
+    logo: code
+  - name: hands1ml
+    nameCn: Sklearn 与 TensorFlow 机器学习实用指南第二版
+    repo: 'https://gitcode.net/apachecn/hands-on-ml-2e-zh.git'
+    cate: 人工智能
+    logo: skl
+  - name: hbase
+    nameCn: "HBase™ 中文参考指南 3.0\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/hbase-doc-zh.git'
+    cate: 后端/大数据
+    logo: hbase
+  - name: hseg
+    nameCn: "HighScalability 中文示例\U0001F4DA\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/highscalability-examples-zh.git'
+    cate: 后端/大数据
+    logo: backend
+  - name: home
+    nameCn: iBooker 布客
+    repo: 'https://gitcode.net/apachecn/home.git'
+    cate: 其它
+    logo: apachecn
+    hidden: true
+  - name: htdij
+    nameCn: "HowToDoInJava 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/howtodoinjava-zh.git'
+    cate: 编程
+    logo: code
+  - name: oiq
+    nameCn: "OverIQ 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/overiq-zh.git'
+    cate: 编程
+    logo: code
+  - name: let
+    nameCn: "LearnETutroials 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/learnetutorials-zh.git'
+    cate: 编程
+    logo: code
+  - name: stn
+    nameCn: "StudyTonight 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/studytonight-zh.git'
+    cate: 编程
+    logo: code
+  - name: tgw
+    nameCn: "TutorialGateway 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/tutorialgateway-zh.git'
+    cate: 编程
+    logo: code
+  - name: tgwbi
+    nameCn: "TutorialGateway BI 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/tutorialgateway-bi-zh.git'
+    cate: 编程
+    logo: code
+  - name: tch
+    nameCn: "TutorialsTeacher 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/tutorialsteacher-zh.git'
+    cate: 编程
+    logo: code
+  - name: gbe20
+    nameCn: 通过示例学 Golang 2020 中文版
+    repo: 'https://gitcode.net/apachecn/golang-by-example-2020-zh.git'
+    cate: 编程
+    logo: go
+  - name: ipd
+    nameCn: iBooker 布客老实人报
+    repo: 'https://gitcode.net/apachecn/ibooker-plain-dealer.git'
+    cate: 其它
+    logo: greenhat
+  - name: impatient-js
+    nameCn: "写给不耐烦程序员的 JavaScript\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/impatient-js-zh.git'
+    cate: 编程
+    logo: js
+  - name: jbt
+    nameCn: "JavaBeginnersTutorial 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/jbt-zh.git'
+    cate: 编程
+    logo: java
+  - name: jtn
+    nameCn: "JavaTutorialNetwork 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/jtn-zh.git'
+    cate: 编程
+    logo: java
+  - name: kibana
+    nameCn: Kibana 5.2 中文文档
+    repo: 'https://gitcode.net/apachecn/kibana-doc-zh.git'
+    cate: 后端/大数据
+    logo: kibana
+  - name: kudu
+    nameCn: Kudu 1.4.0 中文文档
+    repo: 'https://gitcode.net/apachecn/kudu-doc-zh.git'
+    cate: 后端/大数据
+    logo: kibana
+  - name: lcthw
+    nameCn: 笨办法学C 中文版
+    repo: 'https://gitcode.net/apachecn/lcthw-zh.git'
+    cate: 编程
+    logo: c
+  - name: lightgbm
+    nameCn: LightGBM 中文文档
+    repo: 'https://gitcode.net/apachecn/lightgbm-doc-zh.git'
+    cate: 人工智能
+    logo: lgbm
+  - name: llthw
+    nameCn: 笨办法学 Linux 中文版
+    repo: 'https://gitcode.net/apachecn/llthw-zh.git'
+    cate: 工具
+    logo: linux
+  - name: lmpythw
+    nameCn: 笨办法学 Python · 续 中文版
+    repo: 'https://gitcode.net/apachecn/lmpythw-zh.git'
+    cate: 编程
+    logo: python
+  - name: lqcuq
+    nameCn: 使用 Qiskit 学习量子计算 - 翻译版
+    repo: 'https://gitcode.net/apachecn/lqcuq-zh.git'
+    cate: 其它
+    logo: qiskit
+  - name: mpl
+    nameCn: Matplotlib 用户指南
+    repo: 'https://gitcode.net/apachecn/matplotlib-doc-zh.git'
+    cate: 数据科学
+    logo: mpl
+  - name: linalg
+    nameCn: MIT 18.06 线性代数笔记
+    repo: 'https://gitcode.net/apachecn/mit-18.06-linalg-notes.git'
+    cate: 数据科学
+    logo: mit
+  - name: mlm
+    nameCn: "Machine Learning Mastery 博客文章翻译\U0001F4DA\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/ml-mastery-zh.git'
+    cate: 人工智能
+    logo: ml
+  - name: mlm2
+    nameCn: "Machine Learning Mastery 博客文章翻译（二）\U0001F4DA\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/ml-mastery-zh-pt2.git'
+    cate: 人工智能
+    logo: ml
+  - name: nltk
+    nameCn: Python 自然语言处理 第二版
+    repo: 'https://gitcode.net/apachecn/nlp-py-2e-zh.git'
+    cate: 人工智能
+    logo: nlp
+  - name: nlp-pt
+    nameCn: PyTorch 自然语言处理
+    repo: 'https://gitcode.net/apachecn/nlp-pytorch-zh.git'
+    cate: 人工智能
+    logo: pt
+  - name: ntuml
+    nameCn: 台湾大学林轩田机器学习笔记
+    repo: 'https://gitcode.net/apachecn/ntu-hsuantienlin-ml.git'
+    cate: 人工智能
+    logo: ml
+  - name: numba
+    nameCn: "Numba 0.44 中文文档\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/numba-doc-zh.git'
+    cate: 工具
+    logo: python
+  - name: opencv
+    nameCn: OpenCV 中文文档 4.0.0
+    repo: 'https://gitcode.net/apachecn/opencv-doc-zh.git'
+    cate: 人工智能
+    logo: opencv
+  - name: principles
+    nameCn: 原则 · 中文版
+    repo: 'https://gitcode.net/apachecn/principles-zh.git'
+    cate: 其它
+    logo: principle
+  - name: miz
+    nameCn: "Programiz 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/programiz-zh.git'
+    cate: 编程
+    logo: code
+  - name: pyda
+    nameCn: 利用 Python 进行数据分析 · 第 2 版
+    repo: 'https://gitcode.net/apachecn/pyda-2e-zh.git'
+    cate: 数据科学
+    logo: pandas
+  - name: pyqt4
+    nameCn: "PyQt4 中文文档\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/pyqt4-doc-zh.git'
+    cate: 工具
+    logo: qt
+  - name: pypn
+    nameCn: "PythonProgramming.net 系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/python-programming-net-zh.git'
+    cate: 人工智能
+    logo: ai
+  - name: pythonbasics
+    nameCn: "PythonBasics 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/pythonbasics-zh.git'
+    cate: 编程
+    logo: python
+  - name: pythonguru
+    nameCn: "PythonGuru 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/pythonguru-zh.git'
+    cate: 编程
+    logo: python
+  - name: pythonspot
+    nameCn: "PythonSpot 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/pythonspot-zh.git'
+    cate: 编程
+    logo: python
+  - name: pytorch
+    nameCn: PyTorch 中文教程
+    repo: 'https://gitcode.net/apachecn/pytorch-doc-zh.git'
+    cate: 人工智能
+    logo: pt
+  - name: qlearn
+    nameCn: QuantLearning
+    repo: 'https://gitcode.net/apachecn/quant-learning.git'
+    cate: 数据科学
+    logo: quant
+  - name: seclearn
+    nameCn: "SecLearning——零组文库备份\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/sec-learning.git'
+    cate: 安全
+    logo: sec
+  - name: scrapy
+    nameCn: Scrapy 1.6 中文文档
+    repo: 'https://gitcode.net/apachecn/scrapy-doc-zh.git'
+    cate: 工具
+    logo: scrapy
+  - name: seaborn
+    nameCn: seaborn 0.9 中文文档
+    repo: 'https://gitcode.net/apachecn/seaborn-doc-zh.git'
+    cate: 数据科学
+    logo: seaborn
+  - name: sec-wiki
+    nameCn: "ApacheCN 安全知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/sec-wiki.git'
+    cate: 安全
+    logo: sec
+  - name: sicp-js
+    nameCn: "NUS CS1101s SICP JavaScript 描述\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/sicp-js-zh.git'
+    cate: 计算机科学
+    logo: sicp
+  - name: sicp-py
+    nameCn: UCB CS61a SICP Python 描述
+    repo: 'https://gitcode.net/apachecn/sicp-py-zh.git'
+    cate: 计算机科学
+    logo: sicp
+  - name: sklearn
+    nameCn: scikit-learn (sklearn) 官方文档中文版
+    repo: 'https://gitcode.net/apachecn/sklearn-doc-zh.git'
+    cate: 人工智能
+    logo: skl
+  - name: smm
+    nameCn: 社交媒体挖掘 - 翻译版
+    repo: 'https://gitcode.net/apachecn/socialmediamining-zh.git'
+    cate: 数据科学
+    logo: sns
+  - name: spark
+    nameCn: Apache Spark 官方文档中文版
+    repo: 'https://gitcode.net/apachecn/spark-doc-zh.git'
+    cate: 后端/大数据
+    logo: spark
+  - name: kafka
+    nameCn: Apache Kafka 官方文档中文版
+    repo: 'https://gitcode.net/apachecn/kafka-site-zh.git'
+    cate: 后端/大数据
+    logo: kafka
+  - name: spring-boot
+    nameCn: Spring Boot 1.5.2 中文文档
+    repo: 'https://gitcode.net/apachecn/spring-boot-doc-zh.git'
+    cate: 后端/大数据
+    logo: springboot
+  - name: cs183
+    nameCn: "斯坦福 CS183 & YC 创业课系列中文笔记\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/stanford-cs183-notes.git'
+    cate: 其它
+    logo: yc
+  - name: stats21
+    nameCn: "斯坦福 Stats60 21 世纪的统计思维\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/stats-thinking-21-zh.git'
+    cate: 数据科学
+    logo: stanford
+  - name: storm
+    nameCn: Storm 1.1.0 中文文档
+    repo: 'https://gitcode.net/apachecn/storm-doc-zh.git'
+    cate: 后端/大数据
+    logo: storm
+  - name: wiki
+    nameCn: "iBooker 团队知识库\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/team-wiki.git'
+    cate: 其它
+    logo: apachecn
+  - name: blog
+    nameCn: ApacheCN 技术评论
+    repo: 'https://gitcode.net/apachecn/tech-review.git'
+    cate: 其它
+    logo: apachecn
+  - name: wealfree
+    nameCn: 通往财富自由之路精细笔记
+    repo: 'https://gitcode.net/apachecn/the-way-to-wealth-freedom-notes.git'
+    cate: 其它
+    logo: wealfree
+  - name: think-comp
+    nameCn: 复杂性思维 中文第二版
+    repo: 'https://gitcode.net/apachecn/think-comp-2e-zh.git'
+    cate: 数据科学
+    logo: python
+  - name: think-dast
+    nameCn: 数据结构思维中文版
+    repo: 'https://gitcode.net/apachecn/think-dast-zh.git'
+    cate: 计算机科学
+    logo: algo
+  - name: think-py
+    nameCn: Think Python
+    repo: 'https://gitcode.net/apachecn/think-py-2e-zh.git'
+    cate: 编程
+    logo: python
+  - name: cs294-112
+    nameCn: UCB CS294-112 深度强化学习中文笔记
+    ucb: 'https://gitcode.net/apachecn/ucb-cs294-112-notes-zh.git'
+    cate: 人工智能
+    logo: ucb
+  - name: cs241
+    nameCn: "UIUC CS241 系统编程中文讲义\U0001F6A7"
+    repo: 'https://gitcode.net/apachecn/uiuc-cs241-notes-zh.git'
+    cate: 计算机科学
+    logo: uiuc
+  - name: webhack101
+    nameCn: Web Hacking 101 中文版
+    repo: 'https://gitcode.net/apachecn/web-hacking-101-zh.git'
+    cate: 安全
+    logo: sec
+  - name: xgboost
+    nameCn: XGBoost 中文文档
+    repo: 'https://gitcode.net/apachecn/xgboost-doc-zh.git'
+    cate: 人工智能
+    logo: xgb
+  - name: zeppelin
+    nameCn: Zeppelin 0.7.2 中文文档
+    repo: 'https://gitcode.net/apachecn/zeppelin-doc-zh.git'
+    cate: 后端/大数据
+    logo: zeppelin
+  - name: zetcode
+    nameCn: "ZetCode 中文系列教程\U0001F4DA"
+    repo: 'https://gitcode.net/apachecn/zetcode-zh.git'
+    cate: 编程
+    logo: code
+  - name: onjava8
+    nameCn: On Java 8 中文版↗
+    link: 'https://github.com/LingCoder/OnJava8'
+    cate: 编程
+    logo: java
+  - name: effective-java-3rd
+    nameCn: Effective Java 中文第三版
+    link: 'https://gitcode.net/apachecn/effective-java-3rd-chinese.git'
+    cate: 编程
+    logo: java
+  - name: kivy
+    nameCn: Kivy 中文文档↗
+    link: 'https://github.com/Kivy-CN/Kivy-CN'
+    cate: 工具
+    logo: python
+  - name: simupy
+    nameCn: SimuPy 中文文档↗
+    link: 'https://github.com/cycleuser/simupy-doc-cn'
+    cate: 数据科学
+    logo: python
+  - name: pyminer
+    nameCn: PyMiner 开发者指南
+    repo: 'https://gitcode.net/apachecn/pyminer-dev-guide.git'
+    cate: 数据科学
+    logo: python
+  - name: sta663
+    nameCn: 杜克 STA663 计算统计学讲义↗
+    link: 'https://github.com/Kivy-CN/Duke-STA-663-CN'
+    cate: 数据科学
+    logo: ds
+  - name: cs229
+    nameCn: 斯坦福 CS229 机器学习中文笔记↗
+    link: 'http://ai-start.com/ml2014'
+    cate: 人工智能
+    logo: ai
+  - name: dlai
+    nameCn: DeepLearning.ai 深度学习中文笔记↗
+    link: 'http://ai-start.com/dl2017'
+    cate: 人工智能
+    logo: ai
+  - name: gia
+    nameCn: "Girls In AI\U0001F4DA↗"
+    desc: 面向编程零基础女孩子的AI算法工程师养成计划
+    link: 'https://github.com/YZHANG1270/Girls-In-AI'
+    cate: 人工智能
+    logo: ai
+  - name: jse12d7195a9ff
+    nameCn: 推荐系统遇上深度学习↗
+    link: 'https://www.jianshu.com/c/e12d7195a9ff'
+    cate: 人工智能
+    logo: ai
+  - name: DataSciComp
+    nameCn: 数据科学比赛收集平台↗
+    link: 'https://github.com/iphysresearch/DataSciComp'
+    cate: 数据科学
+    logo: ds
+  - name: hacker-playbook3
+    nameCn: 渗透测试实战第三版（红队版）↗
+    link: 'https://github.com/Snowming04/The-Hacker-Playbook-3-Translation'
+    cate: 安全
+    logo: sec
+  - name: cs4
+    nameCn: CobaltStrike 4.0 中文用户手册↗
+    link: 'https://github.com/Snowming04/CobaltStrike4.0_related'
+    cate: 安全
+    logo: sec
+  - name: ShameCom
+    nameCn: "校招污点公司记录\U0001F4DD↗"
+    link: 'https://github.com/ShameCom/ShameCom'
+    cate: 其它
+    logo: biz
+  - name: zhangyi
+    nameCn: ZhangYi 的博客文章↗
+    link: 'http://codewithzhangyi.com/blog'
+    cate: 其它
+    logo: biz
+  - name: interview
+    nameCn: "Interview\U0001F4DA"
+    desc: 简历指南 + LeetCode + Kaggle
+    link: 'https://gitcode.net/apachecn/Interview.git'
+    cate: 人工智能
+    logo: ai
+  - name: cs-courses
+    nameCn: "计算机公开课推荐\U0001F4DD"
+    link: 'https://gitcode.net/apachecn/awesome-cs-courses-zh.git'
+    cate: 计算机科学
+    logo: cs
+  - name: ai-roadmap
+    nameCn: "AI 路线图（知识树）\U0001F4DD"
+    link: 'https://gitcode.net/apachecn/ai-roadmap.git'
+    cate: 人工智能
+    logo: ai
+  - name: ds-solution
+    nameCn: "数据科学/人工智能比赛解决方案汇总\U0001F4DD"
+    link: 'https://gitcode.net/apachecn/awesome-data-comp-solution.git'
+    cate: 人工智能
+    logo: ai
+  - name: indie
+    nameCn: "独立开发/自由职业/远程工作资源列表\U0001F4DD"
+    link: 'https://gitcode.net/apachecn/awesome-indie-zh.git'
+    cate: 其它
+    logo: biz
+  - name: resume
+    nameCn: "简历分享系列视频\U0001F3A5"
+    link: 'https://www.bilibili.com/video/av53122083'
+    cate: 其它
+    logo: biz
+  - name: kaggle
+    nameCn: "Kaggle 学习系列视频\U0001F3A5"
+    link: 'https://www.bilibili.com/video/av53119200'
+    cate: 人工智能
+    logo: ai
+  - name: data
+    nameCn: data
+    repo: 'https://gitcode.net/apachecn/data.git'
+    cate: 其它
+    logo: data
+    hidden: true
+  - name: mww
+    nameCn: 男性觉醒 WIKI
+    repo: 'https://gitcode.net/apachecn/male-wakeup-wiki.git'
+    cate: 其它
+    logo: biz
+  - name: rms
+    nameCn: 导师评价网备份
+    repo: 'https://gitcode.net/apachecn/rate-my-supervisor.git'
+    cate: 其它
+    logo: biz
+  - name: ao3
+    nameCn: AO3 镜像↗
+    link: 'https://xiaozhan.icu/'
+    cate: 其它
+    logo: ao3
+  - name: yyets
+    nameCn: 人人影视分享站↗
+    link: 'https://yyets.dmesg.app/'
+    cate: 其它
+    logo: yyets
+  - name: lptsw
+    nameCn: 聪明办法学Python↗
+    link: 'https://github.com/datawhalechina/learn-python-the-smart-way'
+    cate: datawhale
+    logo: python
+  - name: lptsw-v
+    nameCn: "聪明办法学Python\U0001F4F9↗"
+    link: 'https://www.bilibili.com/video/BV1hv411n7Yg'
+    cate: datawhale
+    logo: python
+  - name: wdrsql
+    nameCn: 奇妙的SQL↗
+    link: 'https://github.com/datawhalechina/wonderful-sql'
+    cate: datawhale
+    logo: sql
+  - name: freex
+    nameCn: 自由Excel↗
+    link: 'https://github.com/datawhalechina/free-excel'
+    cate: datawhale
+    logo: ds
+  - name: freex-v
+    nameCn: "自由Excel\U0001F4F9↗"
+    link: 'https://www.bilibili.com/video/BV1r64y1h75T'
+    cate: datawhale
+    logo: ds
+  - name: pwfl-numpy
+    nameCn: 巨硬的NumPy↗
+    link: 'https://github.com/datawhalechina/powerful-numpy'
+    cate: datawhale
+    logo: numpy
+  - name: pumpkin
+    nameCn: 南瓜书↗
+    desc: 西瓜书公式推导解析
+    link: 'https://github.com/datawhalechina/pumpkin-book'
+    cate: datawhale
+    logo: ml
+  - name: pumpkin-v
+    nameCn: "南瓜书\U0001F4F9↗"
+    desc: 西瓜书公式推导解析
+    link: 'https://www.bilibili.com/video/BV1w64y1x7Pi'
+    cate: datawhale
+    logo: ml
+  - name: handon-ds
+    nameCn: 动手学数据分析↗
+    link: 'https://github.com/datawhalechina/hands-on-data-analysis'
+    cate: datawhale
+    logo: ds
+  - name: fan-mpl
+    nameCn: matplotlib奇遇记↗
+    link: 'https://github.com/datawhalechina/fantastic-matplotlib'
+    cate: datawhale
+    logo: mpl
+  - name: wow-plotly
+    nameCn: 极好的Plotly↗
+    link: 'https://github.com/datawhalechina/wow-plotly'
+    cate: datawhale
+    logo: ds
+  - name: wow-plotly-v
+    nameCn: "极好的Plotly\U0001F4F9↗"
+    link: 'https://www.bilibili.com/video/BV1Df4y1A7aR'
+    cate: datawhale
+    logo: ds
+  - name: comp-baseline
+    nameCn: 数据竞赛Baseline↗
+    link: 'https://github.com/datawhalechina/competition-baseline'
+    cate: datawhale
+    logo: ai
+  - name: ml-toy-code
+    nameCn: 西瓜书代码实战↗
+    link: 'https://github.com/datawhalechina/machine-learning-toy-code'
+    cate: datawhale
+    logo: ml
+  - name: ml-toy-code-v
+    nameCn: "西瓜书代码实战\U0001F4F9↗"
+    link: 'https://www.bilibili.com/video/BV1w64y1x7Pi'
+    cate: datawhale
+    logo: ml
+  - name: daily-interview
+    nameCn: Daily Interview↗
+    desc: 人工智能面经
+    link: 'https://github.com/datawhalechina/Daily-interview'
+    cate: datawhale
+    logo: ai
+  - name: leeml
+    nameCn: 李宏毅机器学习笔记↗
+    link: 'https://github.com/datawhalechina/Leeml-Book'
+    cate: datawhale
+    logo: ml
+  - name: thorough-pytorch
+    nameCn: 深入浅出PyTorch↗
+    link: 'https://github.com/datawhalechina/thorough-pytorch'
+    cate: datawhale
+    logo: pt
+  - name: thorough-pytorch-v
+    nameCn: "深入浅出PyTorch\U0001F4F9↗"
+    link: 'https://www.bilibili.com/video/BV1e341127L'
+    cate: datawhale
+    logo: pt
+  - name: fun-rec
+    nameCn: 有趣的推荐算法↗
+    link: 'https://github.com/datawhalechina/fun-rec'
+    cate: datawhale
+    logo: ai
+  - name: ensemble-learning
+    nameCn: 集成学习理论&实践↗
+    link: 'https://github.com/datawhalechina/ensemble-learning'
+    cate: datawhale
+    logo: ml
+  - name: ensemble-learning-v
+    nameCn: "集成学习理论&实践\U0001F4F9↗"
+    link: 'https://www.bilibili.com/video/BV1R54y137Q5'
+    cate: datawhale
+    logo: ml
+  - name: key
+    nameCn: 钥匙书↗
+    desc: 机器学习理论导引笔记
+    link: 'https://github.com/datawhalechina/key-book'
+    cate: datawhale
+    logo: ml
+  - name: easy-rl
+    nameCn: 强化学习简明教程↗
+    link: 'https://github.com/datawhalechina/easy-rl'
+    cate: datawhale
+    logo: ai
+  - name: dive-into-cv
+    nameCn: 动手学CV↗
+    link: 'https://github.com/datawhalechina/dive-into-cv-pytorch'
+    cate: datawhale
+    logo: opencv
+  - name: nlp-trans
+    nameCn: 基于transformers的自然语言处理(NLP)入门↗
+    link: 'https://github.com/datawhalechina/learn-nlp-with-transformers'
+    cate: datawhale
+    logo: nlp
+  - name: joyful-pandas
+    nameCn: Joyful Pandas↗
+    link: 'https://github.com/datawhalechina/joyful-pandas'
+    cate: datawhale
+    logo: pandas
+  - name: lazytest
+    nameCn: 懒人找资源↗
+    link: 'https://lazytest.vercel.app/'
+    cate: 其它
+    logo: lazy
