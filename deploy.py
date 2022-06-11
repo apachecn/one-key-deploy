@@ -6,6 +6,7 @@ import os
 from os import path
 import sys
 import jinja2
+import yaml
 
 DOCKER_NGINX_LOG  = '/var/log/nginx'
 DOCKER_NGINX_CONF = '/etc/nginx/conf.d'
@@ -58,9 +59,16 @@ def rmtree_safe(dir):
     if path.exists(dir):
         shutil.rmtree(dir)
 
+def load_config():
+    if path.isfile(d('config.yml')):
+        return yaml.safe_load(open(d('config.yml'), encoding='utf-8').read())
+    elif path.isfile(d('config.json')):
+        return json.loads(open(d('config.json'), encoding='utf-8').read())
+    else:
+        raise FileNotFoundError('未找到配置文件')
+
 def deploy_home():
-    config = json.loads(
-        open(d('config.json'), encoding='utf-8').read())
+    config = load_config()
     # 释放配置文件
     data_dir = config['dataDir']
     mkdirs_safe(data_dir)
@@ -103,8 +111,7 @@ def deploy_home():
     subp.Popen(args, shell=True).communicate()
 
 def deploy_doc():
-    config = json.loads(
-        open(d('config.json'), encoding='utf-8').read())
+    config = load_config()
     # 按照首字母排序文档
     config['docs'].sort(key=lambda x: x.get('name', ''))
     # 按照类别分组文档
