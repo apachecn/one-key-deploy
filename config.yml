@@ -1436,7 +1436,7 @@ docs:
     logo: code
   - name: cfan-2001-2005-dockerhub
     nameCn: 电脑爱好者 2001~2005（DockerHub）
-    link: '/it-ebooks/#/docs/cfan-22001-2005-dockerhub'
+    link: '/it-ebooks/#/docs/cfan-2001-2005-dockerhub'
     cate: 其它
     logo: code
   - name: cfan-2001-2005-git
