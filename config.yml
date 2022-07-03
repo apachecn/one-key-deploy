@@ -69,6 +69,7 @@ links:
   - name: 跑跑后花园
     link: 'https://bbs.popkart.org/'
 cates:
+  - 组织活动
   - 编程
   - 前端
   - 后端/大数据
@@ -1589,3 +1590,8 @@ docs:
     link: '/it-ebooks/#/docs/tutorialspoint'
     cate: 编程
     logo: code
+  - name: trans
+    nameCn: 翻译、校对、笔记整理
+    link: '/home/#/docs/activity/docs-activity'
+    cate: 组织活动
+    logo: sns
