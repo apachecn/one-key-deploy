@@ -28,8 +28,8 @@ menus:
   - name: 捐赠
     link: 'home/#/docs/donate/README'
 announce:
-  text: 遵循【先完成后完善】的原则，文档库中的大部分教程正处于并长期处于机翻状态，请大家做好足够的心理准备。
-  link: ''
+  text: '我们的校对活动会有千字2~4元的奖励（视难度和工作量而定），请联系飞龙（Q562826179，V:wizardforcel）。点击这里查看进行中的校对活动。'
+  link: 'https://home.apachecn.org/#/docs/activity/docs-activity'
 members:
   - name: 大鱼
     desc: iBooker组织创始人和组织运营
