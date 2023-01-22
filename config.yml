@@ -80,6 +80,10 @@ cates:
   - 安全
   - datawhale
   - 其它
+  - 行业
+  - Web3
+  - 两性
+  - ACGN
 docs:
   - name: it-ebooks
     nameCn: "计算机电子书归档\U0001F4DA"
@@ -94,12 +98,12 @@ docs:
   - name: web3-wiki
     nameCn: "ApacheCN Web3 知识库\U0001F4DA"
     repo: 'https://gitcode.net/apachecn/web3-wiki.git'
-    cate: 其它
+    cate: Web3
     logo: sns
   - name: indie-wiki
     nameCn: "ApacheCN 独立开发/自由职业/远程工作/数字游民知识库\U0001F4DA"
     repo: 'https://gitcode.net/apachecn/apachecn-indie-wiki.git'
-    cate: 其它
+    cate: 行业
     logo: sns
   - name: baguwen-wiki
     nameCn: "ApacheCN 八股文知识库\U0001F4DA"
@@ -630,12 +634,12 @@ docs:
   - name: bcem
     nameCn: 生化环材劝退文集
     repo: 'https://gitcode.net/apachecn/bio-chem-env-mat-discourage.git'
-    cate: 其它
+    cate: 行业
     logo: discourage
   - name: biz5min
     nameCn: 5 分钟商学院精细笔记
     repo: 'https://gitcode.net/apachecn/business-5min-notes.git'
-    cate: 其它
+    cate: 财富
     logo: biz5min
   - name: calc4b
     nameCn: "MIT 18.03 面向初学者的微积分\U0001F6A7"
@@ -740,7 +744,7 @@ docs:
   - name: home
     nameCn: iBooker 布客
     repo: 'https://gitcode.net/apachecn/home.git'
-    cate: 其它
+    cate: 公告
     logo: apachecn
     hidden: true
   - name: htdij
@@ -786,7 +790,7 @@ docs:
   - name: ipd
     nameCn: iBooker 布客老实人报
     repo: 'https://gitcode.net/apachecn/ibooker-plain-dealer.git'
-    cate: 其它
+    cate: 两性
     logo: greenhat
   - name: impatient-js
     nameCn: "写给不耐烦程序员的 JavaScript\U0001F6A7"
@@ -886,7 +890,7 @@ docs:
   - name: principles
     nameCn: 原则 · 中文版
     repo: 'https://gitcode.net/apachecn/principles-zh.git'
-    cate: 其它
+    cate: 财富
     logo: principle
   - name: miz
     nameCn: "Programiz 中文系列教程\U0001F4DA"
@@ -991,7 +995,7 @@ docs:
   - name: cs183
     nameCn: "斯坦福 CS183 & YC 创业课系列中文笔记\U0001F4DA"
     repo: 'https://gitcode.net/apachecn/stanford-cs183-notes.git'
-    cate: 其它
+    cate: 行业
     logo: yc
   - name: stats21
     nameCn: "斯坦福 Stats60 21 世纪的统计思维\U0001F6A7"
@@ -1016,7 +1020,7 @@ docs:
   - name: wealfree
     nameCn: 通往财富自由之路精细笔记
     repo: 'https://gitcode.net/apachecn/the-way-to-wealth-freedom-notes.git'
-    cate: 其它
+    cate: 财富
     logo: wealfree
   - name: think-comp
     nameCn: 复杂性思维 中文第二版
@@ -1132,7 +1136,7 @@ docs:
   - name: ShameCom
     nameCn: "校招污点公司记录\U0001F4DD↗"
     link: 'https://github.com/ShameCom/ShameCom'
-    cate: 其它
+    cate: 行业
     logo: biz
   - name: zhangyi
     nameCn: ZhangYi 的博客文章↗
@@ -1163,12 +1167,12 @@ docs:
   - name: indie
     nameCn: "独立开发/自由职业/远程工作资源列表\U0001F4DD"
     link: 'https://gitcode.net/apachecn/awesome-indie-zh.git'
-    cate: 其它
+    cate: 行业
     logo: biz
   - name: resume
     nameCn: "简历分享系列视频\U0001F3A5"
     link: 'https://www.bilibili.com/video/av53122083'
-    cate: 其它
+    cate: 行业
     logo: biz
   - name: kaggle
     nameCn: "Kaggle 学习系列视频\U0001F3A5"
@@ -1184,22 +1188,22 @@ docs:
   - name: mww
     nameCn: 男性觉醒 WIKI
     repo: 'https://gitcode.net/apachecn/male-wakeup-wiki.git'
-    cate: 其它
+    cate: 两性
     logo: biz
   - name: rms
     nameCn: 导师评价网备份
     repo: 'https://gitcode.net/apachecn/rate-my-supervisor.git'
-    cate: 其它
+    cate: 行业
     logo: biz
   - name: ao3
     nameCn: AO3 镜像↗
     link: 'https://xiaozhan.icu/'
-    cate: 其它
+    cate: ACGN
     logo: ao3
   - name: yyets
     nameCn: 人人影视分享站↗
     link: 'https://yyets.dmesg.app/'
-    cate: 其它
+    cate: ACGN
     logo: yyets
   - name: lptsw
     nameCn: 聪明办法学Python↗
