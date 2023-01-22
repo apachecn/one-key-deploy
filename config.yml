@@ -1590,8 +1590,3 @@ docs:
     link: 'https://it-ebooks.apachecn.org/#/docs/tutorialspoint'
     cate: 编程
     logo: code
-  - name: trans
-    nameCn: 翻译、校对、笔记整理
-    link: '/home/#/docs/activity/docs-activity'
-    cate: 组织活动
-    logo: sns
