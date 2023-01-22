@@ -1347,247 +1347,247 @@ docs:
     logo: lazy
   - name: nohack-dockerhub
     nameCn: 非安全系列教程（DockerHub）
-    link: '/it-ebooks/#/docs/nohack-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/nohack-dockerhub'
     cate: 安全
     logo: sec
   - name: nohack-git
     nameCn: 非安全系列教程（Git 仓库）
-    link: '/it-ebooks/#/docs/nohack'
+    link: 'https://it-ebooks.apachecn.org/#/docs/nohack'
     cate: 安全
     logo: sec
   - name: heix-heifang-extra-dockerhub
     nameCn: 黑客防线、黑客X档案专辑（DockerHub）
-    link: '/it-ebooks/#/docs/heix-heifang-extra-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heix-heifang-extra-dockerhub'
     cate: 安全
     logo: sec
   - name: heix-heifang-extra-git
     nameCn: 黑客防线、黑客X档案专辑（Git 仓库）
-    link: '/it-ebooks/#/docs/heix-heifang-extra'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heix-heifang-extra'
     cate: 安全
     logo: sec
   - name: heix-2008-2012-dockerhub
     nameCn: 黑客X档案 2008~2012（DockerHub）
-    link: '/it-ebooks/#/docs/heix-2008-2012-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heix-2008-2012-dockerhub'
     cate: 安全
     logo: sec
   - name: heix-2008-2012-git
     nameCn: 黑客X档案 2008~2012（Git 仓库）
-    link: '/it-ebooks/#/docs/heix-2008-2012'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heix-2008-2012'
     cate: 安全
     logo: sec
   - name: heix-2002-2007-dockerhub
     nameCn: 黑客X档案 2002~2007（DockerHub）
-    link: '/it-ebooks/#/docs/heix-2002-2007-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heix-2002-2007-dockerhub'
     cate: 安全
     logo: sec
   - name: heix-2002-2007-git
     nameCn: 黑客X档案 2002~2007（Git 仓库）
-    link: '/it-ebooks/#/docs/heix-2002-2007'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heix-2002-2007'
     cate: 安全
     logo: sec
   - name: heifang-2007-2012-dockerhub
     nameCn: 黑客防线 2007~2012（DockerHub）
-    link: '/it-ebooks/#/docs/heifang-2007-2012-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heifang-2007-2012-dockerhub'
     cate: 安全
     logo: sec
   - name: heifang-2007-2012-git
     nameCn: 黑客防线 2007~2012（Git 仓库）
-    link: '/it-ebooks/#/docs/heifang-2007-2012'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heifang-2007-2012'
     cate: 安全
     logo: sec
   - name: heifang-2000-2006-dockerhub
     nameCn: 黑客防线 2000~2006（DockerHub）
-    link: '/it-ebooks/#/docs/heifang-2000-2006-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heifang-2000-2006-dockerhub'
     cate: 安全
     logo: sec
   - name: heifang-2000-2006-git
     nameCn: 黑客防线 2000~2006（Git 仓库）
-    link: '/it-ebooks/#/docs/heifang-2000-2006'
+    link: 'https://it-ebooks.apachecn.org/#/docs/heifang-2000-2006'
     cate: 安全
     logo: sec
   - name: cfan-2016-2020-dockerhub
     nameCn: 电脑爱好者 2016~2020（DockerHub）
-    link: '/it-ebooks/#/docs/cfan-2016-2020-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/cfan-2016-2020-dockerhub'
     cate: 其它
     logo: code
   - name: cfan-2016-2020-git
     nameCn: 电脑爱好者 2016~2020（Git 仓库）
-    link: '/it-ebooks/#/docs/cfan-2016-2020'
+    link: 'https://it-ebooks.apachecn.org/#/docs/cfan-2016-2020'
     cate: 其它
     logo: code
   - name: cfan-2011-2015-dockerhub
     nameCn: 电脑爱好者 2011~2015（DockerHub）
-    link: '/it-ebooks/#/docs/cfan-2011-2015-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/cfan-2011-2015-dockerhub'
     cate: 其它
     logo: code
   - name: cfan-2011-2015-git
     nameCn: 电脑爱好者 2011~2015（Git 仓库）
-    link: '/it-ebooks/#/docs/cfan-2011-2015'
+    link: 'https://it-ebooks.apachecn.org/#/docs/cfan-2011-2015'
     cate: 其它
     logo: code
   - name: cfan-2006-2010-dockerhub
     nameCn: 电脑爱好者 2006~2010（DockerHub）
-    link: '/it-ebooks/#/docs/cfan-2006-2010-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/cfan-2006-2010-dockerhub'
     cate: 其它
     logo: code
   - name: cfan-2006-2010-git
     nameCn: 电脑爱好者 2006~2010（Git 仓库）
-    link: '/it-ebooks/#/docs/cfan-2006-2010'
+    link: 'https://it-ebooks.apachecn.org/#/docs/cfan-2006-2010'
     cate: 其它
     logo: code
   - name: cfan-2001-2005-dockerhub
     nameCn: 电脑爱好者 2001~2005（DockerHub）
-    link: '/it-ebooks/#/docs/cfan-2001-2005-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/cfan-2001-2005-dockerhub'
     cate: 其它
     logo: code
   - name: cfan-2001-2005-git
     nameCn: 电脑爱好者 2001~2005（Git 仓库）
-    link: '/it-ebooks/#/docs/cfan-2001-2005'
+    link: 'https://it-ebooks.apachecn.org/#/docs/cfan-2001-2005'
     cate: 其它
     logo: code
   - name: atguigu-cdndrive
     nameCn: 尚硅谷全套课件（CDNDrive）
-    link: '/it-ebooks/#/docs/atguigu-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/atguigu-cdndrive'
     cate: 编程
     logo: code
   - name: atguigu-dockerhub
     nameCn: 尚硅谷全套课件（DockerHub）
-    link: '/it-ebooks/#/docs/atguigu-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/atguigu-dockerhub'
     cate: 编程
     logo: code
   - name: atguigu
     nameCn: 尚硅谷全套课件（Git 仓库）
-    link: '/it-ebooks/#/docs/atguigu'
+    link: 'https://it-ebooks.apachecn.org/#/docs/atguigu'
     cate: 编程
     logo: code
   - name: c-biancheng-net-cdndrive
     nameCn: C 语言编程网教程（CDNDrive）
-    link: '/it-ebooks/#/docs/c-biancheng-net-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/c-biancheng-net-cdndrive'
     cate: 编程
     logo: code
   - name: c-biancheng-net-dockerhub
     nameCn: C 语言编程网教程（DockerHub）
-    link: '/it-ebooks/#/docs/c-biancheng-net-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/c-biancheng-net-dockerhub'
     cate: 编程
     logo: code
   - name: c-biancheng-net
     nameCn: C 语言编程网教程（Git 仓库）
-    link: '/it-ebooks/#/docs/c-biancheng-net'
+    link: 'https://it-ebooks.apachecn.org/#/docs/c-biancheng-net'
     cate: 编程
     logo: code
   - name: ceh-cdndrive
     nameCn: CEH 讲义（CDNDrive）
-    link: '/it-ebooks/#/docs/ceh-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/ceh-cdndrive'
     cate: 安全
     logo: sec
   - name: ceh-dockerhub
     nameCn: CEH 讲义（DockerHub）
-    link: '/it-ebooks/#/docs/ceh-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/ceh-dockerhub'
     cate: 安全
     logo: sec
   - name: ceh
     nameCn: CEH 讲义（Git 仓库）
-    link: '/it-ebooks/#/docs/ceh'
+    link: 'https://it-ebooks.apachecn.org/#/docs/ceh'
     cate: 安全
     logo: sec
   - name: hackcto-secbook-cdndrive
     nameCn: 安全参考和书安（CDNDrive）
-    link: '/it-ebooks/#/docs/hackcto-secbook-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/hackcto-secbook-cdndrive'
     cate: 安全
     logo: sec
   - name: hackcto-secbook-dockerhub
     nameCn: 安全参考和书安（DockerHub）
-    link: '/it-ebooks/#/docs/hackcto-secbook-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/hackcto-secbook-dockerhub'
     cate: 安全
     logo: sec
   - name: hackcto-secbook
     nameCn: 安全参考和书安（Git 仓库）
-    link: '/it-ebooks/#/docs/hackcto-secbook'
+    link: 'https://it-ebooks.apachecn.org/#/docs/hackcto-secbook'
     cate: 安全
     logo: sec
   - name: how2j-cdndrive
     nameCn: HOW2J 全套教程（CDNDrive）
-    link: '/it-ebooks/#/docs/how2j-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/how2j-cdndrive'
     cate: 编程
     logo: code
   - name: how2j-dockerhub
     nameCn: HOW2J 全套教程（DockerHub）
-    link: '/it-ebooks/#/docs/how2j-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/how2j-dockerhub'
     cate: 编程
     logo: code
   - name: how2j
     nameCn: HOW2J 全套教程（Git 仓库）
-    link: '/it-ebooks/#/docs/how2j'
+    link: 'https://it-ebooks.apachecn.org/#/docs/how2j'
     cate: 编程
     logo: code
   - name: kssd-dockerhub
     nameCn: 看雪软件安全文档库（DockerHub）
-    link: '/it-ebooks/#/docs/kssd-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/kssd-dockerhub'
     cate: 安全
     logo: sec
   - name: kssd
     nameCn: 看雪软件安全文档库（Git 仓库）
-    link: '/it-ebooks/#/docs/kssd'
+    link: 'https://it-ebooks.apachecn.org/#/docs/kssd'
     cate: 安全
     logo: sec
   - name: nowcoder-cdndrive
     nameCn: 牛客网面试笔试攻略（CDNDrive）
-    link: '/it-ebooks/#/docs/nowcoder-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/nowcoder-cdndrive'
     cate: 编程
     logo: code
   - name: nowcoder-dockerhub
     nameCn: 牛客网面试笔试攻略（DockerHub）
-    link: '/it-ebooks/#/docs/nowcoder-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/nowcoder-dockerhub'
     cate: 编程
     logo: code
   - name: nowcoder
     nameCn: 牛客网面试笔试攻略（Git 仓库）
-    link: '/it-ebooks/#/docs/nowcoder'
+    link: 'https://it-ebooks.apachecn.org/#/docs/nowcoder'
     cate: 编程
     logo: code
   - name: sjtu-se-cdndrive
     nameCn: 上海交大软件学院课件（CDNDrive）
-    link: '/it-ebooks/#/docs/sjtu-se-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/sjtu-se-cdndrive'
     cate: 计算机科学
     logo: cs
   - name: sjtu-se-dockerhub
     nameCn: 上海交大软件学院课件（DockerHub）
-    link: '/it-ebooks/#/docs/sjtu-se-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/sjtu-se-dockerhub'
     cate: 计算机科学
     logo: cs
   - name: sjtu-se
     nameCn: 上海交大软件学院课件（Git 仓库）
-    link: '/it-ebooks/#/docs/sjtu-se'
+    link: 'https://it-ebooks.apachecn.org/#/docs/sjtu-se'
     cate: 计算机科学
     logo: cs
   - name: tarena-cdndrive
     nameCn: 达内 Java 全套教程（CDNDrive）
-    link: '/it-ebooks/#/docs/tarena-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/tarena-cdndrive'
     cate: 编程
     logo: java
   - name: tarena-dockerhub
     nameCn: 达内 Java 全套教程（DockerHub）
-    link: '/it-ebooks/#/docs/tarena-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/tarena-dockerhub'
     cate: 编程
     logo: java
   - name: tarena
     nameCn: 达内 Java 全套教程（Git 仓库）
-    link: '/it-ebooks/#/docs/tarena'
+    link: 'https://it-ebooks.apachecn.org/#/docs/tarena'
     cate: 编程
     logo: java
   - name: tutorialspoint-cdndrive
     nameCn: TutorialsPoint 电子书（CDNDrive）
-    link: '/it-ebooks/#/docs/tutorialspoint-cdndrive'
+    link: 'https://it-ebooks.apachecn.org/#/docs/tutorialspoint-cdndrive'
     cate: 编程
     logo: code
   - name: tutorialspoint-dockerhub
     nameCn: TutorialsPoint 电子书（DockerHub）
-    link: '/it-ebooks/#/docs/tutorialspoint-dockerhub'
+    link: 'https://it-ebooks.apachecn.org/#/docs/tutorialspoint-dockerhub'
     cate: 编程
     logo: code
   - name: tutorialspoint
     nameCn: TutorialsPoint 电子书（Git 仓库）
-    link: '/it-ebooks/#/docs/tutorialspoint'
+    link: 'https://it-ebooks.apachecn.org/#/docs/tutorialspoint'
     cate: 编程
     logo: code
   - name: trans
