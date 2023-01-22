@@ -840,7 +840,7 @@ docs:
   - name: lqcuq
     nameCn: 使用 Qiskit 学习量子计算 - 翻译版
     repo: 'https://gitcode.net/apachecn/lqcuq-zh.git'
-    cate: 其它
+    cate: 计算机科学
     logo: qiskit
   - name: mpl
     nameCn: Matplotlib 用户指南
@@ -1010,12 +1010,7 @@ docs:
   - name: wiki
     nameCn: "iBooker 团队知识库\U0001F4DA"
     repo: 'https://gitcode.net/apachecn/team-wiki.git'
-    cate: 其它
-    logo: apachecn
-  - name: blog
-    nameCn: ApacheCN 技术评论
-    repo: 'https://gitcode.net/apachecn/tech-review.git'
-    cate: 其它
+    cate: 财富
     logo: apachecn
   - name: wealfree
     nameCn: 通往财富自由之路精细笔记
