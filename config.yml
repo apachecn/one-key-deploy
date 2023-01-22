@@ -1919,3 +1919,58 @@ docs:
     link: 'https://github.com/ixinzhi/scys1'
     cate: 财富
     logo: wealfree
+  - name: lightnovel-2009-2013-cdndrive
+    nameCn: 轻小说 2009~2013（CDNDrive）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2009-2013-cdndrive'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2014-2017-cdndrive
+    nameCn: 轻小说 2014~2017（CDNDrive）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2014-2017-cdndrive'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2018-cdndrive
+    nameCn: 轻小说 2018（CDNDrive）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2018-cdndrive'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2019-cdndrive
+    nameCn: 轻小说 2019（CDNDrive）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2019-cdndrive'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2020-cdndrive
+    nameCn: 轻小说 2020（CDNDrive）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2020-cdndrive'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2009-2013-git
+    nameCn: 轻小说 2009~2013（Git 仓库）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2009-2013-git'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2014-2017-git
+    nameCn: 轻小说 2014~2017（Git 仓库）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2014-2017-git'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2018-git
+    nameCn: 轻小说 2018（Git 仓库）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2018-git'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2019-git
+    nameCn: 轻小说 2019（Git 仓库）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2019-git'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2020-git
+    nameCn: 轻小说 2020（Git 仓库）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2020-git'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2021-git
+    nameCn: 轻小说 2021（Git 仓库）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2021-git'
+    cate: ACGN
+    logo: n
