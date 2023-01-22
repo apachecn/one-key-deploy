@@ -1834,3 +1834,73 @@ docs:
     link: 'https://home.apachecn.org/#/docs/loving/loving-books-part2-miaochuan'
     cate: 两性
     logo: love
+  - name: wealth1-dockerhub
+    nameCn: 财富资料库（一）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/wealth/wealth1-dockerhub'
+    cate: 财富
+    logo: wealfree
+  - name: wealth1
+    nameCn: 财富资料库（一）（Git 仓库）
+    link: 'https://github.com/ixinzhi/wealth1'
+    cate: 财富
+    logo: wealfree
+  - name: wealth2-dockerhub
+    nameCn: 财富资料库（二）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/wealth/wealth2-dockerhub'
+    cate: 财富
+    logo: wealfree
+  - name: wealth2
+    nameCn: 财富资料库（二）（Git 仓库）
+    link: 'https://github.com/ixinzhi/wealth2'
+    cate: 财富
+    logo: wealfree
+  - name: wealth3-dockerhub
+    nameCn: 财富资料库（三）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/wealth/wealth3-dockerhub'
+    cate: 财富
+    logo: wealfree
+  - name: wealth3
+    nameCn: 财富资料库（三）（Git 仓库）
+    link: 'https://github.com/ixinzhi/wealth3'
+    cate: 财富
+    logo: wealfree
+  - name: wealth4-dockerhub
+    nameCn: 财富资料库（四）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/wealth/wealth4-dockerhub'
+    cate: 财富
+    logo: wealfree
+  - name: wealth4
+    nameCn: 财富资料库（四）（Git 仓库）
+    link: 'https://github.com/ixinzhi/wealth4'
+    cate: 财富
+    logo: wealfree
+  - name: wealth5-dockerhub
+    nameCn: 财富资料库（五）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/wealth/wealth5-dockerhub'
+    cate: 财富
+    logo: wealfree
+  - name: wealth5
+    nameCn: 财富资料库（五）（Git 仓库）
+    link: 'https://github.com/ixinzhi/wealth5'
+    cate: 财富
+    logo: wealfree
+  - name: wealth6-dockerhub
+    nameCn: 财富资料库（六）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/wealth/wealth6-dockerhub'
+    cate: 财富
+    logo: wealfree
+  - name: wealth6
+    nameCn: 财富资料库（六）（Git 仓库）
+    link: 'https://github.com/ixinzhi/wealth6'
+    cate: 财富
+    logo: wealfree
+  - name: wealth7-dockerhub
+    nameCn: 财富资料库（七）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/wealth/wealth7-dockerhub'
+    cate: 财富
+    logo: wealfree
+  - name: wealth7
+    nameCn: 财富资料库（七）（Git 仓库）
+    link: 'https://github.com/ixinzhi/wealth7'
+    cate: 财富
+    logo: wealfree
