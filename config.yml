@@ -1909,6 +1909,11 @@ docs:
     link: 'https://home.apachecn.org/#/docs/wealth/scys1-dockerhub'
     cate: 财富
     logo: wealfree
+  - name: jiandehaoren-dockerhub
+    nameCn: 奸的好人 1~25（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/wealth/jiandehaoren-dockerhub'
+    cate: 财富
+    logo: wealfree
   - name: scys1
     nameCn: 生财有术知识星球整理（一）（Git 仓库）
     link: 'https://github.com/ixinzhi/scys1'
