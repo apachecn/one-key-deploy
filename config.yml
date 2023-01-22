@@ -1804,3 +1804,33 @@ docs:
     link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue11to20-miaochuan'
     cate: 玄学
     logo: taichi
+  - name: loving-books-part1-dockerhub
+    nameCn: 两性资料库（一）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/loving/loving-books-part1-dockerhub'
+    cate: 两性
+    logo: love
+  - name: loving-books-part1
+    nameCn: 两性资料库（一）（Git 仓库）
+    link: 'https://github.com/ixinzhi/loving-books-part1'
+    cate: 两性
+    logo: love
+  - name: loving-books-part1-miaochuan
+    nameCn: 两性资料库（一）（Git 仓库）
+    link: 'https://home.apachecn.org/#/docs/loving/loving-books-part1-miaochuan'
+    cate: 两性
+    logo: love
+  - name: loving-books-part2-dockerhub
+    nameCn: 两性资料库（二）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/loving/loving-books-part2-dockerhub'
+    cate: 两性
+    logo: love
+  - name: loving-books-part2
+    nameCn: 两性资料库（二）（Git 仓库）
+    link: 'https://github.com/ixinzhi/loving-books-part2'
+    cate: 两性
+    logo: love
+  - name: loving-books-part2-miaochuan
+    nameCn: 两性资料库（二）（Git 仓库）
+    link: 'https://home.apachecn.org/#/docs/loving/loving-books-part2-miaochuan'
+    cate: 两性
+    logo: love
