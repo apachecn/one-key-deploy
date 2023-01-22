@@ -1790,3 +1790,13 @@ docs:
     link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue20-dockerhub'
     cate: 玄学
     logo: taichi
+  - name: xuanxue1to10-miaochuan
+    nameCn: 玄学资料库 1~10（百度秒传）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue1to10-miaochuan'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue11to20-miaochuan
+    nameCn: 玄学资料库 11~20（百度秒传）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue11to20-miaochuan'
+    cate: 玄学
+    logo: taichi
