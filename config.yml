@@ -1590,3 +1590,203 @@ docs:
     link: 'https://it-ebooks.apachecn.org/#/docs/tutorialspoint'
     cate: 编程
     logo: code
+  - name: xuanxue1
+    nameCn: 玄学资料库（一）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue1'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue1-dockerhub
+    nameCn: 玄学资料库（一）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue1-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue2
+    nameCn: 玄学资料库（二）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue2'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue2-dockerhub
+    nameCn: 玄学资料库（二）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue2-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue3
+    nameCn: 玄学资料库（三）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue3'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue3-dockerhub
+    nameCn: 玄学资料库（三）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue3-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue4
+    nameCn: 玄学资料库（四）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue4'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue4-dockerhub
+    nameCn: 玄学资料库（四）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue4-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue5
+    nameCn: 玄学资料库（五）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue5'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue5-dockerhub
+    nameCn: 玄学资料库（五）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue5-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue6
+    nameCn: 玄学资料库（六）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue6'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue6-dockerhub
+    nameCn: 玄学资料库（六）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue6-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue7
+    nameCn: 玄学资料库（七）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue7'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue7-dockerhub
+    nameCn: 玄学资料库（七）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue7-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue8
+    nameCn: 玄学资料库（八）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue8'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue8-dockerhub
+    nameCn: 玄学资料库（八）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue8-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue9
+    nameCn: 玄学资料库（九）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue9'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue9-dockerhub
+    nameCn: 玄学资料库（九）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue9-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue10
+    nameCn: 玄学资料库（十）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue10'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue10-dockerhub
+    nameCn: 玄学资料库（十）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue10-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue11
+    nameCn: 玄学资料库（十一）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue11'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue11-dockerhub
+    nameCn: 玄学资料库（十一）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue11-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue12
+    nameCn: 玄学资料库（十二）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue12'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue12-dockerhub
+    nameCn: 玄学资料库（十二）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue12-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue13
+    nameCn: 玄学资料库（十三）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue13'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue13-dockerhub
+    nameCn: 玄学资料库（十三）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue13-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue14
+    nameCn: 玄学资料库（十四）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue14'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue14-dockerhub
+    nameCn: 玄学资料库（十四）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue14-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue15
+    nameCn: 玄学资料库（十五）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue15'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue15-dockerhub
+    nameCn: 玄学资料库（十五）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue15-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue16
+    nameCn: 玄学资料库（十六）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue16'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue16-dockerhub
+    nameCn: 玄学资料库（十六）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue16-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue17
+    nameCn: 玄学资料库（十七）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue17'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue17-dockerhub
+    nameCn: 玄学资料库（十七）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue17-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue18
+    nameCn: 玄学资料库（十八）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue18'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue18-dockerhub
+    nameCn: 玄学资料库（十八）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue18-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue19
+    nameCn: 玄学资料库（十九）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue19'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue19-dockerhub
+    nameCn: 玄学资料库（十九）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue19-dockerhub'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue20
+    nameCn: 玄学资料库（二十）（Git 仓库）
+    link: 'https://github.com/ixinzhi/xuanxue20'
+    cate: 玄学
+    logo: taichi
+  - name: xuanxue20-dockerhub
+    nameCn: 玄学资料库（二十）（DockerHub）
+    link: 'https://home.apachecn.org/#/docs/xuanxue/xuanxue20-dockerhub'
+    cate: 玄学
+    logo: taichi
