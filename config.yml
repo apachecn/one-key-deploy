@@ -78,12 +78,13 @@ cates:
   - 人工智能
   - 计算机科学
   - 安全
-  - datawhale
-  - 其它
   - 行业
+  - 财富
   - Web3
   - 两性
   - ACGN
+  - datawhale
+  - 其它
 docs:
   - name: it-ebooks
     nameCn: "计算机电子书归档\U0001F4DA"
@@ -1972,5 +1973,45 @@ docs:
   - name: lightnovel-2021-git
     nameCn: 轻小说 2021（Git 仓库）
     link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2021-git'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2009-2020-docker
+    nameCn: 轻小说 2009-2020（DockerHub）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2009-2020-docker'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2021-docker
+    nameCn: 轻小说 2021（DockerHub）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2021-docker'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2022-docker
+    nameCn: 轻小说 2022（DockerHub）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2022-docker'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2009-2013-miaochuan
+    nameCn: 轻小说 2009~2013（百度秒传）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2009-2013-miaochuan'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2014-2017-miaochuan
+    nameCn: 轻小说 2014~2017（百度秒传）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2014-2017-miaochuan'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2018-2020-miaochuan
+    nameCn: 轻小说 2018~2020（百度秒传）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2018-2020-miaochuan'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2021-miaochuan
+    nameCn: 轻小说 2021（百度秒传）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2021-miaochuan'
+    cate: ACGN
+    logo: n
+  - name: lightnovel-2022-miaochuan
+    nameCn: 轻小说 2022（百度秒传）
+    link: 'https://acgn.apachecn.org/#/docs/lightnovel/lightnovel-2022-miaochuan'
     cate: ACGN
     logo: n
