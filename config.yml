@@ -18,15 +18,15 @@ menus:
   - name: 主页
     link: 'http://apachecn.org'
   - name: 公告
-    link: 'home/#/README'
+    link: 'https://home.apachecn.org/#/README'
   - name: 知识树
-    link: 'home/#/docs/tree/README'
+    link: 'https://home.apachecn.org/#/docs/tree/README'
   - name: 新知
     link: 'https://it-ebooks.flygon.net/'
   - name: 关于
-    link: 'home/#/docs/about'
+    link: 'https://home.apachecn.org/#/docs/about'
   - name: 捐赠
-    link: 'home/#/docs/donate/README'
+    link: 'https://home.apachecn.org/#/docs/donate/README'
 announce:
   text: '我们的校对活动会有千字2~4元的奖励（视难度和工作量而定），请联系飞龙（Q562826179，V:wizardforcel）。点击这里查看进行中的校对活动。'
   link: 'https://home.apachecn.org/#/docs/activity/docs-activity'
@@ -69,7 +69,6 @@ links:
   - name: 跑跑后花园
     link: 'https://bbs.popkart.org/'
 cates:
-  - 公告
   - 编程
   - 前端
   - 后端/大数据
